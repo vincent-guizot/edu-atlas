@@ -50,3 +50,15 @@ Pilihan teknologi ini merupakan acuan untuk implementasi berikutnya.
 | system | Sumber data, impor, dan jurnal perubahan database |
 
 Nama schema membagi domain data, bukan membuat database terpisah untuk setiap halaman.
+
+## Tabel acuan
+
+| Schema | Tabel |
+|---|---|
+| directory | regions, schools, universities, institution_links |
+| academic | academic_programs, academic_events, timeline_programs |
+| analytics | education_indicators, snapshots, report_definitions |
+| system | data_sources, data_imports, schema_migrations, seed_runs |
+
+Rancangan ini memiliki 12 tabel data dan 2 tabel teknis. Definisi kolom dan constraint
+perlu diwujudkan dalam migration ketika source code aplikasi ditambahkan kembali.
