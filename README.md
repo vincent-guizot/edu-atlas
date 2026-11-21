@@ -116,3 +116,11 @@ Menjalankan ulang versi yang sama tidak boleh menggandakan atau menimpa record p
 Manifest seed perlu mencatat hanya record yang benar-benar dibuat oleh seeder.
 Undo harus mengikuti urutan dependensi dan menolak penghapusan record yang telah diedit.
 Belum ada script seeder yang dapat dijalankan dari repository ini.
+
+## Rencana QA
+
+Pengujian per card perlu mencakup data kosong, data demo, filter valid dan tidak valid,
+perhitungan agregat, provenance, serta perubahan nilai sumber database.
+Card yang belum memiliki sumber data harus menjelaskan kekurangannya.
+Pengujian database sebaiknya menggunakan database sementara yang terpisah dari data utama.
+Tidak ada test suite atau hasil eksekusi baru yang disertakan dalam branch dokumentasi ini.
