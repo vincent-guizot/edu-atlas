@@ -92,3 +92,11 @@ tanpa histori tidak boleh menerima filter tahun yang diam-diam diabaikan.
 Daftar memerlukan batas hasil dan urutan yang stabil. Rasio dengan pembagi nol
 sebaiknya menghasilkan null, sedangkan daftar tanpa record menghasilkan array kosong.
 Filter yang tidak dikenal atau tidak valid perlu ditolak secara eksplisit.
+
+## Sumber dan keaslian data
+
+Setiap dataset perlu mencatat penyedia, periode, waktu pengambilan, dan cakupan.
+Snapshot adalah salinan data pada waktu tertentu; format snapshot tidak membuktikan
+bahwa datanya asli. Dataset simulasi harus diberi penanda demo. Data tanpa bukti
+provenance harus ditandai belum terverifikasi, bukan dianggap sebagai data resmi.
+Total regional tidak otomatis sama dengan jumlah record pada direktori contoh.
