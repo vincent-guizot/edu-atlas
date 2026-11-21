@@ -133,3 +133,13 @@ Tidak ada test suite atau hasil eksekusi baru yang disertakan dalam branch dokum
 4. Sediakan katalog dan endpoint per card beserta pengujiannya.
 5. Hubungkan halaman frontend ke API dan periksa setiap card terhadap data sumber.
 6. Tambahkan impor data asli setelah akses, cakupan, dan provenance tersedia.
+
+## Kontribusi dan alur branch
+
+Gunakan `development` untuk perubahan dokumentasi dan implementasi berikutnya.
+Setiap commit perlu memiliki perubahan yang dapat ditinjau dan pesan yang menjelaskan
+tujuannya. Ajukan perubahan ke `main` melalui pull request setelah cakupan dan
+validasinya jelas. Jangan menyimpan kredensial, file environment pribadi, atau data
+pribadi dalam commit.
+
+Alamat repository: https://github.com/vincent-guizot/edu-atlas
