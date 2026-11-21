@@ -39,3 +39,14 @@ Antarmuka direncanakan menggunakan React dan TypeScript. Backend menggunakan
 NestJS untuk menyediakan API, sementara PostgreSQL menjadi penyimpanan data.
 Browser mengakses API backend; kredensial database disimpan di server.
 Pilihan teknologi ini merupakan acuan untuk implementasi berikutnya.
+
+## Pembagian schema database
+
+| Schema | Tanggung jawab |
+|---|---|
+| directory | Wilayah dan institusi pendidikan |
+| academic | Program studi, agenda, dan program kegiatan |
+| analytics | Indikator, snapshot, dan definisi laporan |
+| system | Sumber data, impor, dan jurnal perubahan database |
+
+Nama schema membagi domain data, bukan membuat database terpisah untuk setiap halaman.
