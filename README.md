@@ -84,3 +84,11 @@ GET /api/v1/pages/overview/cards/enrollment-trend?year=2026
 
 Katalog perlu menjelaskan cardId, filter yang diterima, tabel sumber, dan status
 dukungan. URL tersebut adalah rancangan kontrak; repository ini tidak menjalankan server API.
+
+## Filter dan hasil kosong
+
+Filter harus sesuai dengan data yang benar-benar tersimpan. Angka agregat regional
+tanpa histori tidak boleh menerima filter tahun yang diam-diam diabaikan.
+Daftar memerlukan batas hasil dan urutan yang stabil. Rasio dengan pembagi nol
+sebaiknya menghasilkan null, sedangkan daftar tanpa record menghasilkan array kosong.
+Filter yang tidak dikenal atau tidak valid perlu ditolak secara eksplisit.
