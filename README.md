@@ -124,3 +124,12 @@ perhitungan agregat, provenance, serta perubahan nilai sumber database.
 Card yang belum memiliki sumber data harus menjelaskan kekurangannya.
 Pengujian database sebaiknya menggunakan database sementara yang terpisah dari data utama.
 Tidak ada test suite atau hasil eksekusi baru yang disertakan dalam branch dokumentasi ini.
+
+## Tahapan pengembangan berikutnya
+
+1. Sepakati definisi metrik dan sumber data yang diizinkan.
+2. Tambahkan kembali fondasi backend, frontend, dan pengelolaan konfigurasi.
+3. Implementasikan schema, migration, dan seed demo yang dapat diaudit.
+4. Sediakan katalog dan endpoint per card beserta pengujiannya.
+5. Hubungkan halaman frontend ke API dan periksa setiap card terhadap data sumber.
+6. Tambahkan impor data asli setelah akses, cakupan, dan provenance tersedia.
