@@ -1,0 +1,2625 @@
+{
+  "info": {
+    "name": "EduAtlas — QA per Page and Card",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Generated from the runtime card catalog. Known unavailable cards intentionally assert HTTP 501. No database writes."
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:4000/api/v1",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "All pages and cards",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{baseUrl}}/pages"
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Overview",
+      "item": [
+        {
+          "name": "Card catalog",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/overview/cards"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Total Sekolah",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/overview/cards/total-schools"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-schools\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Total Siswa",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/overview/cards/total-students"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-students\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Total Guru",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/overview/cards/total-teachers"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-teachers\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Total Universitas",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/overview/cards/total-universities"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-universities\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Rasio Siswa per Guru",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/overview/cards/student-teacher-ratio"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"student-teacher-ratio\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Tren Jumlah Siswa",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/overview/cards/enrollment-trend"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"enrollment-trend\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: analytics.education_indicators. Accepted filters: year, limit. Coverage: loaded-records."
+        },
+        {
+          "name": "Distribusi Siswa per Jenjang",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/overview/cards/level-distribution"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"level-distribution\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.schools. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        },
+        {
+          "name": "Sebaran per Pulau",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/overview/cards/school-distribution"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"school-distribution\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId, limit. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Provinsi dengan Siswa Terbanyak",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/overview/cards/top-provinces"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"top-provinces\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId, limit. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Metadata Snapshot",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/overview/cards/snapshot-info"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"snapshot-info\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: analytics.snapshots. Accepted filters: year, limit. Coverage: loaded-records."
+        }
+      ]
+    },
+    {
+      "name": "Visualizations",
+      "item": [
+        {
+          "name": "Card catalog",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/visualizations/cards"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Line Chart",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/visualizations/cards/line-chart"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"line-chart\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: analytics.education_indicators. Accepted filters: year, limit. Coverage: loaded-records."
+        },
+        {
+          "name": "Bar Chart",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/visualizations/cards/bar-chart"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"bar-chart\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId, limit. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Area Chart",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/visualizations/cards/area-chart"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Histori jumlah guru per jenjang belum disimpan."
+        },
+        {
+          "name": "Pie Chart: jumlah sekolah per jenjang",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/visualizations/cards/pie-chart"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"pie-chart\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.schools. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        },
+        {
+          "name": "Donut Chart: jumlah siswa per jenjang",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/visualizations/cards/donut-chart"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"donut-chart\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.schools. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        },
+        {
+          "name": "Stacked Bar Chart",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/visualizations/cards/stacked-bar-chart"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"stacked-bar-chart\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.schools, directory.regions. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        },
+        {
+          "name": "Horizontal Bar Chart",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/visualizations/cards/horizontal-bar-chart"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"horizontal-bar-chart\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId, limit. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Column Chart (Grouped)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/visualizations/cards/grouped-column-chart"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"grouped-column-chart\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.universities. Accepted filters: regionId, limit. Coverage: institution-directory-sample-PTN-PTS-only."
+        },
+        {
+          "name": "Line + Bar (Combo Chart)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/visualizations/cards/combo-chart"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Histori jumlah sekolah dan pertumbuhan tahunan belum tersedia."
+        }
+      ]
+    },
+    {
+      "name": "Advanced Visualization",
+      "item": [
+        {
+          "name": "Card catalog",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-visualization/cards"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Heatmap",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-visualization/cards/heatmap"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Indikator belum memiliki dimensi wilayah dan tahun yang lengkap."
+        },
+        {
+          "name": "Treemap",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-visualization/cards/treemap"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"treemap\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId, limit. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Sankey Diagram",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-visualization/cards/sankey"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Belum ada tabel transisi atau aliran siswa."
+        },
+        {
+          "name": "Radar Chart",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-visualization/cards/radar"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Dimensi mutu untuk radar belum tersedia sebagai indikator terverifikasi."
+        },
+        {
+          "name": "Gauge Chart",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-visualization/cards/gauge"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Metrik partisipasi untuk gauge belum tersedia."
+        },
+        {
+          "name": "Scatter / Bubble Chart",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-visualization/cards/scatter"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"scatter\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.schools. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        },
+        {
+          "name": "Calendar Heatmap",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-visualization/cards/calendar-heatmap"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Belum ada pengukuran aktivitas harian; agenda akademik bukan pengganti metrik aktivitas."
+        },
+        {
+          "name": "Parallel Coordinates",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-visualization/cards/parallel-coordinates"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"parallel-coordinates\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId, limit. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Choropleth Map",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-visualization/cards/choropleth"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Geometri batas wilayah belum disimpan."
+        }
+      ]
+    },
+    {
+      "name": "Interactive Maps",
+      "item": [
+        {
+          "name": "Card catalog",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/maps/cards"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Lokasi Institusi",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/maps/cards/institution-locations"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"institution-locations\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.schools, directory.universities. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        },
+        {
+          "name": "Ringkasan Wilayah",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/maps/cards/province-distribution"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"province-distribution\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId, limit. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Sebaran per Pulau",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/maps/cards/island-distribution"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"island-distribution\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId, limit. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Distribusi Siswa per Jenjang",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/maps/cards/level-distribution"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"level-distribution\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.schools. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        }
+      ]
+    },
+    {
+      "name": "Advanced Maps",
+      "item": [
+        {
+          "name": "Card catalog",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-maps/cards"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Total Sekolah",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-maps/cards/total-schools"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-schools\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Total Siswa",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-maps/cards/total-students"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-students\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Total Guru",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-maps/cards/total-teachers"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-teachers\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Total Universitas",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-maps/cards/total-universities"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-universities\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Rasio Siswa per Guru",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-maps/cards/student-teacher-ratio"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"student-teacher-ratio\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Sebaran per Pulau",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-maps/cards/national-summary"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"national-summary\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId, limit. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Provinsi dengan Sekolah Terbanyak",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-maps/cards/top-provinces"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"top-provinces\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId, limit. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Lokasi Institusi",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-maps/cards/institution-locations"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"institution-locations\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.schools, directory.universities. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        },
+        {
+          "name": "Ringkasan Wilayah",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-maps/cards/province-comparison"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"province-comparison\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId, limit. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Heatmap Kepadatan Sekolah",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-maps/cards/density-heatmap"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Koordinat institusi tersedia, tetapi definisi kepadatan dan luas wilayah belum tersedia."
+        },
+        {
+          "name": "Analisis Radius",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-maps/cards/radius-analysis"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Kontrak pusat titik, radius, dan kueri jarak belum diimplementasikan."
+        },
+        {
+          "name": "Batas Wilayah",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/advanced-maps/cards/boundaries"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Dataset poligon wilayah belum tersedia."
+        }
+      ]
+    },
+    {
+      "name": "Data Explorer",
+      "item": [
+        {
+          "name": "Card catalog",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-explorer/cards"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Total Sekolah",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-explorer/cards/total-schools"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-schools\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Total Siswa",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-explorer/cards/total-students"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-students\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Total Guru",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-explorer/cards/total-teachers"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-teachers\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Total Universitas",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-explorer/cards/total-universities"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-universities\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Distribusi Siswa per Jenjang",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-explorer/cards/level-distribution"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"level-distribution\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.schools. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        },
+        {
+          "name": "Daftar Sekolah",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-explorer/cards/schools-table"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"schools-table\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.schools. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        },
+        {
+          "name": "Daftar Perguruan Tinggi",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-explorer/cards/universities-table"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"universities-table\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.universities. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        },
+        {
+          "name": "Distribusi Kepemilikan Sekolah",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-explorer/cards/ownership-distribution"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"ownership-distribution\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.schools. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        },
+        {
+          "name": "Distribusi Akreditasi Sekolah",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-explorer/cards/accreditation-distribution"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"accreditation-distribution\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.schools. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        }
+      ]
+    },
+    {
+      "name": "Advanced Data Grid",
+      "item": [
+        {
+          "name": "Card catalog",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-grid/cards"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Total Sekolah",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-grid/cards/total-schools"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-schools\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Total Siswa",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-grid/cards/total-students"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-students\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Total Guru",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-grid/cards/total-teachers"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-teachers\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Total Universitas",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-grid/cards/total-universities"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-universities\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Ringkasan Wilayah",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-grid/cards/region-groups"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"region-groups\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId, limit. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Daftar Sekolah",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-grid/cards/schools-grid"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"schools-grid\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.schools. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        },
+        {
+          "name": "Daftar Perguruan Tinggi",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-grid/cards/universities-grid"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"universities-grid\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.universities. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        },
+        {
+          "name": "Sebaran per Pulau",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-grid/cards/national-aggregation"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"national-aggregation\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId, limit. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Distribusi Siswa per Jenjang",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-grid/cards/group-composition"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"group-composition\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.schools. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        },
+        {
+          "name": "Ringkasan Wilayah",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-grid/cards/province-comparison"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"province-comparison\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId, limit. Coverage: regional-aggregates."
+        }
+      ]
+    },
+    {
+      "name": "Calendar & Scheduling",
+      "item": [
+        {
+          "name": "Card catalog",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/calendar/cards"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Kalender Akademik",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/calendar/cards/academic-calendar"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"academic-calendar\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: academic.academic_events. Accepted filters: year, limit. Coverage: loaded-records."
+        },
+        {
+          "name": "Agenda pada Tanggal Pilihan",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/calendar/cards/agenda-today?date=2026-11-21"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"agenda-today\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: academic.academic_events. Accepted filters: date, limit. Coverage: loaded-records."
+        },
+        {
+          "name": "Agenda Mendatang",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/calendar/cards/upcoming-events?date=2026-11-21"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"upcoming-events\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: academic.academic_events. Accepted filters: date, limit. Coverage: loaded-records."
+        },
+        {
+          "name": "Statistik Kegiatan per Kategori",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/calendar/cards/activity-statistics"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"activity-statistics\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: academic.academic_events. Accepted filters: year, limit. Coverage: loaded-records."
+        },
+        {
+          "name": "Kalender per Target Jenjang",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/calendar/cards/calendar-by-audience"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"calendar-by-audience\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: academic.academic_events. Accepted filters: year, limit. Coverage: loaded-records."
+        },
+        {
+          "name": "Kalender Akademik",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/calendar/cards/important-events"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"important-events\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: academic.academic_events. Accepted filters: year, limit. Coverage: loaded-records."
+        }
+      ]
+    },
+    {
+      "name": "Timeline & Gantt",
+      "item": [
+        {
+          "name": "Card catalog",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/timeline/cards"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Program Berjalan",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/timeline/cards/program-summary"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"program-summary\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: academic.timeline_programs. Accepted filters: none. Coverage: loaded-records."
+        },
+        {
+          "name": "Program Kegiatan",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/timeline/cards/program-timeline"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"program-timeline\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: academic.timeline_programs. Accepted filters: regionId, limit. Coverage: loaded-records."
+        },
+        {
+          "name": "Analisis Program",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/timeline/cards/program-analysis"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"program-analysis\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: academic.timeline_programs. Accepted filters: regionId, limit. Coverage: loaded-records."
+        },
+        {
+          "name": "Hierarki Program dan Kegiatan",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/timeline/cards/task-hierarchy"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Tabel tugas dan relasi induk tugas belum tersedia."
+        },
+        {
+          "name": "Milestone Penting",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/timeline/cards/milestones"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Milestone program belum dimodelkan; event akademik belum terhubung ke program."
+        },
+        {
+          "name": "Dependensi Gantt",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/timeline/cards/dependencies"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Relasi dependensi antartugas belum tersedia."
+        }
+      ]
+    },
+    {
+      "name": "Flow & Network",
+      "item": [
+        {
+          "name": "Card catalog",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/flow/cards"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Kemitraan Aktif",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/flow/cards/partnership-summary"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"partnership-summary\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.institution_links. Accepted filters: none. Coverage: loaded-records."
+        },
+        {
+          "name": "Kemitraan Institusi",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/flow/cards/institution-links"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"institution-links\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.institution_links, directory.universities. Accepted filters: regionId, limit. Coverage: loaded-records."
+        },
+        {
+          "name": "Daftar Sekolah",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/flow/cards/schools"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"schools\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.schools. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        },
+        {
+          "name": "Daftar Perguruan Tinggi",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/flow/cards/universities"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"universities\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.universities. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        },
+        {
+          "name": "Student Pathway",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/flow/cards/student-pathway"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Tabel jumlah aliran siswa asal-tujuan per periode belum tersedia."
+        },
+        {
+          "name": "Teacher Mobility",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/flow/cards/teacher-mobility"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Riwayat perpindahan guru belum tersedia."
+        }
+      ]
+    },
+    {
+      "name": "API & Data Status",
+      "item": [
+        {
+          "name": "Card catalog",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-status/cards"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sumber Data Aktif",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-status/cards/source-summary"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"source-summary\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: system.data_sources. Accepted filters: none. Coverage: loaded-records."
+        },
+        {
+          "name": "Impor Selesai",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-status/cards/import-summary"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"import-summary\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: system.data_imports. Accepted filters: none. Coverage: loaded-records."
+        },
+        {
+          "name": "Sumber Data Terdaftar",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-status/cards/data-sources"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"data-sources\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: system.data_sources. Accepted filters: limit. Coverage: loaded-records."
+        },
+        {
+          "name": "Riwayat Impor",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-status/cards/import-history"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"import-history\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: system.data_imports, system.data_sources. Accepted filters: limit. Coverage: loaded-records."
+        },
+        {
+          "name": "Metadata Snapshot",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-status/cards/snapshot-info"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"snapshot-info\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: analytics.snapshots. Accepted filters: year, limit. Coverage: loaded-records."
+        },
+        {
+          "name": "Status API dan Uptime",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-status/cards/api-uptime"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Belum ada hasil probe historis; log seed bukan bukti uptime."
+        },
+        {
+          "name": "Kualitas Data",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-status/cards/data-quality"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Belum ada hasil pemeriksaan kualitas tersimpan."
+        },
+        {
+          "name": "System Logs",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-status/cards/system-logs"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Penyimpanan dan akses log runtime belum tersedia."
+        },
+        {
+          "name": "Webhook dan Integrasi",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-status/cards/webhook-deliveries"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Catatan pengiriman webhook belum tersedia."
+        }
+      ]
+    },
+    {
+      "name": "Reports & Export",
+      "item": [
+        {
+          "name": "Card catalog",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/reports/cards"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Total Sekolah",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/reports/cards/total-schools"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-schools\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Total Siswa",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/reports/cards/total-students"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-students\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Total Guru",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/reports/cards/total-teachers"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-teachers\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Total Universitas",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/reports/cards/total-universities"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"total-universities\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Rasio Siswa per Guru",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/reports/cards/student-teacher-ratio"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"student-teacher-ratio\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Template Laporan Aktif",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/reports/cards/report-summary"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"report-summary\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: analytics.report_definitions. Accepted filters: none. Coverage: loaded-records."
+        },
+        {
+          "name": "Template Laporan",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/reports/cards/report-templates"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"report-templates\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: analytics.report_definitions. Accepted filters: limit. Coverage: loaded-records."
+        },
+        {
+          "name": "Metadata Snapshot",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/reports/cards/snapshot-info"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"snapshot-info\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: analytics.snapshots. Accepted filters: year, limit. Coverage: loaded-records."
+        },
+        {
+          "name": "Ringkasan Wilayah",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/reports/cards/regions-export-preview"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"regions-export-preview\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.regions. Accepted filters: regionId, limit. Coverage: regional-aggregates."
+        },
+        {
+          "name": "Daftar Sekolah",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/reports/cards/schools-export-preview"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"schools-export-preview\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.schools. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        },
+        {
+          "name": "Daftar Perguruan Tinggi",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/reports/cards/universities-export-preview"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Correct card', function () { pm.expect(pm.response.json().data.cardId).to.eql(\"universities-export-preview\"); });",
+                  "pm.test('Source metadata', function () { pm.expect(pm.response.json().meta.tables).to.be.an('array').that.is.not.empty; });"
+                ]
+              }
+            }
+          ],
+          "description": "Tables: directory.universities. Accepted filters: regionId, limit. Coverage: institution-directory-sample."
+        },
+        {
+          "name": "Riwayat Unduhan",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/reports/cards/download-history"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 501', function () { pm.response.to.have.status(501); });"
+                ]
+              }
+            }
+          ],
+          "description": "Job ekspor dan telemetry unduhan belum disimpan."
+        }
+      ]
+    },
+    {
+      "name": "Negative cases",
+      "item": [
+        {
+          "name": "Unknown page",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/missing/cards"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 404', function () { pm.response.to.have.status(404); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Unknown card",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/overview/cards/missing"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 404', function () { pm.response.to.have.status(404); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Unsupported period on current aggregate",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/overview/cards/total-schools?year=2026"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 400', function () { pm.response.to.have.status(400); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Invalid limit",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/data-explorer/cards/schools-table?limit=101"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 400', function () { pm.response.to.have.status(400); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Invalid date",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/pages/calendar/cards/agenda-today?date=2026-02-30"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 400', function () { pm.response.to.have.status(400); });"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "eduatlas",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "yarn workspaces run dev",
+    "dev:backend": "yarn workspace backend start:dev",
+    "dev:frontend": "yarn workspace frontend dev",
+    "build": "yarn workspaces run build",
+    "test": "yarn test:backend && yarn test:frontend",
+    "test:backend": "yarn workspace backend test",
+    "test:frontend": "yarn workspace frontend test",
+    "db:create": "yarn workspace backend db:create",
+    "db:migrate": "yarn workspace backend db:migrate",
+    "db:migrate:undo": "yarn workspace backend db:migrate:undo",
+    "db:seed": "yarn workspace backend db:seed",
+    "db:seed:undo": "yarn workspace backend db:seed:undo",
+    "db:setup": "yarn workspace backend db:setup",
+    "qa:cards:export": "yarn workspace backend qa:cards:export"
+  }
+}

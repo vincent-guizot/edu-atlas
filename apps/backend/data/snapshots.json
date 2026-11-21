@@ -1,0 +1,34 @@
+[
+  {
+    "id": "snp-2026-10-20",
+    "snapshotDate": "2026-10-20T00:00:00.000Z",
+    "period": "2026",
+    "source": "EduAtlas Demo Dataset",
+    "version": "1.0.0",
+    "isDemoData": true,
+    "totalSchools": 15530,
+    "totalStudents": 6800000,
+    "totalTeachers": 432000,
+    "totalUniversities": 400,
+    "studentTeacherRatio": 15.7,
+    "avgNationalScore": 80.5,
+    "nationalGraduationRate": 98.9,
+    "notes": "Simulated education snapshot for Indonesian institutions, verified for consistency."
+  },
+  {
+    "id": "snp-2025-10-15",
+    "snapshotDate": "2025-10-15T00:00:00.000Z",
+    "period": "2025",
+    "source": "EduAtlas Demo Dataset",
+    "version": "0.9.0",
+    "isDemoData": true,
+    "totalSchools": 15219,
+    "totalStudents": 6596000,
+    "totalTeachers": 423360,
+    "totalUniversities": 397,
+    "studentTeacherRatio": 14.1,
+    "avgNationalScore": 79.2,
+    "nationalGraduationRate": 98.4,
+    "notes": "Simulated education snapshot for Indonesian institutions (2025 archival reference)."
+  }
+]

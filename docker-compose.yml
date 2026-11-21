@@ -1,0 +1,52 @@
+name: app-web-eduatlas
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: eduatlas_db
+    ports:
+      - "1000:5432"
+    volumes:
+      - eduatlas_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d eduatlas_db"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 20s
+
+  backend:
+    build:
+      context: ./apps/backend
+    ports:
+      - "3530:4000"
+    environment:
+      PORT: 4000
+      NODE_ENV: development
+      API_PREFIX: /api/v1
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USER: postgres
+      DB_PASS: admin
+      DB_NAME: eduatlas_db
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./apps/frontend
+    ports:
+      - "5030:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  eduatlas_db_data:
+

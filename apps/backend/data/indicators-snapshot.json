@@ -1,0 +1,282 @@
+[
+  {
+    "id": "ind-2021-sd",
+    "year": 2021,
+    "period": "2021",
+    "metricName": "enrollment_sd",
+    "value": 24800000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2021-smp",
+    "year": 2021,
+    "period": "2021",
+    "metricName": "enrollment_smp",
+    "value": 10100000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2021-sma",
+    "year": 2021,
+    "period": "2021",
+    "metricName": "enrollment_sma",
+    "value": 5200000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2021-smk",
+    "year": 2021,
+    "period": "2021",
+    "metricName": "enrollment_smk",
+    "value": 5050000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2021-pt",
+    "year": 2021,
+    "period": "2021",
+    "metricName": "enrollment_pt",
+    "value": 8900000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2022-sd",
+    "year": 2022,
+    "period": "2022",
+    "metricName": "enrollment_sd",
+    "value": 24650000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2022-smp",
+    "year": 2022,
+    "period": "2022",
+    "metricName": "enrollment_smp",
+    "value": 10250000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2022-sma",
+    "year": 2022,
+    "period": "2022",
+    "metricName": "enrollment_sma",
+    "value": 5320000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2022-smk",
+    "year": 2022,
+    "period": "2022",
+    "metricName": "enrollment_smk",
+    "value": 5120000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2022-pt",
+    "year": 2022,
+    "period": "2022",
+    "metricName": "enrollment_pt",
+    "value": 9150000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2023-sd",
+    "year": 2023,
+    "period": "2023",
+    "metricName": "enrollment_sd",
+    "value": 24500000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2023-smp",
+    "year": 2023,
+    "period": "2023",
+    "metricName": "enrollment_smp",
+    "value": 10380000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2023-sma",
+    "year": 2023,
+    "period": "2023",
+    "metricName": "enrollment_sma",
+    "value": 5410000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2023-smk",
+    "year": 2023,
+    "period": "2023",
+    "metricName": "enrollment_smk",
+    "value": 5210000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2023-pt",
+    "year": 2023,
+    "period": "2023",
+    "metricName": "enrollment_pt",
+    "value": 9380000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2024-sd",
+    "year": 2024,
+    "period": "2024",
+    "metricName": "enrollment_sd",
+    "value": 24350000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2024-smp",
+    "year": 2024,
+    "period": "2024",
+    "metricName": "enrollment_smp",
+    "value": 10510000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2024-sma",
+    "year": 2024,
+    "period": "2024",
+    "metricName": "enrollment_sma",
+    "value": 5540000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2024-smk",
+    "year": 2024,
+    "period": "2024",
+    "metricName": "enrollment_smk",
+    "value": 5300000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2024-pt",
+    "year": 2024,
+    "period": "2024",
+    "metricName": "enrollment_pt",
+    "value": 9620000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2025-sd",
+    "year": 2025,
+    "period": "2025",
+    "metricName": "enrollment_sd",
+    "value": 24200000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2025-smp",
+    "year": 2025,
+    "period": "2025",
+    "metricName": "enrollment_smp",
+    "value": 10650000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2025-sma",
+    "year": 2025,
+    "period": "2025",
+    "metricName": "enrollment_sma",
+    "value": 5680000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2025-smk",
+    "year": 2025,
+    "period": "2025",
+    "metricName": "enrollment_smk",
+    "value": 5390000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2025-pt",
+    "year": 2025,
+    "period": "2025",
+    "metricName": "enrollment_pt",
+    "value": 9880000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2026-sd",
+    "year": 2026,
+    "period": "2026",
+    "metricName": "enrollment_sd",
+    "value": 24080000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2026-smp",
+    "year": 2026,
+    "period": "2026",
+    "metricName": "enrollment_smp",
+    "value": 10790000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2026-sma",
+    "year": 2026,
+    "period": "2026",
+    "metricName": "enrollment_sma",
+    "value": 5820000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2026-smk",
+    "year": 2026,
+    "period": "2026",
+    "metricName": "enrollment_smk",
+    "value": 5480000,
+    "category": "enrollment"
+  },
+  {
+    "id": "ind-2026-pt",
+    "year": 2026,
+    "period": "2026",
+    "metricName": "enrollment_pt",
+    "value": 10150000,
+    "category": "enrollment"
+  },
+  {
+    "id": "grad-2022",
+    "year": 2022,
+    "period": "2022",
+    "metricName": "national_graduation_rate",
+    "value": 97.8,
+    "category": "graduation"
+  },
+  {
+    "id": "grad-2023",
+    "year": 2023,
+    "period": "2023",
+    "metricName": "national_graduation_rate",
+    "value": 98.1,
+    "category": "graduation"
+  },
+  {
+    "id": "grad-2024",
+    "year": 2024,
+    "period": "2024",
+    "metricName": "national_graduation_rate",
+    "value": 98.4,
+    "category": "graduation"
+  },
+  {
+    "id": "grad-2025",
+    "year": 2025,
+    "period": "2025",
+    "metricName": "national_graduation_rate",
+    "value": 98.6,
+    "category": "graduation"
+  },
+  {
+    "id": "grad-2026",
+    "year": 2026,
+    "period": "2026",
+    "metricName": "national_graduation_rate",
+    "value": 98.9,
+    "category": "graduation"
+  }
+]

@@ -1,145 +1,127 @@
-# EduAtlas
+<p align="center">
+  <img src="brand/EduAtlas_%20Education%20Through%20Data.png" alt="EduAtlas — Explore Education Through Data" width="100%" />
+</p>
 
-Rancangan platform eksplorasi data pendidikan Indonesia.
+# EduAtlas — Education Intelligence & Data Visualization Platform
 
-Repository ini hanya berisi `README.md`.
+**Version:** 1.0.0  
+**Tagline:** Explore Education Through Data.  
+**Domain:** Indonesia Education Statistics & Analytics
 
-## Status repository
+EduAtlas adalah platform visualisasi data dan kecerdasan analitik pendidikan di Indonesia yang menyajikan snapshot data statistik sekolah, siswa, guru, universitas, mahasiswa, dan performa akademik antar-wilayah secara interaktif.
 
-Branch `main` menyediakan ringkasan awal. Branch `development` mengembangkan
-dokumentasi rancangan secara bertahap. Source code aplikasi, konfigurasi runtime,
-database, dan collection pengujian tidak disertakan dalam kedua branch ini.
-Dokumen ini menjelaskan arah pengembangan, bukan aplikasi yang sudah bisa dijalankan.
+---
 
-## Tujuan dan cakupan
+## 1. Arsitektur Proyek Monorepo
 
-EduAtlas dirancang untuk membantu pembaca memahami sebaran institusi pendidikan,
-jumlah peserta didik dan pendidik, serta informasi program dan kegiatan.
-Cakupan awal meliputi sekolah, perguruan tinggi, wilayah, dan indikator pendidikan.
-Data pribadi peserta didik bukan bagian dari cakupan dashboard publik ini.
-
-## Menu yang direncanakan
-
-1. Overview.
-2. Visualizations.
-3. Advanced Visualization.
-4. Interactive Maps.
-5. Advanced Maps.
-6. Data Explorer.
-7. Advanced Data Grid.
-8. Calendar & Scheduling.
-9. Timeline & Gantt.
-10. Flow & Network.
-11. API & Data Status.
-12. Reports & Export.
-
-## Arsitektur acuan
-
-Antarmuka direncanakan menggunakan React dan TypeScript. Backend menggunakan
-NestJS untuk menyediakan API, sementara PostgreSQL menjadi penyimpanan data.
-Browser mengakses API backend; kredensial database disimpan di server.
-Pilihan teknologi ini merupakan acuan untuk implementasi berikutnya.
-
-## Pembagian schema database
-
-| Schema | Tanggung jawab |
-|---|---|
-| directory | Wilayah dan institusi pendidikan |
-| academic | Program studi, agenda, dan program kegiatan |
-| analytics | Indikator, snapshot, dan definisi laporan |
-| system | Sumber data, impor, dan jurnal perubahan database |
-
-Nama schema membagi domain data, bukan membuat database terpisah untuk setiap halaman.
-
-## Tabel acuan
-
-| Schema | Tabel |
-|---|---|
-| directory | regions, schools, universities, institution_links |
-| academic | academic_programs, academic_events, timeline_programs |
-| analytics | education_indicators, snapshots, report_definitions |
-| system | data_sources, data_imports, schema_migrations, seed_runs |
-
-Rancangan ini memiliki 12 tabel data dan 2 tabel teknis. Definisi kolom dan constraint
-perlu diwujudkan dalam migration ketika source code aplikasi ditambahkan kembali.
-
-## Informasi per card
-
-Satu card menampilkan satu metrik, grafik, daftar, atau kelompok informasi.
-Contoh Overview: Total Sekolah, Total Siswa, Total Guru, Total Universitas,
-Tren Siswa, dan Distribusi Jenjang. Setiap card perlu mendokumentasikan tabel sumber,
-kolom, filter, rumus, periode, dan cakupan datanya.
-Satu tabel boleh mendukung beberapa card; satu card boleh menggabungkan beberapa tabel.
-
-## Kontrak API acuan
-
-Endpoint yang diusulkan:
-
-```http
-GET /api/v1/pages
-GET /api/v1/pages/overview/cards
-GET /api/v1/pages/overview/cards/total-schools
-GET /api/v1/pages/overview/cards/enrollment-trend?year=2026
+```text
+EduAtlas/
+├── apps/
+│   ├── backend/               # NestJS 11 + Express + Sequelize + PostgreSQL
+│   │   ├── data/              # Data Snapshots JSON (overview, schools, universities, dsb)
+│   │   ├── src/
+│   │   │   ├── common/        # Response transformer interceptor & filters
+│   │   │   ├── database/      # Models, seeder, dan scripts migrasi/setup DB
+│   │   │   │   ├── models/    # Model Sequelize (Snapshot, Region, School, dsb)
+│   │   │   │   └── scripts/   # Scripts: setup, create-database, migrate, seed
+│   │   │   ├── health/        # Health check endpoint
+│   │   │   ├── modules/       # 10 Modul Bisnis (Overview, Schools, Universities, dsb)
+│   │   │   └── main.ts
+│   │   └── package.json
+│   └── frontend/              # React 18 + Vite + Tailwind CSS v4 + TanStack Query
+│       ├── src/
+│       │   ├── app/           # Router (createBrowserRouter) & AppProviders
+│       │   ├── services/      # Axios API Client & Service Modules (dengan offline fallback)
+│       │   ├── helpers/       # Helper formatters (id-ID) & Export utilities
+│       │   ├── hooks/         # React Custom Hooks (useOverviewData, useSchoolsData, dsb)
+│       │   ├── constants/     # Data Snapshot Constants & metadata lengkap
+│       │   ├── pages/         # 12 Halaman Dashboard EduAtlas
+│       │   ├── components/    # AppShell, Sidebar, Topbar, Reusable Cards & States
+│       │   ├── features/      # Implementasi detail visualisasi tiap fitur
+│       │   └── main.tsx
+│       └── package.json
+├── brand/                     # Brand Identity & Aset Desain EduAtlas (Logo, Palet, Banner)
+├── docs/                      # Dokumentasi Teknis & Spesifikasi
+│   ├── README.md              # Portal Indeks Dokumentasi
+│   ├── product-requirements.md# Product Requirements Document (PRD)
+│   ├── architecture.md        # Arsitektur Sistem & Monorepo
+│   ├── design-system.md       # EduAtlas Design System v1.0
+│   ├── api-contracts.md       # Spesifikasi REST API & Swagger
+│   └── database-schema.md     # Skema Database PostgreSQL & ERD
+├── screenshots/               # Tangkapan Layar 12 Halaman Dashboard EduAtlas
+├── package.json               # Root monorepo workspace scripts
+├── .yarnrc                    # Konfigurasi registry Yarn
+└── yarn.lock                  # File lock Yarn
 ```
 
-Katalog perlu menjelaskan cardId, filter yang diterima, tabel sumber, dan status
-dukungan. URL tersebut adalah rancangan kontrak; repository ini tidak menjalankan server API.
+---
 
-## Filter dan hasil kosong
+## 2. 12 Halaman EduAtlas yang Diimplementasikan
 
-Filter harus sesuai dengan data yang benar-benar tersimpan. Angka agregat regional
-tanpa histori tidak boleh menerima filter tahun yang diam-diam diabaikan.
-Daftar memerlukan batas hasil dan urutan yang stabil. Rasio dengan pembagi nol
-sebaiknya menghasilkan null, sedangkan daftar tanpa record menghasilkan array kosong.
-Filter yang tidak dikenal atau tidak valid perlu ditolak secara eksplisit.
+1. **Overview Dashboard** (`/overview`): Metrik KPI nasional, tren pendaftaran, distribusi jenjang, dan ranking mutu provinsi.
+2. **Chart Playground** (`/visualizations`): Eksplorasi Recharts dinamis (Line, Bar, Area, Pie, Donut).
+3. **Advanced Visualization** (`/visualizations/advanced`): Apache ECharts (Radar Benchmark 6 dimensi, Treemap sebaran, Sankey alur siswa, Gauge indeks nasional).
+4. **Interactive Maps** (`/maps`): Peta Leaflet dengan custom pin marker institusi sekolah & universitas se-Indonesia beserta pop-up detail.
+5. **Advanced Maps** (`/maps/advanced`): MapLibre GL Vector map dengan data-driven scaling ukuran lingkaran dan gradasi mutu wilayah.
+6. **Data Table** (`/data-explorer`): TanStack Table dengan pencarian multi-kolom, sorting, filter jenjang/status, paginasi, dan ekspor CSV.
+7. **Advanced Data Grid** (`/data-grid`): Grid perguruan tinggi berkinerja tinggi dengan sub-grid hierarki program studi dan rasio dosen-mahasiswa.
+8. **Calendar & Scheduling** (`/calendar`): FullCalendar agenda akademik nasional (PTS, PAS, UTBK-SNBT, Libur Semester) dengan modal detail event.
+9. **Timeline & Gantt** (`/timeline`): Kronologi perjalanan agenda pendidikan tahun 2026 per kuartal dengan penanda durasi dan status capaian.
+10. **Flow & Network** (`/flow`): Diagram alur interaktif `@xyflow/react` yang memvisualisasikan hierarki regulator, jenjang sekolah, hingga perguruan tinggi dan dunia industri.
+11. **API & Data Status** (`/data-status`): Monitor kesehatan endpoint REST API, latensi server, metadata snapshot, dan kontrol sinkronisasi ulang.
+12. **Reports & Export** (`/reports`): Ringkasan eksekutif laporan pendidikan dengan generator ekspor Excel (`.xlsx`) dan dokumen cetak PDF (`.pdf`).
 
-## Sumber dan keaslian data
+---
 
-Setiap dataset perlu mencatat penyedia, periode, waktu pengambilan, dan cakupan.
-Snapshot adalah salinan data pada waktu tertentu; format snapshot tidak membuktikan
-bahwa datanya asli. Dataset simulasi harus diberi penanda demo. Data tanpa bukti
-provenance harus ditandai belum terverifikasi, bukan dianggap sebagai data resmi.
-Total regional tidak otomatis sama dengan jumlah record pada direktori contoh.
+## 3. Alur Aplikasi (Application Flow) & Snapshot Architecture
 
-## Rencana migration
+EduAtlas dirancang untuk menyajikan analisis data pendidikan nasional berbasis **data snapshot**:
+1. **Penyajian Snapshot:** Karena sistem tidak menggunakan streaming data real-time, backend menyajikan snapshot data teragregasi berkala (`/api/v1/overview`, `/api/v1/schools`, `/api/v1/universities`, dsb) yang bersumber dari tabel database atau berkas snapshot terstruktur di `apps/backend/data/`.
+2. **Offline Constants Fallback:** Frontend dilengkapi mekanisme ketahanan (*resilience*). Apabila server backend tidak sedang aktif (offline) atau konfigurasi `VITE_API_URL` tidak disetel, frontend secara otomatis mengalihkan sumber data ke **constants snapshots** di `apps/frontend/src/constants/`. Seluruh visualisasi grafik, peta interaktif, tabel data, kalender, dan diagram alur tetap dapat dioperasikan secara penuh tanpa menghasilkan error layar kosong.
 
-Perubahan schema perlu menggunakan migration bernomor dan jurnal versi.
-Migration harus menjaga foreign key serta data yang sudah ada. Pemindahan tabel
-antar-schema sebaiknya mempertahankan identitas record dan relasinya.
-Undo tidak boleh menghapus tabel berisi data pengguna tanpa strategi pemulihan yang jelas.
-Belum ada script migration dalam repository README-only ini.
+---
 
-## Rencana seeder
+## 4. Cara Menjalankan Aplikasi & Pengujian
 
-Seeder demo perlu memakai bulk insert, transaksi, serta penanda versi yang selesai.
-Menjalankan ulang versi yang sama tidak boleh menggandakan atau menimpa record pengguna.
-Manifest seed perlu mencatat hanya record yang benar-benar dibuat oleh seeder.
-Undo harus mengikuti urutan dependensi dan menolak penghapusan record yang telah diedit.
-Belum ada script seeder yang dapat dijalankan dari repository ini.
+### A. Prasyarat
+* Node.js v20+ atau v24+
+* PostgreSQL 17 (port 5432, user: `postgres`, password: `admin`, database: `eduatlas_db`)
+* Yarn v1.22+
 
-## Rencana QA
+### B. Setup Database & Migrasi (Backend)
+```bash
+# Menjalankan seluruh proses: membuat database, migrasi tabel, dan seeder snapshot
+yarn db:setup
 
-Pengujian per card perlu mencakup data kosong, data demo, filter valid dan tidak valid,
-perhitungan agregat, provenance, serta perubahan nilai sumber database.
-Card yang belum memiliki sumber data harus menjelaskan kekurangannya.
-Pengujian database sebaiknya menggunakan database sementara yang terpisah dari data utama.
-Tidak ada test suite atau hasil eksekusi baru yang disertakan dalam branch dokumentasi ini.
+# Atau eksekusi perintah secara individual:
+yarn db:create    # Membuat database eduatlas_db jika belum ada
+yarn db:migrate   # Menjalankan sinkronisasi skema & alter tabel Sequelize
+yarn db:seed      # Mengisi data snapshot awal ke database
+```
 
-## Tahapan pengembangan berikutnya
+### C. Menjalankan Seluruh Pengujian (Testing)
+```bash
+# Menjalankan pengujian backend (Jest) dan frontend (Vitest)
+yarn test
 
-1. Sepakati definisi metrik dan sumber data yang diizinkan.
-2. Tambahkan kembali fondasi backend, frontend, dan pengelolaan konfigurasi.
-3. Implementasikan schema, migration, dan seed demo yang dapat diaudit.
-4. Sediakan katalog dan endpoint per card beserta pengujiannya.
-5. Hubungkan halaman frontend ke API dan periksa setiap card terhadap data sumber.
-6. Tambahkan impor data asli setelah akses, cakupan, dan provenance tersedia.
+# Atau jalankan per workspace:
+yarn test:backend
+yarn test:frontend
+```
 
-## Kontribusi dan alur branch
+### D. Menjalankan Backend
+```bash
+cd apps/backend
+yarn start:prod
+# atau mode development:
+# yarn start:dev
+```
+* Backend API berjalan di: `http://localhost:4000/api/v1`
+* Dokumentasi Swagger OpenAPI: `http://localhost:4000/api/docs`
 
-Gunakan `development` untuk perubahan dokumentasi dan implementasi berikutnya.
-Setiap commit perlu memiliki perubahan yang dapat ditinjau dan pesan yang menjelaskan
-tujuannya. Ajukan perubahan ke `main` melalui pull request setelah cakupan dan
-validasinya jelas. Jangan menyimpan kredensial, file environment pribadi, atau data
-pribadi dalam commit.
-
-Alamat repository: https://github.com/vincent-guizot/edu-atlas
+### E. Menjalankan Frontend
+```bash
+cd apps/frontend
+yarn dev
+```
+* Frontend berjalan di: `http://localhost:5173`

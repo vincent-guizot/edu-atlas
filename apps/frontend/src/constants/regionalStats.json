@@ -1,0 +1,123 @@
+{
+  "jawa": {
+    "name": "Pulau Jawa",
+    "totalSchools": 63840,
+    "sd": 34120,
+    "smp": 15480,
+    "sma": 8420,
+    "smk": 5820,
+    "students": "26.840.120",
+    "teachers": "1.940.500",
+    "universities": 2450
+  },
+  "sumatera": {
+    "name": "Pulau Sumatera",
+    "totalSchools": 28410,
+    "sd": 16240,
+    "smp": 6810,
+    "sma": 3450,
+    "smk": 1910,
+    "students": "8.420.300",
+    "teachers": "580.400",
+    "universities": 820
+  },
+  "bangka": {
+    "name": "Bangka Belitung",
+    "totalSchools": 1240,
+    "sd": 720,
+    "smp": 290,
+    "sma": 140,
+    "smk": 90,
+    "students": "340.200",
+    "teachers": "24.100",
+    "universities": 28
+  },
+  "kalimantan": {
+    "name": "Pulau Kalimantan",
+    "totalSchools": 11280,
+    "sd": 6810,
+    "smp": 2640,
+    "sma": 1180,
+    "smk": 650,
+    "students": "2.890.500",
+    "teachers": "210.800",
+    "universities": 290
+  },
+  "sulawesi": {
+    "name": "Pulau Sulawesi",
+    "totalSchools": 12450,
+    "sd": 7420,
+    "smp": 2980,
+    "sma": 1320,
+    "smk": 730,
+    "students": "3.120.400",
+    "teachers": "245.600",
+    "universities": 380
+  },
+  "bali": {
+    "name": "Bali",
+    "totalSchools": 3120,
+    "sd": 1840,
+    "smp": 690,
+    "sma": 380,
+    "smk": 210,
+    "students": "890.100",
+    "teachers": "68.400",
+    "universities": 120
+  },
+  "ntb": {
+    "name": "Nusa Tenggara Barat",
+    "totalSchools": 3410,
+    "sd": 2120,
+    "smp": 760,
+    "sma": 340,
+    "smk": 190,
+    "students": "910.400",
+    "teachers": "69.200",
+    "universities": 85
+  },
+  "ntt": {
+    "name": "Nusa Tenggara Timur",
+    "totalSchools": 4120,
+    "sd": 2640,
+    "smp": 890,
+    "sma": 390,
+    "smk": 200,
+    "students": "980.200",
+    "teachers": "74.500",
+    "universities": 78
+  },
+  "maluku": {
+    "name": "Kepulauan Maluku",
+    "totalSchools": 2140,
+    "sd": 1380,
+    "smp": 460,
+    "sma": 190,
+    "smk": 110,
+    "students": "460.800",
+    "teachers": "36.200",
+    "universities": 45
+  },
+  "malukuUtara": {
+    "name": "Maluku Utara",
+    "totalSchools": 1680,
+    "sd": 1090,
+    "smp": 360,
+    "sma": 140,
+    "smk": 90,
+    "students": "320.100",
+    "teachers": "26.800",
+    "universities": 35
+  },
+  "papua": {
+    "name": "Pulau Papua",
+    "totalSchools": 4210,
+    "sd": 2840,
+    "smp": 810,
+    "sma": 360,
+    "smk": 200,
+    "students": "860.400",
+    "teachers": "62.400",
+    "universities": 68
+  }
+}

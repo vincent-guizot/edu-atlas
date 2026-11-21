@@ -1,0 +1,193 @@
+{
+  "kpi": {
+    "totalSchools": 15530,
+    "totalStudents": 6800000,
+    "totalTeachers": 432000,
+    "totalUniversities": 400,
+    "studentTeacherRatio": 15.7,
+    "avgNationalScore": 80.5,
+    "nationalGraduationRate": 98.9
+  },
+  "levelDistribution": [
+    {
+      "level": "SD (Sekolah Dasar)",
+      "count": 19235641,
+      "percent": "45,2%",
+      "color": "#153B66"
+    },
+    {
+      "level": "SMP (Sekolah Menengah Pertama)",
+      "count": 11958324,
+      "percent": "28,1%",
+      "color": "#25A9A1"
+    },
+    {
+      "level": "SMA (Sekolah Menengah Atas)",
+      "count": 8686412,
+      "percent": "20,4%",
+      "color": "#8ED8E4"
+    },
+    {
+      "level": "SMK (Sekolah Menengah Kejuruan)",
+      "count": 2679944,
+      "percent": "6,3%",
+      "color": "#FFC857"
+    }
+  ],
+  "enrollmentTrends": [
+    {
+      "year": 2022,
+      "SD": 10.4,
+      "SMP": 6.1,
+      "SMA": 3.2,
+      "SMK": 1.9
+    },
+    {
+      "year": 2023,
+      "SD": 13,
+      "SMP": 7.6,
+      "SMA": 4.6,
+      "SMK": 2.15
+    },
+    {
+      "year": 2024,
+      "SD": 15.3,
+      "SMP": 9,
+      "SMA": 5.9,
+      "SMK": 2.35
+    },
+    {
+      "year": 2025,
+      "SD": 17.3,
+      "SMP": 10.5,
+      "SMA": 7.3,
+      "SMK": 2.52
+    },
+    {
+      "year": 2026,
+      "SD": 19.24,
+      "SMP": 11.96,
+      "SMA": 8.69,
+      "SMK": 2.68
+    }
+  ],
+  "topProvinces": [
+    {
+      "rank": 1,
+      "id": "reg-dki-jakarta",
+      "name": "DKI Jakarta",
+      "island": "Jawa",
+      "students": 890000,
+      "schools": 1820,
+      "teachers": 52000,
+      "universities": 68,
+      "performanceScore": 84.6
+    },
+    {
+      "rank": 2,
+      "id": "reg-jawa-barat",
+      "name": "Jawa Barat",
+      "island": "Jawa",
+      "students": 1250000,
+      "schools": 2940,
+      "teachers": 74000,
+      "universities": 62,
+      "performanceScore": 80.2
+    },
+    {
+      "rank": 3,
+      "id": "reg-jawa-tengah",
+      "name": "Jawa Tengah",
+      "island": "Jawa",
+      "students": 980000,
+      "schools": 2450,
+      "teachers": 61000,
+      "universities": 48,
+      "performanceScore": 81.4
+    },
+    {
+      "rank": 4,
+      "id": "reg-jawa-timur",
+      "name": "Jawa Timur",
+      "island": "Jawa",
+      "students": 1120000,
+      "schools": 2680,
+      "teachers": 69000,
+      "universities": 54,
+      "performanceScore": 81.9
+    },
+    {
+      "rank": 5,
+      "id": "reg-di-yogyakarta",
+      "name": "D.I. Yogyakarta",
+      "island": "Jawa",
+      "students": 310000,
+      "schools": 620,
+      "teachers": 23000,
+      "universities": 38,
+      "performanceScore": 86.8
+    },
+    {
+      "rank": 6,
+      "id": "reg-banten",
+      "name": "Banten",
+      "island": "Jawa",
+      "students": 410000,
+      "schools": 880,
+      "teachers": 26000,
+      "universities": 22,
+      "performanceScore": 78.1
+    },
+    {
+      "rank": 7,
+      "id": "reg-sumatera-utara",
+      "name": "Sumatera Utara",
+      "island": "Sumatera",
+      "students": 580000,
+      "schools": 1220,
+      "teachers": 38000,
+      "universities": 28,
+      "performanceScore": 77.4
+    },
+    {
+      "rank": 8,
+      "id": "reg-sumatera-barat",
+      "name": "Sumatera Barat",
+      "island": "Sumatera",
+      "students": 290000,
+      "schools": 680,
+      "teachers": 21000,
+      "universities": 18,
+      "performanceScore": 79.5
+    },
+    {
+      "rank": 9,
+      "id": "reg-bali",
+      "name": "Bali",
+      "island": "Bali & Nusa Tenggara",
+      "students": 240000,
+      "schools": 540,
+      "teachers": 17000,
+      "universities": 16,
+      "performanceScore": 82.3
+    },
+    {
+      "rank": 10,
+      "id": "reg-kalimantan-timur",
+      "name": "Kalimantan Timur",
+      "island": "Kalimantan",
+      "students": 210000,
+      "schools": 490,
+      "teachers": 15000,
+      "universities": 14,
+      "performanceScore": 78.8
+    }
+  ],
+  "snapshotInfo": {
+    "id": "snp-2026-10-20",
+    "date": "2026-10-20",
+    "period": "2026",
+    "source": "EduAtlas Demo Dataset",
+    "isDemoData": true
+  }
+}

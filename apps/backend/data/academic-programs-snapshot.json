@@ -1,0 +1,101 @@
+[
+  {
+    "id": "prog-001",
+    "universityId": "univ-001",
+    "universityName": "Universitas Indonesia",
+    "name": "Ilmu Komputer",
+    "degree": "S1",
+    "faculty": "Fakultas Ilmu Komputer",
+    "studentCount": 650,
+    "graduationRate": 92.4,
+    "avgStudyDuration": 3.9
+  },
+  {
+    "id": "prog-002",
+    "universityId": "univ-001",
+    "universityName": "Universitas Indonesia",
+    "name": "Pendidikan Dokter",
+    "degree": "S1",
+    "faculty": "Fakultas Kedokteran",
+    "studentCount": 980,
+    "graduationRate": 96.8,
+    "avgStudyDuration": 5.2
+  },
+  {
+    "id": "prog-003",
+    "universityId": "univ-002",
+    "universityName": "Institut Teknologi Bandung",
+    "name": "Teknik Informatika",
+    "degree": "S1",
+    "faculty": "Sekolah Teknik Elektro dan Informatika",
+    "studentCount": 720,
+    "graduationRate": 94.1,
+    "avgStudyDuration": 4.1
+  },
+  {
+    "id": "prog-004",
+    "universityId": "univ-002",
+    "universityName": "Institut Teknologi Bandung",
+    "name": "Teknik Elektro",
+    "degree": "S1",
+    "faculty": "Sekolah Teknik Elektro dan Informatika",
+    "studentCount": 640,
+    "graduationRate": 91.5,
+    "avgStudyDuration": 4.2
+  },
+  {
+    "id": "prog-005",
+    "universityId": "univ-003",
+    "universityName": "Universitas Gadjah Mada",
+    "name": "Teknologi Informasi",
+    "degree": "S1",
+    "faculty": "Fakultas Teknik",
+    "studentCount": 680,
+    "graduationRate": 93,
+    "avgStudyDuration": 4
+  },
+  {
+    "id": "prog-006",
+    "universityId": "univ-003",
+    "universityName": "Universitas Gadjah Mada",
+    "name": "Akuntansi",
+    "degree": "S1",
+    "faculty": "Fakultas Ekonomika dan Bisnis",
+    "studentCount": 820,
+    "graduationRate": 95.2,
+    "avgStudyDuration": 3.8
+  },
+  {
+    "id": "prog-007",
+    "universityId": "univ-005",
+    "universityName": "Institut Teknologi Sepuluh Nopember",
+    "name": "Sistem Informasi",
+    "degree": "S1",
+    "faculty": "Fakultas Teknologi Elektro dan Informatika Cerdas",
+    "studentCount": 590,
+    "graduationRate": 92.8,
+    "avgStudyDuration": 4.1
+  },
+  {
+    "id": "prog-008",
+    "universityId": "univ-013",
+    "universityName": "Telkom University",
+    "name": "Informatika",
+    "degree": "S1",
+    "faculty": "Fakultas Informatika",
+    "studentCount": 1450,
+    "graduationRate": 89.6,
+    "avgStudyDuration": 4
+  },
+  {
+    "id": "prog-009",
+    "universityId": "univ-014",
+    "universityName": "Bina Nusantara University",
+    "name": "Computer Science",
+    "degree": "S1",
+    "faculty": "School of Computer Science",
+    "studentCount": 1850,
+    "graduationRate": 91,
+    "avgStudyDuration": 3.9
+  }
+]
