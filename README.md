@@ -70,3 +70,17 @@ Contoh Overview: Total Sekolah, Total Siswa, Total Guru, Total Universitas,
 Tren Siswa, dan Distribusi Jenjang. Setiap card perlu mendokumentasikan tabel sumber,
 kolom, filter, rumus, periode, dan cakupan datanya.
 Satu tabel boleh mendukung beberapa card; satu card boleh menggabungkan beberapa tabel.
+
+## Kontrak API acuan
+
+Endpoint yang diusulkan:
+
+```http
+GET /api/v1/pages
+GET /api/v1/pages/overview/cards
+GET /api/v1/pages/overview/cards/total-schools
+GET /api/v1/pages/overview/cards/enrollment-trend?year=2026
+```
+
+Katalog perlu menjelaskan cardId, filter yang diterima, tabel sumber, dan status
+dukungan. URL tersebut adalah rancangan kontrak; repository ini tidak menjalankan server API.
