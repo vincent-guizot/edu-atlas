@@ -108,3 +108,11 @@ Migration harus menjaga foreign key serta data yang sudah ada. Pemindahan tabel
 antar-schema sebaiknya mempertahankan identitas record dan relasinya.
 Undo tidak boleh menghapus tabel berisi data pengguna tanpa strategi pemulihan yang jelas.
 Belum ada script migration dalam repository README-only ini.
+
+## Rencana seeder
+
+Seeder demo perlu memakai bulk insert, transaksi, serta penanda versi yang selesai.
+Menjalankan ulang versi yang sama tidak boleh menggandakan atau menimpa record pengguna.
+Manifest seed perlu mencatat hanya record yang benar-benar dibuat oleh seeder.
+Undo harus mengikuti urutan dependensi dan menolak penghapusan record yang telah diedit.
+Belum ada script seeder yang dapat dijalankan dari repository ini.
