@@ -32,3 +32,10 @@ Data pribadi peserta didik bukan bagian dari cakupan dashboard publik ini.
 10. Flow & Network.
 11. API & Data Status.
 12. Reports & Export.
+
+## Arsitektur acuan
+
+Antarmuka direncanakan menggunakan React dan TypeScript. Backend menggunakan
+NestJS untuk menyediakan API, sementara PostgreSQL menjadi penyimpanan data.
+Browser mengakses API backend; kredensial database disimpan di server.
+Pilihan teknologi ini merupakan acuan untuk implementasi berikutnya.
