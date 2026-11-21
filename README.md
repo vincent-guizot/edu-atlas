@@ -62,3 +62,11 @@ Nama schema membagi domain data, bukan membuat database terpisah untuk setiap ha
 
 Rancangan ini memiliki 12 tabel data dan 2 tabel teknis. Definisi kolom dan constraint
 perlu diwujudkan dalam migration ketika source code aplikasi ditambahkan kembali.
+
+## Informasi per card
+
+Satu card menampilkan satu metrik, grafik, daftar, atau kelompok informasi.
+Contoh Overview: Total Sekolah, Total Siswa, Total Guru, Total Universitas,
+Tren Siswa, dan Distribusi Jenjang. Setiap card perlu mendokumentasikan tabel sumber,
+kolom, filter, rumus, periode, dan cakupan datanya.
+Satu tabel boleh mendukung beberapa card; satu card boleh menggabungkan beberapa tabel.
