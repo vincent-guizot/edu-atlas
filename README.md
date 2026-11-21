@@ -100,3 +100,11 @@ Snapshot adalah salinan data pada waktu tertentu; format snapshot tidak membukti
 bahwa datanya asli. Dataset simulasi harus diberi penanda demo. Data tanpa bukti
 provenance harus ditandai belum terverifikasi, bukan dianggap sebagai data resmi.
 Total regional tidak otomatis sama dengan jumlah record pada direktori contoh.
+
+## Rencana migration
+
+Perubahan schema perlu menggunakan migration bernomor dan jurnal versi.
+Migration harus menjaga foreign key serta data yang sudah ada. Pemindahan tabel
+antar-schema sebaiknya mempertahankan identitas record dan relasinya.
+Undo tidak boleh menghapus tabel berisi data pengguna tanpa strategi pemulihan yang jelas.
+Belum ada script migration dalam repository README-only ini.
