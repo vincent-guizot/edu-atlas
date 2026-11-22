@@ -11,6 +11,10 @@ The documentation in this directory provides a complete, authoritative reference
 
 | Document | Description |
 |---|---|
+| [**Portal Data & Analytics Platform**](data/README.md) | Panduan komprehensif arsitektur data lake, pipeline ETL, feature store ML, dan kamus data. |
+| [**Data Pipeline & ETL Specification**](data/data-pipeline.md) | Detail teknis ingestion, transformasi star-schema, pemodelan ML, dan sinkronisasi ke aplikasi. |
+| [**Kamus Data (Data Dictionary)**](data/data-dictionary.md) | Definisi entitas tabel, kolom, tipe data, dan rentang nilai valid dari raw hingga analytics mart. |
+| [**Data Lineage & Silsilah Data**](data/data-lineage.md) | Diagram alur transformasi data mentah ke data warehouse dan feature store ML. |
 | [**QA Endpoint per Page dan Card**](page-card-qa.md) | Katalog 12 menu, endpoint per card, filter, kontrak respons, dan collection Postman. |
 | [**Lima Tabel Kartu Informasi**](card-data-tables.md) | Sumber data, impor, program kegiatan, kemitraan, definisi laporan, dan API kartu. |
 | [**Pemetaan Data per Menu dan Kartu**](page-data-map.md) | Jumlah schema/tabel, sumber setiap kartu, batas data, migration dan seeder lokal. |
@@ -53,8 +57,22 @@ EduAtlas/
 │       │   └── main.tsx       # Frontend bootstrap
 │       └── package.json
 ├── brand/                     # Brand Identity & Design Assets
+├── data/                      # Unified Data Platform (DE, DA, DS)
+│   ├── 01_raw/                # Immutable: Raw scraped/ingested snapshot files
+│   ├── 02_interim/            # Cleaned & normalized intermediate datasets
+│   ├── 03_processed/          # Star-schema tables (dim_regions, dim_schools, fact_*)
+│   ├── 04_features/           # Machine learning feature store & K-Means clusters
+│   ├── 05_analytics/          # Analytics mart (overview KPI, rankings, disparities)
+│   ├── metadata/              # Data dictionary, lineage, and validation contracts
+│   └── pipelines/             # Automation scripts (ETL, featurization, and app sync)
 ├── docs/                      # Technical documentation portal
 │   ├── README.md              # This documentation index
+│   ├── data/                  # Data engineering & analytics documentation portal
+│   │   ├── README.md          # Data platform overview & role breakdown
+│   │   ├── data-pipeline.md   # ETL pipeline specifications
+│   │   ├── data-dictionary.md # Column and entity definitions
+│   │   └── data-lineage.md    # Transformation lineage diagrams
+│   ├── openapi.json           # OpenAPI 3.0 REST API specification (v1.1.0)
 │   ├── product-requirements.md# Full PRD and feature specs
 │   ├── architecture.md        # Monorepo and system architecture
 │   ├── design-system.md       # EduAtlas Design System v1.0

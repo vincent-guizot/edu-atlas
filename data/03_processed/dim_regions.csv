@@ -1,0 +1,23 @@
+province_id,province_name,island,ipm,apm_sd,apm_smp,apm_sma,avg_school_years,poverty_rate,education_budget_billion
+reg-aceh,Aceh,Sumatera,79.25,97.35,95.58,74.15,10.03,11.56,6597.59
+reg-sumut,Sumatera Utara,Sumatera,68.57,99.06,92.7,73.66,10.02,17.44,5574.06
+reg-sumbar,Sumatera Barat,Sumatera,83.06,98.94,89.48,81.3,7.95,13.71,4594.5
+reg-riau,Riau,Sumatera,73.65,99.47,91.56,77.18,10.48,7.98,3428.07
+reg-sumsel,Sumatera Selatan,Sumatera,73.99,97.82,94.84,67.76,10.09,16.91,4068.85
+reg-lampung,Lampung,Sumatera,81.99,98.53,90.67,79.74,9.88,7.54,2374.39
+reg-dki-jakarta,DKI Jakarta,Jawa,79.93,98.92,95.83,67.65,10.55,18.15,2195.75
+reg-jabar,Jawa Barat,Jawa,77.18,98.78,94.04,80.22,9.92,12.66,6478.97
+reg-jateng,Jawa Tengah,Jawa,79.86,98.89,95.6,75.68,11.27,10.41,1271.51
+reg-diy,DI Yogyakarta,Jawa,70.2,98.07,88.45,66.13,8.65,15.5,6707.78
+reg-jatim,Jawa Timur,Jawa,79.43,97.41,88.53,80.69,8.38,12.08,3208.62
+reg-banten,Banten,Jawa,75.74,98.73,93.74,76.24,8.46,13.56,3377.77
+reg-bali,Bali,Bali & Nusa Tenggara,76.67,99.23,93.92,78.86,7.7,9.84,3532.77
+reg-ntb,Nusa Tenggara Barat,Bali & Nusa Tenggara,81.11,98.92,96.21,66.08,10.7,7.34,6065.56
+reg-ntt,Nusa Tenggara Timur,Bali & Nusa Tenggara,82.27,98.24,89.92,77.68,10.55,9.65,4494.96
+reg-kalbar,Kalimantan Barat,Kalimantan,80.32,97.55,94.16,68.87,9.43,18.27,1617.03
+reg-kaltim,Kalimantan Timur,Kalimantan,83.9,99.06,89.01,65.81,8.7,8.2,2101.2
+reg-kalsel,Kalimantan Selatan,Kalimantan,82.04,97.02,91.96,83.75,7.67,17.5,4542.53
+reg-sulsel,Sulawesi Selatan,Sulawesi,80.88,98.75,95.17,71.02,10.9,12.2,1608.13
+reg-sulut,Sulawesi Utara,Sulawesi,79.82,98.47,96.13,75.41,10.88,6.73,4241.25
+reg-maluku,Maluku,Maluku & Papua,74.95,97.98,95.51,78.27,8.92,8.61,6521.73
+reg-papua,Papua,Maluku & Papua,78.39,98.33,92.77,80.04,10.29,6.11,3137.64
