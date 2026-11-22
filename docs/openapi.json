@@ -3,7 +3,7 @@
   "info": {
     "title": "EduAtlas API",
     "description": "Education Intelligence and Data Visualization Platform API contracts. Provides curated snapshot data for Indonesian educational institutions (300 schools, 22 provinces, 27 universities), geography, performance indicators, academic calendar, domain cards, and analytics mart.",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "contact": {
       "name": "EduAtlas Engineering & Data Team"
     }
@@ -385,6 +385,166 @@
         "responses": {
           "200": {
             "description": "Map coordinates and GeoJSON features",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/education/analytics/enrollment": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Multi-year enrollment trends across education levels",
+        "responses": {
+          "200": {
+            "description": "Enrollment trend metrics",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/education/analytics/graduation": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "National graduation and completion rates",
+        "responses": {
+          "200": {
+            "description": "Graduation rate statistics",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/education/analytics/performance": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Radar quality benchmarks and regional composite performance",
+        "responses": {
+          "200": {
+            "description": "Performance radar scores",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/education/analytics/distribution": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Geographical and island distribution indicators",
+        "responses": {
+          "200": {
+            "description": "Island distribution matrix",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/education/analytics/disparity-3t": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "3T Disparity indicators, SPM 5-Pillar radar, and 514 regencies summary",
+        "responses": {
+          "200": {
+            "description": "Disparity and affirmative action datasets",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/education/analytics/budget-efficiency": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Provincial education budget efficiency, per student spending, and quadrant status",
+        "responses": {
+          "200": {
+            "description": "Budget allocation and efficiency analytics",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/education/analytics/forecasting-baseline": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Forecasting baseline demography, teacher retirement cohorts, and 2026-2030 parameters",
+        "responses": {
+          "200": {
+            "description": "Forecasting baseline model",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/education/analytics/policy-briefs": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "List standardized executive policy brief templates with snapshot evidence",
+        "responses": {
+          "200": {
+            "description": "Policy brief collection",
             "content": {
               "application/json": {
                 "schema": {

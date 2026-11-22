@@ -103,3 +103,7 @@ Format siap pakai untuk konsumsi visualisasi dashboard dan pelaporan manajerial:
 * `regional_performance_ranking.csv`: Pemeringkatan provinsi berbasis skor komposit (IPM, Fasilitas, % Akreditasi A).
 * `education_level_distribution.json`: Perbandingan performa per jenjang (SD vs SMP vs SMA vs SMK).
 * `island_disparity_analysis.csv`: Analisis kesenjangan pendidikan Pulau Jawa vs Luar Jawa.
+* `disparity_3t.json`: Matriks disparitas wilayah 3T, radar 5 pilar SPM, dan data 514 Kabupaten/Kota se-Indonesia (`regencyId`, `is3T`, `ipmScore`, `povertyRate`, `facilityScore`, `priorityIntervention`).
+* `budget_efficiency.json`: Mandatory spending APBN/APBD 20%, spending per student, serapan BOS/DAK, dan kuadran efisiensi 38 provinsi.
+* `forecasting_baseline.json`: Baseline kohort pensiun guru tahunan, kuota formasi PPPK, kebutuhan RKB, dan koefisien proyeksi demografi 2026–2030.
+* `policy_brief_templates.json`: 5 Draf memorandum kebijakan standar Bappenas/Kemendikbud dengan bukti data snapshot terhubung.

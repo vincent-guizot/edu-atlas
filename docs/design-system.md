@@ -341,20 +341,32 @@ src/
 
 Adapt the structure to the existing repository rather than duplicating components or replacing working architecture unnecessarily.
 
-## 12. The 12 Main Pages
+## 12. The 17 Main Pages
 
-1. Overview Dashboard
-2. Chart Playground
-3. Advanced Visualization
-4. Interactive Maps
-5. Advanced Maps
-6. Data Table / Data Explorer
-7. Advanced Data Grid
-8. Calendar & Scheduling
-9. Timeline & Gantt
-10. Flow & Network
-11. API & Data Status
-12. Reports & Export
+### A. Ringkasan & Visualisasi
+1. Overview Dashboard (`/overview`)
+2. Chart Playground (`/visualizations`)
+3. Advanced Visualization (`/visualizations/advanced`)
+
+### B. Peta & Direktori
+4. Interactive Maps (`/maps`)
+5. Advanced Maps (`/maps/advanced`)
+6. Data Table / Data Explorer (`/data-explorer`)
+7. Advanced Data Grid (`/data-grid`)
+8. Flow & Network (`/flow`)
+
+### C. Analitik Lanjut & Kebijakan
+9. Simulator Proyeksi Kebijakan 'What-If' (`/simulator`)
+10. Policy Brief & Research Studio (`/policy-brief`)
+11. Studio Disparitas & Intervensi 3T (`/equity-studio`)
+12. Transparansi & Efisiensi Anggaran (`/budget-analytics`)
+13. Komparator Institusi Head-to-Head (`/comparator`)
+
+### D. Operasional & Sistem
+14. Calendar & Scheduling (`/calendar`)
+15. Timeline & Gantt (`/timeline`)
+16. API & Data Status (`/data-status`)
+17. Reports & Export (`/reports`)
 
 All pages must share the same design tokens, application shell, typography, filters, status indicators, and export behavior.
 

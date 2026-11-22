@@ -44,7 +44,11 @@ data/
 │   ├── overview_kpi.json        # Ringkasan KPI nasional (Siswa, Guru, Kampus, Rasio)
 │   ├── regional_performance_ranking.csv # Peringkat komposit provinsi (Bobot IPM & Fasilitas)
 │   ├── education_level_distribution.json# Metrik breakdown jenjang SD, SMP, SMA, dan SMK
-│   └── island_disparity_analysis.csv    # Komparasi analitik Pulau Jawa vs Luar Jawa
+│   ├── island_disparity_analysis.csv    # Komparasi analitik Pulau Jawa vs Luar Jawa
+│   ├── disparity_3t.json        # Analisis kesenjangan 3T, radar 5 pilar SPM, & 514 Kab/Kota
+│   ├── budget_efficiency.json   # Belanja per siswa & kuadran efisiensi APBD vs IPM 38 Provinsi
+│   ├── forecasting_baseline.json# Kohort guru pensiun & parameter proyeksi 2026–2030
+│   └── policy_brief_templates.json # 5 Draf memorandum kebijakan standar Bappenas
 │
 ├── metadata/                    # [Semua] Tata Kelola Data & Kontrak Skema
 │   ├── data_dictionary.md       # Kamus data markdown
@@ -56,7 +60,9 @@ data/
     ├── 02_clean_and_transform.py    # Transformasi data warehouse
     ├── 03_generate_features_ds.py   # Feature store & clustering K-Means
     ├── 04_generate_analytics_da.py  # Agregasi analitik & ranking
+    ├── 05_generate_expansion_analytics.py # Generasi dataset 5 fitur eksekutif & 514 kab/kota
     ├── sync_to_application.py       # Sinkronisasi ke Backend Snapshot & Frontend Constants
+    ├── sync_expansion_to_app.py     # Sinkronisasi snapshot ekspansi baru ke aplikasi
     └── run_all_pipelines.py         # Master pipeline runner
 ```
 
