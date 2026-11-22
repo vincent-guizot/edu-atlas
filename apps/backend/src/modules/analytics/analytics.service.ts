@@ -110,4 +110,52 @@ export class AnalyticsService {
       byIsland,
     };
   }
+
+  async getDisparity3tAnalytics() {
+    try {
+      const fs = require('fs');
+      const path = require('path');
+      const filePath = path.resolve(__dirname, '../../../data/disparity-3t-snapshot.json');
+      if (fs.existsSync(filePath)) {
+        return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      }
+    } catch {}
+    return { status: 'fallback', message: 'Disparity snapshot data unavailable' };
+  }
+
+  async getBudgetEfficiencyAnalytics() {
+    try {
+      const fs = require('fs');
+      const path = require('path');
+      const filePath = path.resolve(__dirname, '../../../data/budget-efficiency-snapshot.json');
+      if (fs.existsSync(filePath)) {
+        return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      }
+    } catch {}
+    return { status: 'fallback', message: 'Budget efficiency snapshot data unavailable' };
+  }
+
+  async getForecastingBaselineAnalytics() {
+    try {
+      const fs = require('fs');
+      const path = require('path');
+      const filePath = path.resolve(__dirname, '../../../data/forecasting-baseline-snapshot.json');
+      if (fs.existsSync(filePath)) {
+        return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      }
+    } catch {}
+    return { status: 'fallback', message: 'Forecasting snapshot data unavailable' };
+  }
+
+  async getPolicyBriefsAnalytics() {
+    try {
+      const fs = require('fs');
+      const path = require('path');
+      const filePath = path.resolve(__dirname, '../../../data/policy-briefs-snapshot.json');
+      if (fs.existsSync(filePath)) {
+        return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      }
+    } catch {}
+    return [];
+  }
 }
