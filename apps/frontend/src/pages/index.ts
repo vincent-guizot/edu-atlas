@@ -10,3 +10,8 @@ export { TimelinePage } from '../features/timeline/TimelinePage';
 export { FlowPage } from '../features/flow/FlowPage';
 export { DataStatusPage } from '../features/data-status/DataStatusPage';
 export { ReportsPage } from '../features/reports/ReportsPage';
+export { SimulatorPage } from './SimulatorPage';
+export { PolicyBriefPage } from './PolicyBriefPage';
+export { EquityStudioPage } from './EquityStudioPage';
+export { BudgetAnalyticsPage } from './BudgetAnalyticsPage';
+export { ComparatorPage } from './ComparatorPage';
