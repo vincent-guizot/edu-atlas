@@ -1,36 +1,36 @@
 {
   "kpi": {
-    "totalSchools": 15530,
-    "totalStudents": 6800000,
-    "totalTeachers": 432000,
-    "totalUniversities": 400,
-    "studentTeacherRatio": 15.7,
-    "avgNationalScore": 80.5,
-    "nationalGraduationRate": 98.9
+    "totalSchools": 7400,
+    "totalStudents": 5847300,
+    "totalTeachers": 354372,
+    "totalUniversities": 83,
+    "studentTeacherRatio": 16.5,
+    "avgNationalScore": 81.2,
+    "nationalGraduationRate": 98.8
   },
   "levelDistribution": [
     {
       "level": "SD (Sekolah Dasar)",
-      "count": 19235641,
-      "percent": "45,2%",
+      "count": 3552,
+      "percent": "48.0%",
       "color": "#153B66"
     },
     {
       "level": "SMP (Sekolah Menengah Pertama)",
-      "count": 11958324,
-      "percent": "28,1%",
+      "count": 2072,
+      "percent": "28.0%",
       "color": "#25A9A1"
     },
     {
       "level": "SMA (Sekolah Menengah Atas)",
-      "count": 8686412,
-      "percent": "20,4%",
+      "count": 1184,
+      "percent": "16.0%",
       "color": "#8ED8E4"
     },
     {
       "level": "SMK (Sekolah Menengah Kejuruan)",
-      "count": 2679944,
-      "percent": "6,3%",
+      "count": 592,
+      "percent": "8.0%",
       "color": "#FFC857"
     }
   ],
@@ -44,7 +44,7 @@
     },
     {
       "year": 2023,
-      "SD": 13,
+      "SD": 13.0,
       "SMP": 7.6,
       "SMA": 4.6,
       "SMK": 2.15
@@ -52,7 +52,7 @@
     {
       "year": 2024,
       "SD": 15.3,
-      "SMP": 9,
+      "SMP": 9.0,
       "SMA": 5.9,
       "SMK": 2.35
     },
@@ -74,120 +74,120 @@
   "topProvinces": [
     {
       "rank": 1,
-      "id": "reg-dki-jakarta",
-      "name": "DKI Jakarta",
-      "island": "Jawa",
-      "students": 890000,
-      "schools": 1820,
-      "teachers": 52000,
-      "universities": 68,
-      "performanceScore": 84.6
+      "id": "reg-kaltim",
+      "name": "Kalimantan Timur",
+      "island": "Kalimantan",
+      "students": "229.152",
+      "schools": "280",
+      "teachers": "4.397",
+      "universities": 5,
+      "performanceScore": 76.64
     },
     {
       "rank": 2,
-      "id": "reg-jawa-barat",
-      "name": "Jawa Barat",
+      "id": "reg-dki-jakarta",
+      "name": "DKI Jakarta",
       "island": "Jawa",
-      "students": 1250000,
-      "schools": 2940,
-      "teachers": 74000,
-      "universities": 62,
-      "performanceScore": 80.2
+      "students": "200.424",
+      "schools": "260",
+      "teachers": "2.801",
+      "universities": 5,
+      "performanceScore": 76.11
     },
     {
       "rank": 3,
-      "id": "reg-jawa-tengah",
-      "name": "Jawa Tengah",
-      "island": "Jawa",
-      "students": 980000,
-      "schools": 2450,
-      "teachers": 61000,
-      "universities": 48,
-      "performanceScore": 81.4
+      "id": "reg-kalsel",
+      "name": "Kalimantan Selatan",
+      "island": "Kalimantan",
+      "students": "321.648",
+      "schools": "390",
+      "teachers": "9.536",
+      "universities": 5,
+      "performanceScore": 74.56
     },
     {
       "rank": 4,
-      "id": "reg-jawa-timur",
-      "name": "Jawa Timur",
-      "island": "Jawa",
-      "students": 1120000,
-      "schools": 2680,
-      "teachers": 69000,
-      "universities": 54,
-      "performanceScore": 81.9
+      "id": "reg-lampung",
+      "name": "Lampung",
+      "island": "Sumatera",
+      "students": "242.688",
+      "schools": "310",
+      "teachers": "5.149",
+      "universities": 5,
+      "performanceScore": 73.89
     },
     {
       "rank": 5,
-      "id": "reg-di-yogyakarta",
-      "name": "D.I. Yogyakarta",
-      "island": "Jawa",
-      "students": 310000,
-      "schools": 620,
-      "teachers": 23000,
-      "universities": 38,
-      "performanceScore": 86.8
+      "id": "reg-ntt",
+      "name": "Nusa Tenggara Timur",
+      "island": "Bali & Nusa Tenggara",
+      "students": "282.720",
+      "schools": "370",
+      "teachers": "7.373",
+      "universities": 5,
+      "performanceScore": 73.18
     },
     {
       "rank": 6,
-      "id": "reg-banten",
-      "name": "Banten",
+      "id": "reg-jateng",
+      "name": "Jawa Tengah",
       "island": "Jawa",
-      "students": 410000,
-      "schools": 880,
-      "teachers": 26000,
-      "universities": 22,
-      "performanceScore": 78.1
+      "students": "249.780",
+      "schools": "310",
+      "teachers": "5.543",
+      "universities": 5,
+      "performanceScore": 72.88
     },
     {
       "rank": 7,
-      "id": "reg-sumatera-utara",
-      "name": "Sumatera Utara",
+      "id": "reg-sumbar",
+      "name": "Sumatera Barat",
       "island": "Sumatera",
-      "students": 580000,
-      "schools": 1220,
-      "teachers": 38000,
-      "universities": 28,
-      "performanceScore": 77.4
+      "students": "293.304",
+      "schools": "360",
+      "teachers": "7.961",
+      "universities": 5,
+      "performanceScore": 72.59
     },
     {
       "rank": 8,
-      "id": "reg-sumatera-barat",
-      "name": "Sumatera Barat",
-      "island": "Sumatera",
-      "students": 290000,
-      "schools": 680,
-      "teachers": 21000,
-      "universities": 18,
-      "performanceScore": 79.5
+      "id": "reg-kalbar",
+      "name": "Kalimantan Barat",
+      "island": "Kalimantan",
+      "students": "245.328",
+      "schools": "340",
+      "teachers": "5.296",
+      "universities": 5,
+      "performanceScore": 72.23
     },
     {
       "rank": 9,
-      "id": "reg-bali",
-      "name": "Bali",
-      "island": "Bali & Nusa Tenggara",
-      "students": 240000,
-      "schools": 540,
-      "teachers": 17000,
-      "universities": 16,
-      "performanceScore": 82.3
+      "id": "reg-jatim",
+      "name": "Jawa Timur",
+      "island": "Jawa",
+      "students": "227.628",
+      "schools": "290",
+      "teachers": "4.312",
+      "universities": 5,
+      "performanceScore": 71.71
     },
     {
       "rank": 10,
-      "id": "reg-kalimantan-timur",
-      "name": "Kalimantan Timur",
-      "island": "Kalimantan",
-      "students": 210000,
-      "schools": 490,
-      "teachers": 15000,
-      "universities": 14,
-      "performanceScore": 78.8
+      "id": "reg-papua",
+      "name": "Papua",
+      "island": "Maluku & Papua",
+      "students": "313.284",
+      "schools": "430",
+      "teachers": "9.071",
+      "universities": 5,
+      "performanceScore": 71.45
     }
   ],
   "snapshotInfo": {
-    "id": "snp-2026-10-20",
-    "date": "2026-10-20",
+    "id": "snp-2026-11-22",
+    "date": "2026-11-22",
     "period": "2026",
-    "source": "EduAtlas Demo Dataset",
+    "source": "EduAtlas Data Lake Pipeline (Synced)",
     "isDemoData": true
   }
 }
