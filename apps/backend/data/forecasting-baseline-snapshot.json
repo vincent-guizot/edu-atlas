@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-11-22",
+  "baselineYear": 2026,
+  "projectionEndYear": 2030,
+  "nationalBaseline": {
+    "totalStudents": 44850000,
+    "totalTeachers": 2850000,
+    "currentStr": 15.74,
+    "targetStrStandard": 18.0,
+    "annualRetirementCohortAvg": 72500,
+    "annualNewClassroomCostRp": 185000000,
+    "annualTeacherSalaryStandardRp": 68000000
+  },
+  "islandBaselines": [
+    {
+      "island": "Jawa",
+      "students": 24200000,
+      "teachers": 1420000,
+      "str": 17.0,
+      "annualRetirement": 38000
+    },
+    {
+      "island": "Sumatera",
+      "students": 9800000,
+      "teachers": 620000,
+      "str": 15.8,
+      "annualRetirement": 15500
+    },
+    {
+      "island": "Bali & Nusa Tenggara",
+      "students": 2950000,
+      "teachers": 195000,
+      "str": 15.1,
+      "annualRetirement": 4800
+    },
+    {
+      "island": "Kalimantan",
+      "students": 3100000,
+      "teachers": 210000,
+      "str": 14.8,
+      "annualRetirement": 5100
+    },
+    {
+      "island": "Sulawesi",
+      "students": 3400000,
+      "teachers": 265000,
+      "str": 12.8,
+      "annualRetirement": 6200
+    },
+    {
+      "island": "Maluku & Papua",
+      "students": 1400000,
+      "teachers": 140000,
+      "str": 10.0,
+      "annualRetirement": 2900
+    }
+  ],
+  "defaultParameters": {
+    "annualTeacherRetirementRate": 2.8,
+    "annualPppkRecruitmentQuota": 65000,
+    "annualStudentGrowthRate": 1.2,
+    "targetStrNational": 17.5,
+    "inflationBOSCost": 4.5
+  }
+}
