@@ -2,7 +2,9 @@
 
 **Base URL:** `http://localhost:4000/api/v1`  
 **Swagger UI:** `http://localhost:4000/api/docs`  
-**Document Version:** 1.0.0  
+**Swagger OpenAPI Spec:** `docs/openapi.json`  
+**Document Version:** 1.1.0  
+**Snapshot Version:** `snp-2026-11-22` (Curated Data Lake Sync)  
 **Status:** Implemented & Verified  
 
 ---
@@ -194,3 +196,32 @@ Every API response emitted by the EduAtlas backend is standardized by the NestJS
 * **`GET /api/v1/education/reports/export-data`**
   * Query Parameters: `type` (optional, enum: `'all'`, `'regions'`, `'schools'`, `'universities'`)
   * Returns: Flattened tabular datasets structured for ExcelJS and jsPDF generation.
+
+---
+
+### 2.11 Domain Cards Module (`/cards`)
+* **`GET /api/v1/cards`**
+  * Description: Aggregated domain counts across operational tables: Data Sources, Data Imports, Timeline Programs, Institution Links, and Report Definitions.
+  * Response Data: Array of card summary objects (`key`, `title`, `value`, `secondaryLabel`, `secondaryValue`, `isDemoData`).
+
+---
+
+### 2.12 Page Cards Module (`/pages`)
+* **`GET /api/v1/pages`**
+  * Description: Discover all 12 registered dashboard pages and their metadata.
+* **`GET /api/v1/pages/:page/cards`**
+  * Description: Retrieve all card summaries and configured metrics for a specific dashboard page (e.g., `overview`, `schools`, `universities`, `maps`).
+* **`GET /api/v1/pages/:page/cards/:cardId`**
+  * Description: Query a single isolated card metric with its specific source provenance and filter options.
+
+---
+
+## 3. OpenAPI 3.0 & Swagger UI Specification
+
+EduAtlas provides an interactive Swagger UI for live API exploration, testing, and contract verification:
+
+* **Interactive Swagger UI:** [http://localhost:4000/api/docs](http://localhost:4000/api/docs)
+* **OpenAPI 3.0 JSON Specification:** [`docs/openapi.json`](file:///D:/All%20Coding/05%20-%20Applications/Web%20Applications/EduAtlas/docs/openapi.json)
+* **Postman Collection:** [`docs/postman/page-cards.postman_collection.json`](file:///D:/All%20Coding/05%20-%20Applications/Web%20Applications/EduAtlas/docs/postman/page-cards.postman_collection.json)
+
+Semua endpoint dilindungi oleh interceptor standar respons global (`ResponseTransformInterceptor`), menjamin bahwa seluruh data dikemas dalam amplop `{ "data": ..., "meta": ... }` secara konsisten.

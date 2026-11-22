@@ -59,20 +59,22 @@ async function bootstrap() {
   const config = new DocumentBuilder()
     .setTitle('EduAtlas API')
     .setDescription(
-      'Education Intelligence and Data Visualization Platform API contracts. Provides snapshot data for Indonesian educational institutions, geography, performance indicators, and calendar.',
+      'Education Intelligence and Data Visualization Platform API contracts. Provides curated snapshot data for Indonesian educational institutions (300 schools, 22 provinces, 27 universities), geography, performance indicators, academic calendar, domain cards, and analytics mart.',
     )
-    .setVersion('1.0.0')
-    .addTag('Snapshots')
-    .addTag('Overview')
-    .addTag('Schools')
-    .addTag('Universities')
-    .addTag('Students')
-    .addTag('Teachers')
-    .addTag('Geography')
-    .addTag('Analytics')
-    .addTag('Calendar')
-    .addTag('Reports')
-    .addTag('Health')
+    .setVersion('1.1.0')
+    .addTag('Snapshots', 'Historical education data snapshots & versioning')
+    .addTag('Overview', 'National summary KPIs and macro level distributions')
+    .addTag('Schools', 'School catalog, filtering, and accreditation metrics')
+    .addTag('Universities', 'Higher education institutions and academic programs')
+    .addTag('Students', 'Student demographics and enrollment metrics')
+    .addTag('Teachers', 'Teacher distribution and student-to-teacher ratio (STR)')
+    .addTag('Geography', 'Regional map coordinates, islands, and province performance')
+    .addTag('Analytics', 'Multi-year enrollment, graduation, and radar chart metrics')
+    .addTag('Calendar', 'Academic calendar milestones, exams, and national events')
+    .addTag('Cards', 'Aggregated domain cards for data sources, imports, and partnerships')
+    .addTag('Page Cards', 'Individual card summaries and filters per dashboard page')
+    .addTag('Reports', 'Analytical summary narratives and exportable datasets')
+    .addTag('Health', 'System health checks and database connectivity')
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
