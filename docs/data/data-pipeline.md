@@ -61,3 +61,17 @@ Dokumen ini menjelaskan spesifikasi teknis dari alur kerja ETL (*Extract, Transf
   * Menyinkronkan seluruh output ke format JSON snapshot di `apps/backend/data/`.
   * Memperbarui seeder database di `apps/backend/src/database/seed.data.ts`.
   * Memperbarui konstanta offline fallback frontend di `apps/frontend/src/constants/schools.constants.ts`.
+
+---
+
+## 5. Fase 5: Executive Expansion Pipeline (`05_generate_expansion_analytics.py` & `sync_expansion_to_app.py`)
+* **Tanggung Jawab:** Data Scientist (DS), Data Analyst (DA), & Data Engineer (DE)
+* **Dataset yang Dihasilkan (`data/05_analytics/`):**
+  1. `disparity_3t.json`: Segmentasi klaster K-Means ($K=3$), radar 5 pilar Standar Pelayanan Minimal (SPM), dan direktori 514 Kabupaten/Kota se-Indonesia dengan status resmi daerah 3T (Perpres No. 63/2020).
+  2. `budget_efficiency.json`: Agregasi alokasi belanja pendidikan APBD, rata-rata belanja per siswa (*spending per student*), serapan dana BOS/DAK, dan scatter plot matriks kuadran efisiensi terhadap IPM.
+  3. `forecasting_baseline.json`: Baseline kohort pensiun guru tahunan, kuota rekrutmen PPPK, dan parameter proyeksi kebutuhan sarpras RKB 2026–2030.
+  4. `policy_brief_templates.json`: 5 Template memorandum kebijakan publik terstandarisasi Bappenas/Kemendikbud dengan bukti data snapshot.
+* **Mekanisme Sinkronisasi Eksekutif (`sync_expansion_to_app.py`):**
+  * Menyimpan dataset snapshot JSON ke `apps/backend/data/`.
+  * Menyimpan berkas data 514 daerah ke `apps/frontend/public/data/regencies_514.json`.
+  * Meng-generate konstanta offline fallback TypeScript di `apps/frontend/src/constants/expansion.constants.ts`.

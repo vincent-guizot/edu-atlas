@@ -46,6 +46,11 @@ describe('Sidebar Component', () => {
       { text: 'Calendar & Scheduling', href: '/calendar' },
       { text: 'Timeline & Gantt', href: '/timeline' },
       { text: 'Flow & Network', href: '/flow' },
+      { text: 'Simulator Proyeksi', href: '/simulator' },
+      { text: 'Policy Brief Studio', href: '/policy-brief' },
+      { text: 'Disparitas 3T', href: '/equity-studio' },
+      { text: 'Transparansi Anggaran', href: '/budget-analytics' },
+      { text: 'Komparator Institusi', href: '/comparator' },
       { text: 'API & Data Status', href: '/data-status' },
       { text: 'Reports & Export', href: '/reports' },
     ];

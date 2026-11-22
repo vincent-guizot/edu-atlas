@@ -32,11 +32,15 @@ flowchart TD
         FM["feature_metadata.json"]
     end
 
-    subgraph Analytics["5. Analytics Mart Layer (05_analytics) [DA]"]
+    subgraph Analytics["5. Analytics Mart Layer (05_analytics) [DA & DS]"]
         A1["overview_kpi.json (Dashboard Snapshot)"]
         A2["regional_performance_ranking.csv (Peringkat Provinsi)"]
         A3["education_level_distribution.json (Statistik per Jenjang)"]
         A4["island_disparity_analysis.csv (Jawa vs Luar Jawa)"]
+        A5["disparity_3t.json (Klaster 3T & 514 Kab/Kota)"]
+        A6["budget_efficiency.json (Spending per Student)"]
+        A7["forecasting_baseline.json (Demografi Guru 2026–2030)"]
+        A8["policy_brief_templates.json (5 Memo Kebijakan Bappenas)"]
     end
 
     R1 --> I1
@@ -47,6 +51,7 @@ flowchart TD
 
     D1 & D2 & F1 --> FS1 & FS2 & FS3 & FM
     D1 & D2 & F1 & F2 --> A1 & A2 & A3 & A4
+    FS3 & D1 & D2 & F1 --> A5 & A6 & A7 & A8
 ```
 
 ---

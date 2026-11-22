@@ -174,6 +174,14 @@ Every API response emitted by the EduAtlas backend is standardized by the NestJS
   * Returns: 6-Dimension radar chart scores (Fasilitas, Kurikulum, Guru, Akses Digital, Efisiensi Anggaran, Output Siswa).
 * **`GET /api/v1/education/analytics/distribution`**
   * Returns: Island distribution matrix and student-to-teacher density map.
+* **`GET /api/v1/education/analytics/disparity-3t`**
+  * Returns: Machine learning K-Means disparity clusters (K=3), 5-Pillar SPM benchmark scores, and regional 3T summary.
+* **`GET /api/v1/education/analytics/budget-efficiency`**
+  * Returns: National education budget transfer allocations, spending per student per province, and fiscal efficiency vs IPM quadrants.
+* **`GET /api/v1/education/analytics/forecasting-baseline`**
+  * Returns: Teacher retirement cohort baselines, PPPK quota defaults, and projection parameters for 2026–2030.
+* **`GET /api/v1/education/analytics/policy-briefs`**
+  * Returns: 5 standardized policy brief templates (Bappenas/Kemendikbud standards) with snapshot evidence bindings.
 
 ---
 

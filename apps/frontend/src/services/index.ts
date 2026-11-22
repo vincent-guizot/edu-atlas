@@ -5,3 +5,4 @@ export * from './universities.service';
 export * from './calendar.service';
 export * from './reports.service';
 export * from './status.service';
+export * from './expansion.service';

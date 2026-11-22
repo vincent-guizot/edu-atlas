@@ -14,6 +14,11 @@ import { TimelinePage } from '../pages/TimelinePage';
 import { FlowPage } from '../pages/FlowPage';
 import { DataStatusPage } from '../pages/DataStatusPage';
 import { ReportsPage } from '../pages/ReportsPage';
+import { SimulatorPage } from '../pages/SimulatorPage';
+import { PolicyBriefPage } from '../pages/PolicyBriefPage';
+import { EquityStudioPage } from '../pages/EquityStudioPage';
+import { BudgetAnalyticsPage } from '../pages/BudgetAnalyticsPage';
+import { ComparatorPage } from '../pages/ComparatorPage';
 
 export const router = createBrowserRouter([
   {
@@ -75,6 +80,26 @@ export const router = createBrowserRouter([
       {
         path: 'reports/:slug',
         element: <ReportsPage />,
+      },
+      {
+        path: 'simulator',
+        element: <SimulatorPage />,
+      },
+      {
+        path: 'policy-brief',
+        element: <PolicyBriefPage />,
+      },
+      {
+        path: 'equity-studio',
+        element: <EquityStudioPage />,
+      },
+      {
+        path: 'budget-analytics',
+        element: <BudgetAnalyticsPage />,
+      },
+      {
+        path: 'comparator',
+        element: <ComparatorPage />,
       },
       {
         path: '*',

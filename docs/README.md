@@ -18,7 +18,7 @@ The documentation in this directory provides a complete, authoritative reference
 | [**QA Endpoint per Page dan Card**](page-card-qa.md) | Katalog 12 menu, endpoint per card, filter, kontrak respons, dan collection Postman. |
 | [**Lima Tabel Kartu Informasi**](card-data-tables.md) | Sumber data, impor, program kegiatan, kemitraan, definisi laporan, dan API kartu. |
 | [**Pemetaan Data per Menu dan Kartu**](page-data-map.md) | Jumlah schema/tabel, sumber setiap kartu, batas data, migration dan seeder lokal. |
-| [**Product Requirements Document (PRD)**](product-requirements.md) | Full master specification, product vision, non-functional requirements, detailed breakdown of all 12 dashboard pages, and acceptance criteria. |
+| [**Product Requirements Document (PRD)**](product-requirements.md) | Full master specification, product vision, non-functional requirements, detailed breakdown of all 17 dashboard pages, and acceptance criteria. |
 | [**System Architecture & Engineering Guide**](architecture.md) | Monorepo topology, high-level architecture diagram (Mermaid), NestJS backend design, React frontend structure, data flow, and export pipelines. |
 | [**Design System v1.0**](design-system.md) | Official visual identity standards: brand colors, typography (Plus Jakarta Sans & Inter), spacing scale, single-line header layout, and reusable UI components. |
 | [**REST API Contracts Specification**](api-contracts.md) | Comprehensive API endpoints, standard JSON envelope (`data` + `meta`), query parameters, request/response models, and Swagger UI reference. |
@@ -50,13 +50,12 @@ EduAtlas/
 │       │   ├── helpers/       # Formatting (id-ID) & CSV export utilities
 │       │   ├── hooks/         # Custom React hooks (useOverviewData, useSchoolsData, etc.)
 │       │   ├── constants/     # Complete snapshot fallback datasets
-│       │   ├── pages/         # 12 interactive dashboard pages
+│       │   ├── pages/         # 17 interactive dashboard pages
 │       │   ├── components/    # AppShell, Sidebar, Topbar, reusable cards & views
 │       │   ├── features/      # Deep domain charts, maps, tables, flows
 │       │   ├── index.css      # Tailwind CSS v4 design tokens
 │       │   └── main.tsx       # Frontend bootstrap
 │       └── package.json
-├── brand/                     # Brand Identity & Design Assets
 ├── data/                      # Unified Data Platform (DE, DA, DS)
 │   ├── 01_raw/                # Immutable: Raw scraped/ingested snapshot files
 │   ├── 02_interim/            # Cleaned & normalized intermediate datasets
@@ -66,6 +65,9 @@ EduAtlas/
 │   ├── metadata/              # Data dictionary, lineage, and validation contracts
 │   └── pipelines/             # Automation scripts (ETL, featurization, and app sync)
 ├── docs/                      # Technical documentation portal
+│   ├── assets/                # Dedicated Documentation Visual Assets Folder
+│   │   ├── brands/            # Brand Identity & Design Assets
+│   │   └── screenshots/       # 12+ Dashboard full-page screenshots
 │   ├── README.md              # This documentation index
 │   ├── data/                  # Data engineering & analytics documentation portal
 │   │   ├── README.md          # Data platform overview & role breakdown
@@ -78,7 +80,6 @@ EduAtlas/
 │   ├── design-system.md       # EduAtlas Design System v1.0
 │   ├── api-contracts.md       # REST API contracts
 │   └── database-schema.md     # PostgreSQL models & ER diagram
-├── screenshots/               # 12 Dashboard full-page screenshots
 ├── package.json               # Root monorepo workspace definition
 ├── .yarnrc                    # Yarn registry & timeout configuration
 └── yarn.lock                  # Yarn lockfile
@@ -86,20 +87,32 @@ EduAtlas/
 
 ---
 
-## 3. The 12 Dashboard Pages
+## 3. The 17 Dashboard Pages (4 Logical Categories)
 
+### A. Ringkasan & Visualisasi (Overview & Visuals)
 1. **Overview Dashboard** (`/overview`) — Executive KPI summary, enrollment trends, level distributions, and top regional performance.
 2. **Chart Playground** (`/visualizations`) — Interactive Recharts playground (Line, Grouped Bar, Stacked Area, Pie, Donut).
 3. **Advanced Visualization** (`/visualizations/advanced`) — Apache ECharts visualizations (6-dimension Radar, Treemap, Sankey diagram, Gauge).
+
+### B. Peta & Direktori (Maps & Directories)
 4. **Interactive Maps** (`/maps`) — Leaflet geospatial pin mapping for schools and universities across Indonesia.
 5. **Advanced Maps** (`/maps/advanced`) — MapLibre GL vector map with data-driven thematic styling.
 6. **Data Table Explorer** (`/data-explorer`) — TanStack Table with multi-column search, sorting, filtering, and CSV export.
 7. **Advanced Data Grid** (`/data-grid`) — Master-detail university grid with expandable study program sub-grids.
-8. **Calendar & Scheduling** (`/calendar`) — FullCalendar academic milestones, examinations, and holiday schedules.
-9. **Timeline & Gantt** (`/timeline`) — Interactive quarterly roadmap and educational reform project progress.
-10. **Flow & Network** (`/flow`) — `@xyflow/react` hierarchical network diagram illustrating governance and institutional pipelines.
-11. **API & Data Status** (`/data-status`) — Backend diagnostic console, snapshot provenance inspector, and manual refetch controls.
-12. **Reports & Export Studio** (`/reports`) — Executive narrative reports with one-click Excel (`.xlsx`) and PDF (`.pdf`) export generators.
+8. **Flow & Network** (`/flow`) — `@xyflow/react` hierarchical network diagram illustrating governance and institutional pipelines.
+
+### C. Analitik Lanjut & Kebijakan (Executive Analytics & Policy)
+9. **Simulator Proyeksi Kebijakan 'What-If'** (`/simulator`) — Interactive multi-variable demographic forecaster for teacher retirement, PPPK quotas, and student growth (2026–2030).
+10. **Policy Brief & Research Studio** (`/policy-brief`) — Standardized Bappenas/Kemendikbud policy memorandum builder with automatic snapshot evidence pulling and 2-page PDF export.
+11. **Studio Disparitas & Intervensi 3T** (`/equity-studio`) — Regional educational disparity studio featuring K-Means (K=3) clusters, 5-Pillar SPM radar benchmarks, and a directory of 514 regencies/cities.
+12. **Transparansi & Efisiensi Anggaran** (`/budget-analytics`) — 20% mandatory spending analytics, spending per student metrics, and fiscal efficiency vs IPM quadrants across 38 provinces.
+13. **Komparator Institusi Head-to-Head** (`/comparator`) — Side-by-side comparative matrix and spider radar charts for 2–4 schools (K-12) or universities.
+
+### D. Operasional & Sistem (Operational & System)
+14. **Calendar & Scheduling** (`/calendar`) — FullCalendar academic milestones, examinations, and holiday schedules.
+15. **Timeline & Gantt** (`/timeline`) — Interactive quarterly roadmap and educational reform project progress.
+16. **API & Data Status** (`/data-status`) — Backend diagnostic console, snapshot provenance inspector, and manual refetch controls.
+17. **Reports & Export Studio** (`/reports`) — Executive narrative reports with one-click Excel (`.xlsx`) and PDF (`.pdf`) export generators.
 
 ---
 

@@ -27,14 +27,16 @@ EduAtlas/
 │       ├── src/
 │       │   ├── app/           # React Router and QueryClientProvider
 │       │   ├── components/    # AppShell, Sidebar, PageHeader, reusable cards
-│       │   ├── features/      # 12 interactive dashboard feature modules
+│       │   ├── features/      # 17 interactive dashboard feature modules
 │       │   ├── lib/           # Centralized Axios client and formatters
 │       │   ├── types/         # TypeScript contract models
 │       │   ├── index.css      # Tailwind CSS v4 design tokens
 │       │   └── main.tsx       # Frontend bootstrap (port 5173)
 │       └── package.json
-├── brand/                     # Brand Identity & Design Assets
 ├── docs/                      # Technical documentation
+│   ├── assets/                # Dedicated Documentation Visual Assets Folder
+│   │   ├── brands/            # Brand Identity & Design Assets
+│   │   └── screenshots/       # 12+ Dashboard full-page screenshots
 │   ├── README.md              # Documentation index & guide
 │   ├── product-requirements.md# Comprehensive PRD & specifications
 │   ├── architecture.md        # This system architecture document
@@ -55,7 +57,7 @@ flowchart TD
     subgraph Client["Client Tier (Browser)"]
         UI["EduAtlas SPA (React 18 + Vite)"]
         TC["TanStack Query (Client Cache: 5 min TTL)"]
-        Router["React Router v6 (12 Routes)"]
+        Router["React Router v6 (17 Routes)"]
         Viz["Visualization Engines: Recharts, ECharts, Leaflet, MapLibre, Flow"]
         UI --> Router
         Router --> Viz

@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="brand/EduAtlas_%20Education%20Through%20Data.png" alt="EduAtlas — Explore Education Through Data" width="100%" />
+  <img src="docs/assets/brands/EduAtlas_%20Education%20Through%20Data.png" alt="EduAtlas — Explore Education Through Data" width="100%" />
 </p>
 
 # EduAtlas — Education Intelligence & Data Visualization Platform
 
-**Version:** 1.1.0  
+**Version:** 1.2.0  
 **Tagline:** Explore Education Through Data.  
 **Domain:** Indonesia Education Statistics & Analytics  
 **Swagger API Spec:** `http://localhost:4000/api/docs` & `docs/openapi.json`
@@ -36,12 +36,11 @@ EduAtlas/
 │       │   ├── helpers/       # Helper formatters (id-ID) & Export utilities
 │       │   ├── hooks/         # React Custom Hooks (useOverviewData, useSchoolsData, dsb)
 │       │   ├── constants/     # Data Snapshot Constants & metadata lengkap
-│       │   ├── pages/         # 12 Halaman Dashboard EduAtlas
+│       │   ├── pages/         # 17 Halaman Dashboard EduAtlas
 │       │   ├── components/    # AppShell, Sidebar, Topbar, Reusable Cards & States
 │       │   ├── features/      # Implementasi detail visualisasi tiap fitur
 │       │   └── main.tsx
 │       └── package.json
-├── brand/                     # Brand Identity & Aset Desain EduAtlas (Logo, Palet, Banner)
 ├── data/                      # Unified Data Platform (DE, DA, DS)
 │   ├── 01_raw/                # Data mentah orisinal snapshot (Kemdikbud, BPS, PDDikti)
 │   ├── 02_interim/            # Data hasil pembersihan awal & standarisasi teks
@@ -51,6 +50,9 @@ EduAtlas/
 │   ├── metadata/              # Kamus data, data lineage, dan kontrak validasi
 │   └── pipelines/             # Skrip otomatisasi ETL & sinkronisasi aplikasi
 ├── docs/                      # Dokumentasi Teknis & Spesifikasi
+│   ├── assets/                # Folder Khusus Aset Visual Dokumentasi
+│   │   ├── brands/            # Brand Identity & Aset Desain EduAtlas (Logo, Palet, Banner)
+│   │   └── screenshots/       # Tangkapan Layar 12+ Halaman Dashboard EduAtlas
 │   ├── README.md              # Portal Indeks Dokumentasi
 │   ├── data/                  # Portal dokumentasi tim data (DE, DA, DS)
 │   │   ├── README.md          # Ikhtisar arsitektur data & pembagian peran
@@ -63,7 +65,6 @@ EduAtlas/
 │   ├── design-system.md       # EduAtlas Design System v1.0
 │   ├── api-contracts.md       # Spesifikasi REST API & Swagger
 │   └── database-schema.md     # Skema Database PostgreSQL & ERD
-├── screenshots/               # Tangkapan Layar 12 Halaman Dashboard EduAtlas
 ├── package.json               # Root monorepo workspace scripts
 ├── .yarnrc                    # Konfigurasi registry Yarn
 └── yarn.lock                  # File lock Yarn
@@ -71,20 +72,32 @@ EduAtlas/
 
 ---
 
-## 2. 12 Halaman EduAtlas yang Diimplementasikan
+## 2. 17 Halaman EduAtlas yang Diimplementasikan
 
+### A. Ringkasan & Visualisasi
 1. **Overview Dashboard** (`/overview`): Metrik KPI nasional, tren pendaftaran, distribusi jenjang, dan ranking mutu provinsi.
 2. **Chart Playground** (`/visualizations`): Eksplorasi Recharts dinamis (Line, Bar, Area, Pie, Donut).
 3. **Advanced Visualization** (`/visualizations/advanced`): Apache ECharts (Radar Benchmark 6 dimensi, Treemap sebaran, Sankey alur siswa, Gauge indeks nasional).
+
+### B. Peta & Direktori
 4. **Interactive Maps** (`/maps`): Peta Leaflet dengan custom pin marker institusi sekolah & universitas se-Indonesia beserta pop-up detail.
 5. **Advanced Maps** (`/maps/advanced`): MapLibre GL Vector map dengan data-driven scaling ukuran lingkaran dan gradasi mutu wilayah.
 6. **Data Table** (`/data-explorer`): TanStack Table dengan pencarian multi-kolom, sorting, filter jenjang/status, paginasi, dan ekspor CSV.
 7. **Advanced Data Grid** (`/data-grid`): Grid perguruan tinggi berkinerja tinggi dengan sub-grid hierarki program studi dan rasio dosen-mahasiswa.
-8. **Calendar & Scheduling** (`/calendar`): FullCalendar agenda akademik nasional (PTS, PAS, UTBK-SNBT, Libur Semester) dengan modal detail event.
-9. **Timeline & Gantt** (`/timeline`): Kronologi perjalanan agenda pendidikan tahun 2026 per kuartal dengan penanda durasi dan status capaian.
-10. **Flow & Network** (`/flow`): Diagram alur interaktif `@xyflow/react` yang memvisualisasikan hierarki regulator, jenjang sekolah, hingga perguruan tinggi dan dunia industri.
-11. **API & Data Status** (`/data-status`): Monitor kesehatan endpoint REST API, latensi server, metadata snapshot, dan kontrol sinkronisasi ulang.
-12. **Reports & Export** (`/reports`): Ringkasan eksekutif laporan pendidikan dengan generator ekspor Excel (`.xlsx`) dan dokumen cetak PDF (`.pdf`).
+8. **Flow & Network** (`/flow`): Diagram alur interaktif `@xyflow/react` yang memvisualisasikan hierarki regulator, jenjang sekolah, hingga perguruan tinggi dan dunia industri.
+
+### C. Analitik Lanjut & Kebijakan (Baru)
+9. **Simulator Proyeksi Kebijakan 'What-If'** (`/simulator`): Simulasi interaktif multivariat pensiun guru, rekrutmen PPPK, pertambahan siswa, dan proyeksi fiskal 2026–2030.
+10. **Policy Brief & Research Studio** (`/policy-brief`): Pusat perumusan memorandum kebijakan formal Bappenas/Kemendikbud dengan bukti data otomatis dan generator memo PDF.
+11. **Studio Disparitas & Intervensi 3T** (`/equity-studio`): Eksplorasi klaster K-Means (K=3), radar 5 pilar SPM, serta direktori lengkap 514 Kabupaten/Kota se-Indonesia.
+12. **Transparansi & Efisiensi Anggaran** (`/budget-analytics`): Analisis mandatory spending 20%, belanja per siswa, dan scatter plot efisiensi fiskal daerah vs IPM.
+13. **Komparator Institusi Head-to-Head** (`/comparator`): Matriks perbandingan berdampingan 2–4 sekolah (K-12) atau perguruan tinggi dengan radar mutu dan delta selisih metrik.
+
+### D. Operasional & Sistem
+14. **Calendar & Scheduling** (`/calendar`): FullCalendar agenda akademik nasional (PTS, PAS, UTBK-SNBT, Libur Semester) dengan modal detail event.
+15. **Timeline & Gantt** (`/timeline`): Kronologi perjalanan agenda pendidikan tahun 2026 per kuartal dengan penanda durasi dan status capaian.
+16. **API & Data Status** (`/data-status`): Monitor kesehatan endpoint REST API, latensi server, metadata snapshot, dan kontrol sinkronisasi ulang.
+17. **Reports & Export** (`/reports`): Ringkasan eksekutif laporan pendidikan dengan generator ekspor Excel (`.xlsx`) dan dokumen cetak PDF (`.pdf`).
 
 ---
 

@@ -71,7 +71,7 @@ EduAtlas/
 │       ├── src/
 │       │   ├── app/                # Routes & QueryClientProvider
 │       │   ├── components/         # Layout (AppShell, Sidebar, PageHeader), UI tokens
-│       │   ├── features/           # 12 interactive dashboard feature views
+│       │   ├── features/           # 17 interactive dashboard feature views
 │       │   ├── lib/                # API client, number/date formatters
 │       │   ├── types/              # TypeScript interface definitions
 │       │   ├── index.css           # Tailwind CSS v4 theme variables
@@ -79,8 +79,10 @@ EduAtlas/
 │       ├── package.json
 │       ├── vite.config.ts
 │       └── tsconfig.json
-├── brand/                          # Brand Identity & Design Assets
 ├── docs/                           # Official technical documentation
+│   ├── assets/                     # Dedicated Documentation Visual Assets Folder
+│   │   ├── brands/                 # Brand Identity & Design Assets
+│   │   └── screenshots/            # 12+ Dashboard full-page screenshots
 │   ├── README.md                   # Documentation index & guide
 │   ├── product-requirements.md     # This Product Requirements Document
 │   ├── architecture.md             # System architecture & data flow
@@ -240,14 +242,51 @@ EduAtlas treats the backend database as the single source of truth through immut
   * Dynamic Excel export powered by ExcelJS with multi-sheet formatting and summary headers.
   * Clean, print-ready PDF generation powered by jsPDF.
 
+### 6.13 Policy Simulator 'What-If' (`/simulator`)
+* **Purpose:** Multi-variable interactive demographic and educational forecasting engine (2026–2030).
+* **Key Components:**
+  * 5 Policy sliders: Annual Teacher Retirement Rate (1–6%), PPPK Recruitment Quota, Student Growth Rate, Target Student-Teacher Ratio, and Cost Inflation.
+  * Real-time projection formulas estimating teacher surplus/deficits, new classroom needs (RKB), and fiscal budget impacts.
+  * 5-Year timeline area chart, regional island matrix comparison, and automated crisis alert threshold flags.
+
+### 6.14 Policy Brief & Research Studio (`/policy-brief`)
+* **Purpose:** Evidence-based policy memorandum builder adhering to Bappenas & Kemendikbud standards.
+* **Key Components:**
+  * 5 Strategic theme templates: 3T Teacher Distribution, BOS Performance Funds, 2026–2030 Teacher Retirements, Vocational Facility Revitalization, and Regional Education HDI Efficiency.
+  * Automated data evidence pulling directly from live snapshot metrics.
+  * Structured editable forms: Executive Summary, Key Evidence, Root Causes, Short-Term Quick Wins, and Medium-Term Structural Reforms.
+  * One-click print-ready 2-page A4 Executive Briefing PDF generator powered by jsPDF.
+
+### 6.15 Equity & 3T Disparity Studio (`/equity-studio`)
+* **Purpose:** Exploration of educational disparities, K-Means ML clusters, and affirmative policy interventions.
+* **Key Components:**
+  * Machine learning K-Means disparity clusters (Tier 1: High Quality, Tier 2: Developing Standard, Tier 3: Priority Affirmation).
+  * 5-Pillar Minimum Service Standards (SPM) radar comparison between 3T and non-3T regions.
+  * Searchable and filterable registry of all 514 Indonesian regencies/cities with 3T classification metadata (Perpres No. 63/2020).
+  * Affirmative intervention allocation matrix (BOS Afirmasi, DAK Fisik).
+
+### 6.16 Education Budget & Funding Intelligence (`/budget-analytics`)
+* **Purpose:** Transparency, efficiency, and regional equity analysis of the 20% national education budget (APBN/APBD).
+* **Key Components:**
+  * National transfer breakdowns: BOS funds, DAK Fisik, Teacher Profession Allowances (TPG), and KIP Kuliah.
+  * 4-Quadrant fiscal efficiency scatter plot (Spending per Student vs Education HDI).
+  * Comprehensive 38-province budget allocation and BOS absorption tracking table.
+
+### 6.17 Head-to-Head Institution Comparator (`/comparator`)
+* **Purpose:** Multi-entity side-by-side comparative analysis for schools and higher education institutions.
+* **Key Components:**
+  * Dual-mode toggle: Primary/Secondary Schools (K-12) vs Higher Education (Universities/Polytechnics).
+  * Multi-select pin comparison for 2 to 4 institutions with quick presets (Top SMA, Top SMK, Top PTN, Top PTS).
+  * Multi-dimensional spider radar benchmark chart and comparative delta indicator matrix.
+
 ---
 
 ## 7. Global Controls & Application Shell
 
 1. **Floating Sidebar:**
-   * Compact 180–200 px width with Atlas Navy styling.
-   * Vertical navigation with icons placed prominently above category labels.
-   * Active tab highlight using Knowledge Teal.
+   * Compact 180–212 px width with Atlas Navy styling.
+   * Categorized sections with uppercase headers: "RINGKASAN & GRAFIK", "PETA & DIREKTORI", "ANALITIK & KEBIJAKAN", "OPERASIONAL & SISTEM".
+   * Navigation links with Lucide icons and active tab highlight using Knowledge Teal (`#25A9A1`).
 2. **Unified Single-Line Header:**
    * Left: Page title and breadcrumb.
    * Center: Global filter dropdowns (Scope / Indonesia, Year / 2026, Level / Semua Jenjang, Range / Semester Genap).
@@ -271,7 +310,7 @@ EduAtlas treats the backend database as the single source of truth through immut
 
 ## 9. Definition of Done & Quality Standards
 
-- [x] All 12 pages implemented as functional, navigable routes.
+- [x] All 17 pages implemented as functional, navigable routes.
 - [x] Backend NestJS API with 10 business modules and OpenAPI documentation.
 - [x] PostgreSQL database seeded with deterministic Indonesian educational demo data.
 - [x] Uniform API response envelope (`data` + `meta`).

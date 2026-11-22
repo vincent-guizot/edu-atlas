@@ -1,6 +1,6 @@
 # QA endpoint per page dan card
 
-Setiap card memiliki URL sendiri. Katalog saat ini berisi **102 card** pada **12 menu**:
+Katalog saat ini berisi **102 card** pada **12 menu dasar** serta 5 modul analitik eksekutif baru (Total 17 Halaman Dashboard di EduAtlas v1.2.0):
 **81 didukung database**, **21 belum memiliki sumber atau kontrak query yang cukup**.
 Katalog mencakup kelompok metrik, grafik, daftar, dan informasi utama; rincian modal
 dan seluruh variasi tab frontend bukan endpoint baru otomatis.

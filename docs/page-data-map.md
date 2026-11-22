@@ -14,7 +14,7 @@ Katalog runtime: GET /api/v1/pages. Frontend belum dihubungkan ke endpoint terse
 - Database: `eduatlas_db`.
 - Schema aplikasi: **4**: `directory`, `academic`, `analytics`, `system`.
 - Tabel data: **12**; tabel teknis: **2**; total **14 tabel**.
-- Menu sidebar: **12**. Tabel dipakai bersama, tidak dibuat satu tabel per kartu.
+- Menu sidebar: **17 Menu** (12 menu dasar + 5 modul analitik & kebijakan baru). Tabel dipakai bersama, tidak dibuat satu tabel per kartu.
 - Peta geografis dipakai untuk menu Interactive Maps dan Advanced Maps.
   Overview masih memiliki visual peta di kode lama; penghapusan/pemindahannya belum dilakukan.
 - Host Docker lokal: `127.0.0.1:1000`. Antarcontainer: `db:5432`.
