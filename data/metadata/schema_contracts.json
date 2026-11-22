@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EduAtlas Core Data Schemas",
+  "description": "Kontrak skema validasi untuk data warehouse dan analytics mart",
+  "schemas": {
+    "dim_region": {
+      "type": "object",
+      "required": ["province_id", "province_name", "island", "ipm"],
+      "properties": {
+        "province_id": { "type": "string", "pattern": "^reg-[a-z0-9-]+$" },
+        "province_name": { "type": "string" },
+        "island": { "type": "string" },
+        "ipm": { "type": "number", "minimum": 0, "maximum": 100 },
+        "apm_sd": { "type": "number", "minimum": 0, "maximum": 100 },
+        "apm_smp": { "type": "number", "minimum": 0, "maximum": 100 },
+        "apm_sma": { "type": "number", "minimum": 0, "maximum": 100 },
+        "avg_school_years": { "type": "number", "minimum": 0 },
+        "poverty_rate": { "type": "number", "minimum": 0, "maximum": 100 },
+        "education_budget_billion": { "type": "number", "minimum": 0 }
+      }
+    },
+    "dim_school": {
+      "type": "object",
+      "required": ["school_id", "npsn", "school_name", "education_level", "province_id"],
+      "properties": {
+        "school_id": { "type": "string", "pattern": "^sch-\\d{4}$" },
+        "npsn": { "type": "string", "pattern": "^\\d{8}$" },
+        "school_name": { "type": "string" },
+        "education_level": { "type": "string", "enum": ["SD", "SMP", "SMA", "SMK"] },
+        "ownership": { "type": "string", "enum": ["Negeri", "Swasta"] },
+        "province_id": { "type": "string" },
+        "city": { "type": "string" },
+        "latitude": { "type": "number" },
+        "longitude": { "type": "number" }
+      }
+    },
+    "fact_school_academic": {
+      "type": "object",
+      "required": ["fact_id", "school_id", "student_total", "teacher_total", "student_teacher_ratio"],
+      "properties": {
+        "fact_id": { "type": "string", "pattern": "^fsa-\\d{4}$" },
+        "school_id": { "type": "string" },
+        "student_total": { "type": "integer", "minimum": 1 },
+        "teacher_total": { "type": "integer", "minimum": 1 },
+        "student_teacher_ratio": { "type": "number", "minimum": 1 },
+        "accreditation": { "type": "string", "enum": ["A", "B", "C"] },
+        "facility_score": { "type": "number", "minimum": 0, "maximum": 100 }
+      }
+    }
+  }
+}

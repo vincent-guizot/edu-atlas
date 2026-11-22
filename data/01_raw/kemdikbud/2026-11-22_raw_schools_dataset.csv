@@ -1,0 +1,301 @@
+npsn_code,school_name,education_level,ownership_type,province_id,province_name,city_district,latitude,longitude,student_total,teacher_total,accreditation_grade,facility_score_raw
+20100024,SMA Negeri 1 Ambon,sma,Negeri,reg-maluku,Maluku,Kota Ambon,-3.77932,128.16718,465,20,B,93.8
+20100088,SMA Negeri 1 Samarinda,SMA,Negeri,reg-kaltim,Kalimantan Timur,Kota Samarinda,-0.39141,117.23124,1296,72,A,67.1
+20100031,SMK Negeri 2 Semarang,SMK,Negeri,reg-jateng,Jawa Tengah,Kota Semarang,-7.22164,110.00334,369,21,A,70.0
+20100023,SD IT Al-Hikmah Denpasar,SD,Swasta,reg-bali,Bali,Kab. Bali Barat,-8.75213,115.14942,490,24,B,57.0
+20100062,SMK Telkom Pekanbaru,SMK,Swasta,reg-riau,Riau,Kota Pekanbaru,0.6381,101.49221,513,29,A,66.6
+20100035,SD Negeri 01 Bandung,SD,Negeri,reg-jabar,Jawa Barat,Kab. Jawa Barat Barat,-6.83701,107.48588,775,35,A,69.1
+20100050,SMA Negeri 3 Denpasar,SMA,Negeri,reg-bali,Bali,Kab. Bali Barat,-8.62764,115.10546,824,55,B,93.5
+20100050,SMA Kristen Petra Banjarmasin,SMA,Swasta,reg-kalsel,Kalimantan Selatan,Kota Banjarmasin,-3.31654,114.46807,921,61,,
+20100038,  SMA LABSCHOOL AMBON  ,SMA,Swasta,reg-maluku,Maluku,Kota Ambon,-3.63943,128.32333,961,47,B,65.9
+20100053,SMA Taruna Nusantara Banjarmasin,SMA,Swasta,reg-kalsel,Kalimantan Selatan,Kab. Kalimantan Selatan Barat,-3.20664,114.51982,503,27,,
+20100100,SMK Penerbangan Pekanbaru,smk,Swasta,reg-riau,Riau,Kota Pekanbaru,0.59069,101.45691,587,41,B,78.5
+20100035,SMP Negeri 2 Banda Aceh,SMP,Negeri,reg-aceh,Aceh,Kota Banda Aceh,5.42193,95.39337,434,28,A,79.7
+20100038,SMA Negeri 8 Banjarmasin,SMA,Negeri,reg-kalsel,Kalimantan Selatan,Kota Banjarmasin,-3.40586,114.60259,518,32,C,73.4
+20100074,SMA Labschool Yogyakarta,SMA,Swasta,reg-diy,  di yogyakarta  ,Kota Yogyakarta,-7.93929,110.38568,1239,67,A,57.8
+20100031,  SMK NEGERI 6 AMBON  ,SMK,Negeri,reg-maluku,Maluku,Kab. Maluku Barat,-3.74113,128.08029,856,65,A,84.1
+20100056,SD Negeri 02 Pagi Pontianak,SD,Negeri,reg-kalbar,Kalimantan Barat,Kota Pontianak,0.08285,109.20875,219,10,A,72.9
+20100077,  SMP NEGERI 1 MEDAN  ,SMP,Negeri,reg-sumut,Sumatera Utara,Kota Medan,3.52876,98.59714,316,21,A,73.4
+20100039,SMA Negeri 2 Banjarmasin,SMA,Negeri,reg-kalsel,Kalimantan Selatan,Kota Banjarmasin,-3.41951,114.58649,210,10,C,91.9
+20100049,SMP Negeri 4 Medan,SMP,Negeri,reg-sumut,Sumatera Utara,Kab. Sumatera Utara Barat,3.68021,98.72076,585,36,B,86.8
+20100036,  SMA KRISTEN PETRA JAKARTA  ,SMA,Swasta,reg-dki-jakarta,  dki jakarta  ,Kota Jakarta,-6.10298,106.74283,822,64,B,76.9
+20100038,SMA Kolese Kanisius Bandar Lampung,SMA,Swasta,reg-lampung,Lampung,Kab. Lampung Barat,-5.42164,105.30251,1006,73,C,65.7
+20100071,SMK Telkom Samarinda,SMK,Swasta,reg-kaltim,  kalimantan timur  ,Kab. Kalimantan Timur Barat,-0.51503,117.28231,668,42,A,83.1
+20100104,SMA Negeri 5 Manado,SMA,Negeri,reg-sulut,Sulawesi Utara,Kab. Sulawesi Utara Barat,1.39809,124.7776,723,52,A,58.0
+20100111,SMA Taruna Nusantara Yogyakarta,SMA,Swasta,reg-diy,DI Yogyakarta,Kota Yogyakarta,-7.90531,110.25413,1315,81,B,95.8
+20100070,SMA Kolese Kanisius Semarang,SMA,Swasta,reg-jateng,  jawa tengah  ,Kab. Jawa Tengah Barat,-7.28576,110.18059,720,37,A,94.5
+20100051,SMA Taruna Nusantara Surabaya,SMA,Swasta,reg-jatim,Jawa Timur,Kota Surabaya,-7.38493,112.86703,1084,54,A,55.4
+20100110,  SD IT AL-HIKMAH SERANG  ,SD,Swasta,reg-banten,Banten,Kab. Banten Barat,-6.25803,106.10764,435,25,C,97.3
+20100108,SMP Negeri 12 Serang,smp,Negeri,reg-banten,Banten,Kota Serang,-6.02677,106.26472,362,15,,
+20100090,SMA Labschool Surabaya,SMA,Swasta,reg-jatim,Jawa Timur,Kota Surabaya,-7.39588,112.74331,726,51,B,71.6
+20100078,SMK Negeri 6 Serang,SMK,Negeri,reg-banten,Banten,Kab. Banten Barat,-6.18626,106.19274,996,60,C,97.1
+20100082,SMA Negeri 1 Banjarmasin,SMA,Negeri,reg-kalsel,Kalimantan Selatan,Kab. Kalimantan Selatan Barat,-3.45792,114.61977,545,27,,
+20100118,SD Percobaan Mataram,SD,Swasta,reg-ntb,Nusa Tenggara Barat,Kab. Nusa Tenggara Barat Barat,-8.45563,116.12824,314,20,B,55.1
+20100067,SMP Negeri 2 Jayapura,SMP,Negeri,reg-papua,Papua,Kota Jayapura,-2.47159,140.67114,458,22,B,60.4
+20100113,SMA Negeri 8 Yogyakarta,sma,Negeri,reg-diy,DI Yogyakarta,Kab. DI Yogyakarta Barat,-7.85532,110.38388,956,44,C,81.8
+20100118,SMA Kolese Kanisius Mataram,SMA,Swasta,reg-ntb,Nusa Tenggara Barat,Kota Mataram,-8.44535,116.18749,1085,50,B,89.5
+20100126,SMA Kolese Kanisius Jayapura,SMA,Swasta,reg-papua,Papua,Kab. Papua Barat,-2.73427,140.59245,661,30,A,63.7
+20100104,SMP Negeri 12 Padang,SMP,Negeri,reg-sumbar,Sumatera Barat,Kota Padang,-1.09544,100.49249,513,27,A,83.5
+20100075,SMK Negeri 1 Mataram,SMK,Negeri,reg-ntb,Nusa Tenggara Barat,Kota Mataram,-8.59636,116.20712,1131,89,A,91.9
+20100088,SD Negeri 01 Manado,SD,Negeri,reg-sulut,Sulawesi Utara,Kota Manado,1.37255,124.95055,636,35,C,74.4
+20100084,SD Percobaan Ambon,SD,Swasta,reg-maluku,Maluku,Kota Ambon,-3.70949,128.20265,570,43,A,66.8
+20100077,SMA Negeri 3 Palembang,SMA,Negeri,reg-sumsel,Sumatera Selatan,Kota Palembang,-2.85465,104.80062,1134,63,A,73.3
+20100099,SD Negeri 02 Pagi Makassar,SD,Negeri,reg-sulsel,Sulawesi Selatan,Kab. Sulawesi Selatan Barat,-5.17199,119.50695,519,21,,
+20100114,SMK Negeri 6 Bandung,SMK,Negeri,reg-jabar,Jawa Barat,Kab. Jawa Barat Barat,-7.01799,107.60932,976,58,B,72.6
+20100103,  SMA KRISTEN PETRA BANDA ACEH  ,SMA,Swasta,reg-aceh,Aceh,Kota Banda Aceh,5.51203,95.2373,1057,76,B,57.2
+20100089,  SMP NEGERI 12 DENPASAR  ,SMP,Negeri,reg-bali,  bali  ,Kab. Bali Barat,-8.75323,115.08319,139,10,A,96.4
+20100086,SMK Negeri 2 Banda Aceh,SMK,Negeri,reg-aceh,Aceh,Kota Banda Aceh,5.46369,95.38364,668,48,B,79.5
+20100070,  SMK NEGERI 1 MANADO  ,SMK,Negeri,reg-sulut,Sulawesi Utara,Kota Manado,1.43739,124.97454,232,10,B,94.5
+20100088,SMA Negeri 5 Ambon,SMA,Negeri,reg-maluku,Maluku,Kota Ambon,-3.64558,128.23906,427,18,B,56.8
+20100111,SD Negeri 02 Pagi Banda Aceh,SD,Negeri,reg-aceh,Aceh,Kab. Aceh Barat,5.45114,95.33032,770,31,B,61.7
+20100120,SD Negeri 01 Banjarmasin,SD,Negeri,reg-kalsel,Kalimantan Selatan,Kota Banjarmasin,-3.38572,114.57604,394,23,A,95.7
+20100108,SMP Negeri 1 Jayapura,SMP,Negeri,reg-papua,Papua,Kab. Papua Barat,-2.6577,140.69785,306,16,A,66.2
+20100085,SMA Negeri 3 Samarinda,SMA,Negeri,reg-kaltim,Kalimantan Timur,Kab. Kalimantan Timur Barat,-0.50495,117.24148,1317,58,B,83.1
+20100101,SMA Labschool Bandung,SMA,Swasta,reg-jabar,Jawa Barat,Kota Bandung,-6.90238,107.57464,1267,75,,
+20100078,SMK Negeri 2 Bandung,SMK,Negeri,reg-jabar,Jawa Barat,Kab. Jawa Barat Barat,-6.89062,107.69716,559,38,B,67.0
+20100101,SMK Negeri 6 Jakarta,SMK,Negeri,reg-dki-jakarta,DKI Jakarta,Kab. DKI Jakarta Barat,-6.27116,106.97883,1273,92,A,57.4
+20100066,SMA Kristen Petra Pekanbaru,SMA,Swasta,reg-riau,  riau  ,Kab. Riau Barat,0.50042,101.54443,877,60,A,95.9
+20100153,SMA Negeri 2 Ambon,SMA,Negeri,reg-maluku,Maluku,Kab. Maluku Barat,-3.68055,128.21944,802,60,A,79.3
+20100124,SD Negeri 01 Denpasar,SD,Negeri,reg-bali,Bali,Kab. Bali Barat,-8.59847,115.34688,559,34,B,81.5
+20100078,SMK Negeri 1 Jayapura,SMK,Negeri,reg-papua,Papua,Kab. Papua Barat,-2.65422,140.58844,500,41,B,80.8
+20100078,SMA Labschool Kupang,SMA,Swasta,reg-ntt,Nusa Tenggara Timur,Kab. Nusa Tenggara Timur Barat,-10.16383,123.65129,1387,65,C,73.5
+20100077,SMK Negeri 1 Padang,SMK,Negeri,reg-sumbar,Sumatera Barat,Kota Padang,-1.00587,100.38795,1345,54,A,75.4
+20100081,SMA Kolese Kanisius Kupang,SMA,Swasta,reg-ntt,  nusa tenggara timur  ,Kab. Nusa Tenggara Timur Barat,-10.12491,123.71516,840,41,A,65.0
+20100106,SMA Kristen Petra Jayapura,SMA,Swasta,reg-papua,Papua,Kab. Papua Barat,-2.44252,140.64977,1143,59,A,67.1
+20100117,SMP Negeri 12 Pontianak,SMP,Negeri,reg-kalbar,Kalimantan Barat,Kab. Kalimantan Barat Barat,0.10726,109.43657,284,17,B,67.5
+20100106,SMP Negeri 1 Surabaya,SMP,Negeri,reg-jatim,Jawa Timur,Kab. Jawa Timur Barat,-7.26891,112.61836,646,27,A,92.8
+20100155,SD Negeri 01 Pontianak,SD,Negeri,reg-kalbar,Kalimantan Barat,Kota Pontianak,-0.03089,109.20116,682,49,A,93.3
+20100115,SD IT Al-Hikmah Bandar Lampung,SD,Swasta,reg-lampung,Lampung,Kab. Lampung Barat,-5.56476,105.36634,350,13,C,75.1
+20100111,SMP Negeri 12 Samarinda,SMP,Negeri,reg-kaltim,  kalimantan timur  ,Kota Samarinda,-0.47239,117.22749,369,20,A,63.3
+20100121,  SD PERCOBAAN MATARAM  ,SD,Swasta,reg-ntb,Nusa Tenggara Barat,Kab. Nusa Tenggara Barat Barat,-8.47372,116.10066,425,17,B,83.7
+20100127,SD Negeri 01 Banjarmasin,SD,Negeri,reg-kalsel,Kalimantan Selatan,Kota Banjarmasin,-3.45631,114.66421,364,18,A,88.7
+20100164,SMA Taruna Nusantara Denpasar,SMA,Swasta,reg-bali,  bali  ,Kota Denpasar,-8.7209,115.09271,255,18,,
+20100082,SMA Negeri 8 Kupang,SMA,Negeri,reg-ntt,Nusa Tenggara Timur,Kota Kupang,-10.14022,123.57624,496,38,B,66.5
+20100150,SMP Negeri 4 Jayapura,SMP,Negeri,reg-papua,Papua,Kota Jayapura,-2.55225,140.79528,619,25,A,58.0
+20100095,  SMA TARUNA NUSANTARA MATARAM  ,SMA,Swasta,reg-ntb,Nusa Tenggara Barat,Kota Mataram,-8.49446,116.05471,520,23,C,57.0
+20100136,SMA Kristen Petra Samarinda,SMA,Swasta,reg-kaltim,Kalimantan Timur,Kota Samarinda,-0.57995,117.27745,538,41,C,82.0
+20100143,SMK Telkom Semarang,SMK,Swasta,reg-jateng,Jawa Tengah,Kota Semarang,-7.16848,110.09397,1132,45,B,61.9
+20100174,SMK Telkom Mataram,SMK,Swasta,reg-ntb,  nusa tenggara barat  ,Kota Mataram,-8.62561,116.05546,967,40,A,71.6
+20100137,SMK Telkom Jayapura,SMK,Swasta,reg-papua,Papua,Kab. Papua Barat,-2.47072,140.75172,280,11,B,91.2
+20100169,SMK Negeri 2 Bandung,SMK,Negeri,reg-jabar,Jawa Barat,Kota Bandung,-6.97482,107.60135,460,22,C,83.1
+20100126,SMP Negeri 1 Padang,SMP,Negeri,reg-sumbar,Sumatera Barat,Kota Padang,-0.94656,100.34896,255,11,C,70.9
+20100127,SMP Negeri 1 Pontianak,SMP,Negeri,reg-kalbar,Kalimantan Barat,Kota Pontianak,0.08174,109.40977,197,14,,
+20100137,  SMA NEGERI 3 BANJARMASIN  ,SMA,Negeri,reg-kalsel,Kalimantan Selatan,Kota Banjarmasin,-3.39075,114.55511,1278,93,A,87.6
+20100121,SD Negeri 02 Pagi Jayapura,SD,Negeri,reg-papua,Papua,Kab. Papua Barat,-2.55098,140.65828,694,41,B,83.2
+20100110,SMA Negeri 2 Pekanbaru,SMA,Negeri,reg-riau,Riau,Kota Pekanbaru,0.47369,101.4091,1188,87,A,78.4
+20100147,SMA Kristen Petra Banjarmasin,SMA,Swasta,reg-kalsel,Kalimantan Selatan,Kota Banjarmasin,-3.18768,114.52472,1029,48,B,81.8
+20100125,SMP Negeri 2 Kupang,SMP,Negeri,reg-ntt,Nusa Tenggara Timur,Kab. Nusa Tenggara Timur Barat,-10.24444,123.74746,677,27,B,57.6
+20100180,SMK Negeri 2 Padang,SMK,Negeri,reg-sumbar,Sumatera Barat,Kota Padang,-0.86101,100.32876,223,17,A,98.0
+20100124,  SMK NEGERI 6 MAKASSAR  ,SMK,Negeri,reg-sulsel,Sulawesi Selatan,Kab. Sulawesi Selatan Barat,-5.2587,119.3579,1400,116,C,61.3
+20100114,SMA Negeri 1 Banda Aceh,SMA,Negeri,reg-aceh,Aceh,Kab. Aceh Barat,5.62082,95.33163,1385,83,A,57.3
+20100164,SMA Kristen Petra Serang,SMA,Swasta,reg-banten,Banten,Kab. Banten Barat,-6.17951,106.1933,268,12,C,83.7
+20100154,SMA Labschool Denpasar,SMA,Swasta,reg-bali,Bali,Kab. Bali Barat,-8.8008,115.1451,1088,83,A,81.5
+20100149,SMA Kolese Kanisius Surabaya,SMA,Swasta,reg-jatim,Jawa Timur,Kota Surabaya,-7.21223,112.83279,1061,79,B,92.1
+20100131,SMP Negeri 12 Kupang,SMP,Negeri,reg-ntt,Nusa Tenggara Timur,Kab. Nusa Tenggara Timur Barat,-10.25073,123.74308,545,24,A,68.6
+20100113,SMA Negeri 3 Padang,SMA,Negeri,reg-sumbar,Sumatera Barat,Kota Padang,-0.92862,100.36609,943,40,B,80.5
+20100158,SMA Negeri 2 Jayapura,SMA,Negeri,reg-papua,Papua,Kota Jayapura,-2.59694,140.77318,900,66,B,61.7
+20100140,SMA Kristen Petra Pekanbaru,SMA,Swasta,reg-riau,Riau,Kab. Riau Barat,0.54991,101.30568,1328,51,B,81.7
+20100109,SMK Negeri 1 Semarang,SMK,Negeri,reg-jateng,Jawa Tengah,Kab. Jawa Tengah Barat,-7.1038,110.01118,875,51,A,61.2
+20100174,SMK Negeri 2 Padang,SMK,Negeri,reg-sumbar,Sumatera Barat,Kab. Sumatera Barat Barat,-0.92682,100.29269,502,29,B,88.8
+20100114,SMA Labschool Manado,SMA,Swasta,reg-sulut,Sulawesi Utara,Kab. Sulawesi Utara Barat,1.55128,124.72625,1048,55,A,66.9
+20100184,SD Negeri 02 Pagi Jayapura,SD,Negeri,reg-papua,Papua,Kota Jayapura,-2.65117,140.58237,345,19,B,55.3
+20100125,SMA Negeri 1 Surabaya,SMA,Negeri,reg-jatim,Jawa Timur,Kota Surabaya,-7.15749,112.84396,444,25,B,76.8
+20100166,  SMA NEGERI 1 MEDAN  ,sma,Negeri,reg-sumut,Sumatera Utara,Kota Medan,3.57051,98.55675,821,40,B,85.9
+20100170,SMP Negeri 2 Manado,SMP,Negeri,reg-sulut,Sulawesi Utara,Kab. Sulawesi Utara Barat,1.58596,124.91584,369,20,A,58.4
+20100178,SMA Taruna Nusantara Padang,SMA,Swasta,reg-sumbar,Sumatera Barat,Kab. Sumatera Barat Barat,-0.90347,100.31151,895,52,,
+20100191,SMA Negeri 8 Bandar Lampung,SMA,Negeri,reg-lampung,Lampung,Kota Bandar Lampung,-5.43088,105.29054,542,21,B,75.2
+20100196,SMA Kolese Kanisius Ambon,SMA,Swasta,reg-maluku,Maluku,Kab. Maluku Barat,-3.71455,128.123,827,58,A,74.2
+20100175,SD Negeri 01 Yogyakarta,SD,Negeri,reg-diy,DI Yogyakarta,Kab. DI Yogyakarta Barat,-7.7611,110.37162,413,31,C,92.2
+20100174,SMA Kristen Petra Medan,SMA,Swasta,reg-sumut,Sumatera Utara,Kota Medan,3.58036,98.76549,1154,60,,
+20100182,SMA Taruna Nusantara Padang,SMA,Swasta,reg-sumbar,Sumatera Barat,Kab. Sumatera Barat Barat,-0.98793,100.54258,1076,41,B,81.5
+20100195,SMA Negeri 2 Jayapura,SMA,Negeri,reg-papua,Papua,Kota Jayapura,-2.666,140.77447,314,18,B,71.8
+20100162,  SMA NEGERI 3 PALEMBANG  ,SMA,Negeri,reg-sumsel,Sumatera Selatan,Kota Palembang,-3.08741,104.83805,896,54,B,83.8
+20100163,SMA Negeri 8 Ambon,SMA,Negeri,reg-maluku,Maluku,Kota Ambon,-3.79993,128.13326,1258,94,B,77.1
+20100146,SMK Negeri 6 Pontianak,SMK,Negeri,reg-kalbar,Kalimantan Barat,Kota Pontianak,0.07424,109.4576,785,32,A,88.5
+20100139,SMA Kolese Kanisius Manado,SMA,Swasta,reg-sulut,Sulawesi Utara,Kab. Sulawesi Utara Barat,1.54068,124.98298,519,23,A,70.8
+20100153,SD IT Al-Hikmah Kupang,SD,Swasta,reg-ntt,Nusa Tenggara Timur,Kab. Nusa Tenggara Timur Barat,-10.15607,123.58918,600,24,A,84.5
+20100192,SMP Negeri 12 Samarinda,SMP,Negeri,reg-kaltim,Kalimantan Timur,Kota Samarinda,-0.38996,117.16996,739,53,A,82.9
+20100162,SMA Negeri 3 Pekanbaru,SMA,Negeri,reg-riau,  riau  ,Kota Pekanbaru,0.42371,101.43314,1231,87,A,96.2
+20100177,SD Percobaan Medan,SD,Swasta,reg-sumut,Sumatera Utara,Kab. Sumatera Utara Barat,3.69695,98.71719,203,11,A,95.5
+20100188,SMA Negeri 8 Yogyakarta,SMA,Negeri,reg-diy,DI Yogyakarta,Kota Yogyakarta,-7.90074,110.50157,190,10,A,64.4
+20100159,SMK Penerbangan Yogyakarta,SMK,Swasta,reg-diy,DI Yogyakarta,Kab. DI Yogyakarta Barat,-7.78478,110.40909,1116,86,B,76.7
+20100184,SMA Negeri 1 Yogyakarta,SMA,Negeri,reg-diy,DI Yogyakarta,Kota Yogyakarta,-7.83742,110.50552,1033,70,B,77.8
+20100201,SMA Negeri 1 Samarinda,SMA,Negeri,reg-kaltim,Kalimantan Timur,Kab. Kalimantan Timur Barat,-0.41564,117.10704,972,37,A,55.7
+20100174,SMA Negeri 8 Makassar,SMA,Negeri,reg-sulsel,Sulawesi Selatan,Kab. Sulawesi Selatan Barat,-5.15414,119.33738,538,22,B,97.7
+20100137,SMK Penerbangan Kupang,SMK,Swasta,reg-ntt,Nusa Tenggara Timur,Kab. Nusa Tenggara Timur Barat,-10.08258,123.59902,265,16,A,72.3
+20100179,SMA Negeri 2 Yogyakarta,SMA,Negeri,reg-diy,DI Yogyakarta,Kota Yogyakarta,-7.81368,110.50644,434,18,A,72.4
+20100182,  SD PERCOBAAN PONTIANAK  ,SD,Swasta,reg-kalbar,Kalimantan Barat,Kab. Kalimantan Barat Barat,-0.01266,109.28886,554,42,B,90.8
+20100193,SMA Kolese Kanisius Yogyakarta,SMA,Swasta,reg-diy,DI Yogyakarta,Kota Yogyakarta,-7.83983,110.51895,1089,64,A,92.8
+20100146,SMA Labschool Medan,SMA,Swasta,reg-sumut,Sumatera Utara,Kota Medan,3.67959,98.53264,507,20,A,81.4
+20100184,  SMP NEGERI 4 SERANG  ,SMP,Negeri,reg-banten,Banten,Kota Serang,-6.04107,106.17248,277,12,C,71.2
+20100174,  SMK NEGERI 6 AMBON  ,SMK,Negeri,reg-maluku,Maluku,Kota Ambon,-3.72687,128.11869,561,29,A,79.4
+20100228,  SD NEGERI 02 PAGI YOGYAKARTA  ,SD,Negeri,reg-diy,DI Yogyakarta,Kab. DI Yogyakarta Barat,-7.91926,110.42408,195,10,C,74.4
+20100149,SD IT Al-Hikmah Serang,SD,Swasta,reg-banten,Banten,Kota Serang,-6.03189,106.15293,281,12,C,82.7
+20100172,SD Negeri 02 Pagi Palembang,SD,Negeri,reg-sumsel,Sumatera Selatan,Kab. Sumatera Selatan Barat,-3.08717,104.89067,497,26,,
+20100210,SMP Negeri 12 Pontianak,SMP,Negeri,reg-kalbar,Kalimantan Barat,Kota Pontianak,-0.03655,109.34771,195,14,A,58.2
+20100225,SMA Kristen Petra Banjarmasin,SMA,Swasta,reg-kalsel,Kalimantan Selatan,Kab. Kalimantan Selatan Barat,-3.31397,114.53204,1066,55,C,91.2
+20100189,SD Percobaan Bandung,SD,Swasta,reg-jabar,  jawa barat  ,Kota Bandung,-6.98516,107.65661,376,25,,
+20100167,SMA Kristen Petra Ambon,SMA,Swasta,reg-maluku,Maluku,Kota Ambon,-3.79689,128.05424,871,36,B,90.9
+20100173,SMA Kristen Petra Ambon,SMA,Swasta,reg-maluku,Maluku,Kota Ambon,-3.71477,128.11406,1199,49,B,82.9
+20100157,SMA Negeri 2 Kupang,SMA,Negeri,reg-ntt,Nusa Tenggara Timur,Kab. Nusa Tenggara Timur Barat,-10.11169,123.67726,1131,76,B,68.6
+20100196,SD Percobaan Palembang,SD,Swasta,reg-sumsel,Sumatera Selatan,Kota Palembang,-3.11092,104.90902,597,43,A,61.1
+20100191,SMA Kristen Petra Bandar Lampung,SMA,Swasta,reg-lampung,Lampung,Kota Bandar Lampung,-5.50744,105.12365,506,26,B,76.7
+20100178,  SMA KRISTEN PETRA BANDUNG  ,SMA,Swasta,reg-jabar,Jawa Barat,Kab. Jawa Barat Barat,-6.98178,107.47155,1193,58,B,84.3
+20100198,SMP Negeri 4 Semarang,SMP,Negeri,reg-jateng,Jawa Tengah,Kab. Jawa Tengah Barat,-7.1851,110.12541,703,35,A,67.6
+20100240,SMA Kolese Kanisius Manado,SMA,Swasta,reg-sulut,Sulawesi Utara,Kab. Sulawesi Utara Barat,1.49215,124.80178,986,57,,
+20100218,  SMA NEGERI 2 DENPASAR  ,SMA,Negeri,reg-bali,Bali,Kab. Bali Barat,-8.55256,115.10453,862,37,B,61.5
+20100233,SMK Penerbangan Denpasar,SMK,Swasta,reg-bali,Bali,Kota Denpasar,-8.57578,115.17311,1223,62,B,68.0
+20100195,SMA Taruna Nusantara Makassar,SMA,Swasta,reg-sulsel,Sulawesi Selatan,Kab. Sulawesi Selatan Barat,-5.24655,119.47141,1364,67,B,80.4
+20100244,SMK Negeri 6 Palembang,SMK,Negeri,reg-sumsel,Sumatera Selatan,Kab. Sumatera Selatan Barat,-3.00221,104.68657,405,27,A,73.2
+20100165,SMA Negeri 8 Pontianak,SMA,Negeri,reg-kalbar,Kalimantan Barat,Kota Pontianak,0.09734,109.2952,1159,59,A,62.5
+20100241,SMK Telkom Jayapura,SMK,Swasta,reg-papua,Papua,Kota Jayapura,-2.44692,140.75035,684,43,A,96.0
+20100200,SD Negeri 02 Pagi Pontianak,SD,Negeri,reg-kalbar,Kalimantan Barat,Kab. Kalimantan Barat Barat,0.09243,109.31086,400,24,B,78.6
+20100198,SMA Negeri 2 Palembang,SMA,Negeri,reg-sumsel,Sumatera Selatan,Kab. Sumatera Selatan Barat,-3.0619,104.87379,889,35,B,87.5
+20100179,SMA Negeri 5 Semarang,SMA,Negeri,reg-jateng,Jawa Tengah,Kota Semarang,-7.23115,110.02036,676,53,C,64.8
+20100180,SMA Negeri 1 Jayapura,SMA,Negeri,reg-papua,Papua,Kota Jayapura,-2.59837,140.57884,503,28,C,93.2
+20100171,SMA Negeri 3 Ambon,SMA,Negeri,reg-maluku,Maluku,Kota Ambon,-3.75266,128.31649,256,10,A,93.4
+20100188,  SMK PENERBANGAN PONTIANAK  ,SMK,Swasta,reg-kalbar,Kalimantan Barat,Kota Pontianak,-0.04,109.38489,1343,65,C,69.6
+20100230,SD Negeri 01 Palembang,SD,Negeri,reg-sumsel,Sumatera Selatan,Kab. Sumatera Selatan Barat,-3.07024,104.84639,458,32,B,66.2
+20100189,SMA Kolese Kanisius Jakarta,SMA,Swasta,reg-dki-jakarta,DKI Jakarta,Kota Jakarta,-6.30337,106.73778,1055,54,A,84.1
+20100217,SMK Negeri 6 Semarang,SMK,Negeri,reg-jateng,Jawa Tengah,Kota Semarang,-7.10489,110.19813,855,52,B,55.5
+20100189,SMP Negeri 4 Yogyakarta,SMP,Negeri,reg-diy,DI Yogyakarta,Kota Yogyakarta,-7.83534,110.28575,438,20,B,95.9
+20100247,SMP Negeri 2 Kupang,SMP,Negeri,reg-ntt,Nusa Tenggara Timur,Kota Kupang,-10.09864,123.6611,602,26,B,90.9
+20100228,  SD PERCOBAAN SAMARINDA  ,SD,Swasta,reg-kaltim,Kalimantan Timur,Kota Samarinda,-0.59155,117.1646,697,51,B,94.3
+20100186,SMA Labschool Kupang,SMA,Swasta,reg-ntt,Nusa Tenggara Timur,Kab. Nusa Tenggara Timur Barat,-10.28762,123.58163,366,14,A,57.4
+20100212,SMA Negeri 1 Jayapura,SMA,Negeri,reg-papua,  papua  ,Kab. Papua Barat,-2.72247,140.81724,626,31,A,70.0
+20100178,SMK Penerbangan Pontianak,SMK,Swasta,reg-kalbar,Kalimantan Barat,Kota Pontianak,0.09883,109.30575,1040,60,C,74.5
+20100192,  SMA TARUNA NUSANTARA BANJARMASIN  ,SMA,Swasta,reg-kalsel,Kalimantan Selatan,Kota Banjarmasin,-3.21895,114.66765,1280,73,A,97.6
+20100230,SD IT Al-Hikmah Banjarmasin,SD,Swasta,reg-kalsel,Kalimantan Selatan,Kab. Kalimantan Selatan Barat,-3.25189,114.47465,591,35,A,95.8
+20100207,SMK Negeri 2 Banda Aceh,SMK,Negeri,reg-aceh,Aceh,Kab. Aceh Barat,5.62046,95.29448,1094,53,B,57.1
+20100195,SD Percobaan Medan,SD,Swasta,reg-sumut,Sumatera Utara,Kota Medan,3.5414,98.61273,709,43,B,84.3
+20100231,SMK Penerbangan Bandung,SMK,Swasta,reg-jabar,Jawa Barat,Kab. Jawa Barat Barat,-6.93934,107.61779,1391,57,C,82.2
+20100228,SD Percobaan Jayapura,SD,Swasta,reg-papua,Papua,Kab. Papua Barat,-2.66931,140.5866,272,16,A,78.4
+20100188,SD IT Al-Hikmah Kupang,SD,Swasta,reg-ntt,  nusa tenggara timur  ,Kota Kupang,-10.13319,123.73367,662,47,A,63.8
+20100188,SMK Telkom Jakarta,SMK,Swasta,reg-dki-jakarta,DKI Jakarta,Kab. DKI Jakarta Barat,-6.14151,106.86326,260,10,A,88.1
+20100221,SMA Negeri 1 Surabaya,SMA,Negeri,reg-jatim,Jawa Timur,Kab. Jawa Timur Barat,-7.19881,112.81323,420,18,B,94.8
+20100220,SMP Negeri 4 Surabaya,SMP,Negeri,reg-jatim,Jawa Timur,Kota Surabaya,-7.37792,112.8965,435,27,B,76.6
+20100232,SMP Negeri 1 Jakarta,SMP,Negeri,reg-dki-jakarta,DKI Jakarta,Kota Jakarta,-6.18359,106.9116,346,15,A,79.1
+20100234,SMA Kristen Petra Bandung,SMA,Swasta,reg-jabar,Jawa Barat,Kota Bandung,-6.87499,107.61628,871,55,B,97.0
+20100204,SD IT Al-Hikmah Bandar Lampung,SD,Swasta,reg-lampung,Lampung,Kota Bandar Lampung,-5.44282,105.36842,675,26,,
+20100188,SMP Negeri 12 Medan,SMP,Negeri,reg-sumut,Sumatera Utara,Kab. Sumatera Utara Barat,3.55716,98.70755,189,10,A,77.0
+20100273,SD Negeri 02 Pagi Pontianak,SD,Negeri,reg-kalbar,Kalimantan Barat,Kab. Kalimantan Barat Barat,0.11694,109.19764,541,44,B,67.0
+20100203,SMA Negeri 5 Bandar Lampung,SMA,Negeri,reg-lampung,Lampung,Kota Bandar Lampung,-5.57629,105.40449,1258,80,A,89.6
+20100229,  SMA LABSCHOOL BANDUNG  ,SMA,Swasta,reg-jabar,Jawa Barat,Kota Bandung,-7.05067,107.47194,244,18,A,79.0
+20100274,SMP Negeri 1 Mataram,SMP,Negeri,reg-ntb,Nusa Tenggara Barat,Kota Mataram,-8.46292,116.17439,217,10,C,65.0
+20100280,SMK Telkom Padang,SMK,Swasta,reg-sumbar,Sumatera Barat,Kota Padang,-1.03495,100.31046,247,17,C,55.7
+20100232,SMK Negeri 1 Padang,SMK,Negeri,reg-sumbar,  sumatera barat  ,Kota Padang,-0.87518,100.50435,976,45,B,71.7
+20100201,SMA Negeri 5 Serang,SMA,Negeri,reg-banten,Banten,Kota Serang,-5.97932,106.09821,877,42,B,80.9
+20100258,SMK Negeri 6 Kupang,SMK,Negeri,reg-ntt,  nusa tenggara timur  ,Kab. Nusa Tenggara Timur Barat,-10.09555,123.54561,1064,72,B,71.5
+20100216,SMP Negeri 4 Semarang,SMP,Negeri,reg-jateng,Jawa Tengah,Kota Semarang,-7.20852,110.09828,518,31,A,55.2
+20100253,SD Negeri 01 Bandar Lampung,SD,Negeri,reg-lampung,Lampung,Kota Bandar Lampung,-5.42059,105.21403,225,18,A,59.0
+20100209,SD IT Al-Hikmah Denpasar,SD,Swasta,reg-bali,Bali,Kota Denpasar,-8.73982,115.14312,705,36,B,62.4
+20100253,  SMK PENERBANGAN SEMARANG  ,SMK,Swasta,reg-jateng,  jawa tengah  ,Kota Semarang,-7.116,110.12766,695,27,B,76.6
+20100243,SMA Kolese Kanisius Denpasar,SMA,Swasta,reg-bali,Bali,Kab. Bali Barat,-8.52823,115.10344,1081,64,B,92.4
+20100263,SMP Negeri 1 Jakarta,SMP,Negeri,reg-dki-jakarta,DKI Jakarta,Kab. DKI Jakarta Barat,-6.18604,106.76833,446,27,B,76.4
+20100249,SMA Negeri 5 Denpasar,SMA,Negeri,reg-bali,Bali,Kota Denpasar,-8.60234,115.34549,1297,89,B,56.2
+20100256,SMA Labschool Padang,SMA,Swasta,reg-sumbar,Sumatera Barat,Kota Padang,-0.984,100.40192,675,43,A,73.4
+20100269,SMP Negeri 12 Banjarmasin,SMP,Negeri,reg-kalsel,Kalimantan Selatan,Kota Banjarmasin,-3.19508,114.47361,488,22,B,80.8
+20100288,SMA Kolese Kanisius Bandar Lampung,SMA,Swasta,reg-lampung,Lampung,Kab. Lampung Barat,-5.56822,105.14628,998,39,A,89.6
+20100281,SMA Kristen Petra Banjarmasin,SMA,Swasta,reg-kalsel,Kalimantan Selatan,Kab. Kalimantan Selatan Barat,-3.36591,114.44817,1128,49,B,76.8
+20100222,SMA Negeri 8 Padang,SMA,Negeri,reg-sumbar,  sumatera barat  ,Kab. Sumatera Barat Barat,-0.8805,100.40293,603,31,A,59.2
+20100211,SMP Negeri 1 Pekanbaru,SMP,Negeri,reg-riau,Riau,Kota Pekanbaru,0.52267,101.3971,288,11,B,77.4
+20100290,SMK Negeri 1 Denpasar,SMK,Negeri,reg-bali,Bali,Kab. Bali Barat,-8.64284,115.17925,990,79,B,63.6
+20100284,SMA Negeri 5 Padang,SMA,Negeri,reg-sumbar,Sumatera Barat,Kota Padang,-0.83831,100.42551,929,56,B,66.4
+20100262,SMA Kristen Petra Manado,SMA,Swasta,reg-sulut,Sulawesi Utara,Kab. Sulawesi Utara Barat,1.41403,124.87645,1117,54,B,85.7
+20100243,SMK Penerbangan Pekanbaru,SMK,Swasta,reg-riau,Riau,Kab. Riau Barat,0.47221,101.35353,469,24,A,61.0
+20100236,SD IT Al-Hikmah Ambon,SD,Swasta,reg-maluku,Maluku,Kab. Maluku Barat,-3.69769,128.04348,311,18,B,57.3
+20100279,SMA Taruna Nusantara Banjarmasin,SMA,Swasta,reg-kalsel,  kalimantan selatan  ,Kota Banjarmasin,-3.29978,114.67956,1031,46,A,62.3
+20100284,SMK Penerbangan Bandung,SMK,Swasta,reg-jabar,Jawa Barat,Kab. Jawa Barat Barat,-6.83497,107.71608,1194,60,A,60.0
+20100273,SD IT Al-Hikmah Medan,SD,Swasta,reg-sumut,Sumatera Utara,Kab. Sumatera Utara Barat,3.58012,98.62677,789,35,A,98.5
+20100248,SMK Negeri 2 Pekanbaru,SMK,Negeri,reg-riau,Riau,Kota Pekanbaru,0.54195,101.53325,898,37,B,73.6
+20100263,SD IT Al-Hikmah Makassar,SD,Swasta,reg-sulsel,Sulawesi Selatan,Kab. Sulawesi Selatan Barat,-5.01198,119.43702,451,17,A,79.9
+20100272,SMA Negeri 2 Palembang,SMA,Negeri,reg-sumsel,Sumatera Selatan,Kota Palembang,-3.02947,104.69967,439,20,A,61.4
+20100294,SMA Taruna Nusantara Palembang,SMA,Swasta,reg-sumsel,Sumatera Selatan,Kab. Sumatera Selatan Barat,-3.00524,104.85034,1105,84,B,88.4
+20100284,SMP Negeri 1 Kupang,SMP,Negeri,reg-ntt,Nusa Tenggara Timur,Kota Kupang,-10.21973,123.476,215,10,B,83.9
+20100250,SD Negeri 02 Pagi Mataram,SD,Negeri,reg-ntb,  nusa tenggara barat  ,Kab. Nusa Tenggara Barat Barat,-8.49681,116.23495,465,23,A,92.1
+20100282,SMA Negeri 1 Ambon,SMA,Negeri,reg-maluku,Maluku,Kab. Maluku Barat,-3.67706,128.33931,1083,58,,
+20100245,SMK Telkom Yogyakarta,SMK,Swasta,reg-diy,DI Yogyakarta,Kab. DI Yogyakarta Barat,-7.8267,110.31115,348,20,C,62.2
+20100237,SMA Negeri 5 Ambon,SMA,Negeri,reg-maluku,Maluku,Kab. Maluku Barat,-3.80298,128.14367,451,22,B,74.4
+20100288,  SMA NEGERI 3 PALEMBANG  ,SMA,Negeri,reg-sumsel,Sumatera Selatan,Kab. Sumatera Selatan Barat,-3.01128,104.86941,389,28,A,68.0
+20100246,  SMA NEGERI 3 JAYAPURA  ,SMA,Negeri,reg-papua,Papua,Kota Jayapura,-2.69619,140.64251,516,28,B,82.3
+20100241,SMA Negeri 8 Padang,SMA,Negeri,reg-sumbar,Sumatera Barat,Kota Padang,-1.02276,100.46059,966,57,A,89.4
+20100266,SMA Negeri 1 Manado,SMA,Negeri,reg-sulut,Sulawesi Utara,Kota Manado,1.44233,124.88595,797,53,B,63.2
+20100294,SMP Negeri 4 Bandung,SMP,Negeri,reg-jabar,Jawa Barat,Kab. Jawa Barat Barat,-6.95917,107.56404,728,56,C,55.5
+20100278,SD IT Al-Hikmah Mataram,SD,Swasta,reg-ntb,Nusa Tenggara Barat,Kota Mataram,-8.72135,115.98484,194,15,A,66.4
+20100297,SMP Negeri 12 Ambon,SMP,Negeri,reg-maluku,Maluku,Kota Ambon,-3.71243,128.19399,775,39,B,67.1
+20100275,SMP Negeri 4 Banjarmasin,SMP,Negeri,reg-kalsel,  kalimantan selatan  ,Kota Banjarmasin,-3.25041,114.69474,785,36,A,85.4
+20100249,  SD NEGERI 01 MATARAM  ,SD,Negeri,reg-ntb,Nusa Tenggara Barat,Kota Mataram,-8.52285,116.01585,793,35,A,85.8
+20100257,SMP Negeri 2 Semarang,SMP,Negeri,reg-jateng,Jawa Tengah,Kab. Jawa Tengah Barat,-7.2005,110.1191,395,17,A,94.1
+20100317,SMA Negeri 3 Makassar,SMA,Negeri,reg-sulsel,Sulawesi Selatan,Kota Makassar,-5.22117,119.31357,293,15,B,71.0
+20100303,SMA Negeri 1 Bandung,SMA,Negeri,reg-jabar,Jawa Barat,Kab. Jawa Barat Barat,-7.01381,107.7572,680,53,A,95.0
+20100292,SMK Negeri 6 Ambon,SMK,Negeri,reg-maluku,Maluku,Kab. Maluku Barat,-3.65479,128.31118,835,52,A,71.2
+20100291,SMA Negeri 3 Medan,SMA,Negeri,reg-sumut,Sumatera Utara,Kota Medan,3.5054,98.69134,816,49,B,55.3
+20100288,SMA Kristen Petra Kupang,sma,Swasta,reg-ntt,Nusa Tenggara Timur,Kota Kupang,-10.28203,123.73672,580,26,B,89.6
+20100330,  SMA NEGERI 1 AMBON  ,SMA,Negeri,reg-maluku,  maluku  ,Kota Ambon,-3.64646,128.11205,950,39,B,59.5
+20100278,SMA Negeri 3 Palembang,SMA,Negeri,reg-sumsel,Sumatera Selatan,Kab. Sumatera Selatan Barat,-2.90173,104.79963,1244,69,C,74.9
+20100253,SMA Kristen Petra Denpasar,SMA,Swasta,reg-bali,Bali,Kota Denpasar,-8.58025,115.27282,447,29,A,68.7
+20100274,  SMA NEGERI 3 SEMARANG  ,SMA,Negeri,reg-jateng,Jawa Tengah,Kota Semarang,-7.20679,110.02652,1377,101,A,74.6
+20100285,  SD NEGERI 01 KUPANG  ,SD,Negeri,reg-ntt,Nusa Tenggara Timur,Kab. Nusa Tenggara Timur Barat,-10.14621,123.52151,281,12,A,85.7
+20100292,SMP Negeri 4 Bandung,SMP,Negeri,reg-jabar,  jawa barat  ,Kota Bandung,-6.81112,107.63589,386,16,A,96.4
+20100265,SMA Negeri 5 Pekanbaru,SMA,Negeri,reg-riau,Riau,Kab. Riau Barat,0.54619,101.49121,635,45,B,71.2
+20100251,SMA Negeri 3 Padang,SMA,Negeri,reg-sumbar,Sumatera Barat,Kab. Sumatera Barat Barat,-1.06034,100.54988,443,33,B,90.2
+20100300,SD Negeri 02 Pagi Mataram,SD,Negeri,reg-ntb,Nusa Tenggara Barat,Kab. Nusa Tenggara Barat Barat,-8.5995,116.01129,296,17,C,67.0
+20100288,SD Negeri 02 Pagi Ambon,SD,Negeri,reg-maluku,Maluku,Kota Ambon,-3.6126,128.27976,182,13,A,73.2
+20100254,SMP Negeri 4 Banjarmasin,smp,Negeri,reg-kalsel,Kalimantan Selatan,Kota Banjarmasin,-3.37292,114.52193,677,29,A,79.6
+20100288,SMA Negeri 2 Banda Aceh,SMA,Negeri,reg-aceh,Aceh,Kota Banda Aceh,5.69049,95.20384,912,40,,
+20100282,SMA Kristen Petra Medan,SMA,Swasta,reg-sumut,Sumatera Utara,Kota Medan,3.49731,98.59317,906,36,,
+20100330,SMA Negeri 1 Serang,SMA,Negeri,reg-banten,Banten,Kota Serang,-5.9736,106.26479,1342,67,B,63.2
+20100260,SMA Negeri 3 Pontianak,SMA,Negeri,reg-kalbar,Kalimantan Barat,Kab. Kalimantan Barat Barat,-0.11586,109.23165,220,11,A,94.9
+20100264,SMA Negeri 1 Surabaya,SMA,Negeri,reg-jatim,Jawa Timur,Kab. Jawa Timur Barat,-7.11933,112.71418,470,20,B,92.4
+20100301,SMK Penerbangan Pekanbaru,SMK,Swasta,reg-riau,Riau,Kab. Riau Barat,0.55185,101.35006,1074,46,,
+20100304,SMK Negeri 6 Manado,SMK,Negeri,reg-sulut,Sulawesi Utara,Kota Manado,1.54345,124.97674,954,58,B,60.5
+20100264,SMK Negeri 1 Makassar,SMK,Negeri,reg-sulsel,Sulawesi Selatan,Kota Makassar,-5.19835,119.30604,632,30,A,76.6
+20100272,SMA Labschool Ambon,SMA,Swasta,reg-maluku,  maluku  ,Kota Ambon,-3.70026,128.27671,1094,89,A,85.2
+20100315,SMK Negeri 1 Kupang,SMK,Negeri,reg-ntt,Nusa Tenggara Timur,Kota Kupang,-10.09058,123.63042,955,56,A,91.1
+20100272,SMA Negeri 2 Kupang,SMA,Negeri,reg-ntt,  nusa tenggara timur  ,Kab. Nusa Tenggara Timur Barat,-10.1076,123.62111,394,30,A,71.3
+20100342,SD Negeri 02 Pagi Manado,SD,Negeri,reg-sulut,Sulawesi Utara,Kota Manado,1.35518,124.75377,789,55,C,61.8
+20100298,SMA Labschool Banjarmasin,SMA,Swasta,reg-kalsel,Kalimantan Selatan,Kab. Kalimantan Selatan Barat,-3.45305,114.44194,281,16,B,76.4
+20100342,  SD NEGERI 02 PAGI AMBON  ,SD,Negeri,reg-maluku,Maluku,Kab. Maluku Barat,-3.66333,128.07525,294,14,,
+20100300,SMA Negeri 3 Jayapura,SMA,Negeri,reg-papua,Papua,Kota Jayapura,-2.66261,140.65852,939,38,A,74.4
+20100287,SMA Labschool Medan,SMA,Swasta,reg-sumut,Sumatera Utara,Kab. Sumatera Utara Barat,3.4635,98.63833,1288,72,B,64.9
+20100329,SMA Kristen Petra Jayapura,SMA,Swasta,reg-papua,Papua,Kota Jayapura,-2.57023,140.67405,341,19,C,56.5
+20100285,SD Negeri 01 Palembang,SD,Negeri,reg-sumsel,Sumatera Selatan,Kab. Sumatera Selatan Barat,-2.82962,104.75602,336,14,A,73.4
+20100304,SMP Negeri 1 Manado,SMP,Negeri,reg-sulut,  sulawesi utara  ,Kota Manado,1.58179,124.84801,188,14,B,79.0
+20100347,  SD PERCOBAAN MANADO  ,SD,Swasta,reg-sulut,Sulawesi Utara,Kota Manado,1.60669,124.96958,273,19,B,88.0
+20100341,SMP Negeri 2 Yogyakarta,SMP,Negeri,reg-diy,DI Yogyakarta,Kota Yogyakarta,-7.86298,110.26266,790,42,B,56.6
+20100324,  SMP NEGERI 1 MEDAN  ,SMP,Negeri,reg-sumut,Sumatera Utara,Kota Medan,3.69042,98.61312,606,24,C,55.9
+20100287,SMK Negeri 6 Jayapura,SMK,Negeri,reg-papua,Papua,Kab. Papua Barat,-2.56011,140.54579,1087,47,A,86.7
+20100338,SD Percobaan Mataram,SD,Swasta,reg-ntb,Nusa Tenggara Barat,Kota Mataram,-8.61228,116.20085,647,28,A,85.9
+20100301,SMK Negeri 2 Bandar Lampung,SMK,Negeri,reg-lampung,Lampung,Kota Bandar Lampung,-5.48949,105.25597,1114,87,A,63.7
+20100281,SMK Negeri 6 Jayapura,SMK,Negeri,reg-papua,Papua,Kab. Papua Barat,-2.63833,140.7703,543,21,B,79.0
+20100315,SMA Negeri 1 Padang,SMA,Negeri,reg-sumbar,Sumatera Barat,Kab. Sumatera Barat Barat,-1.02957,100.32922,1351,58,A,64.6
+20100281,SD Negeri 02 Pagi Jayapura,SD,Negeri,reg-papua,Papua,Kota Jayapura,-2.4587,140.73282,735,31,A,81.5
+20100325,SD Negeri 01 Denpasar,SD,Negeri,reg-bali,Bali,Kab. Bali Barat,-8.66705,115.26131,653,27,A,59.5
+20100358,SMA Kolese Kanisius Ambon,SMA,Swasta,reg-maluku,Maluku,Kab. Maluku Barat,-3.61322,128.29905,1166,90,,
+20100321,SMK Negeri 2 Ambon,SMK,Negeri,reg-maluku,Maluku,Kab. Maluku Barat,-3.60724,128.24483,296,12,B,81.1
+20100317,SMP Negeri 12 Yogyakarta,SMP,Negeri,reg-diy,DI Yogyakarta,Kota Yogyakarta,-7.72764,110.28621,717,32,B,63.3
+20100330,SD Percobaan Jayapura,SD,Swasta,reg-papua,Papua,Kab. Papua Barat,-2.70322,140.5966,793,32,A,59.2
+20100373,SMP Negeri 1 Bandar Lampung,SMP,Negeri,reg-lampung,Lampung,Kota Bandar Lampung,-5.5006,105.19487,348,15,A,89.3
+20100293,SMA Taruna Nusantara Pontianak,SMA,Swasta,reg-kalbar,Kalimantan Barat,Kota Pontianak,0.02791,109.35145,325,17,A,60.2
+20100305,SMK Negeri 2 Palembang,SMK,Negeri,reg-sumsel,Sumatera Selatan,Kab. Sumatera Selatan Barat,-3.10186,104.72519,1117,79,C,62.8
+20100289,SD Negeri 01 Medan,SD,Negeri,reg-sumut,Sumatera Utara,Kab. Sumatera Utara Barat,3.67913,98.56102,292,14,A,89.2
+20100351,SMP Negeri 4 Mataram,smp,Negeri,reg-ntb,Nusa Tenggara Barat,Kab. Nusa Tenggara Barat Barat,-8.57399,115.97207,502,19,C,87.9
+20100379,  SMP NEGERI 2 BANDUNG  ,SMP,Negeri,reg-jabar,Jawa Barat,Kab. Jawa Barat Barat,-6.97804,107.55635,635,31,A,90.8
+20100347,SMA Labschool Surabaya,SMA,Swasta,reg-jatim,Jawa Timur,Kota Surabaya,-7.13204,112.72312,1183,69,A,96.2
+20100320,SMA Negeri 1 Palembang,SMA,Negeri,reg-sumsel,Sumatera Selatan,Kota Palembang,-2.934,104.85677,930,42,B,71.3
+20100378,  SMA NEGERI 5 MEDAN  ,SMA,Negeri,reg-sumut,Sumatera Utara,Kota Medan,3.58752,98.56814,417,23,A,78.8
+20100348,SMA Labschool Yogyakarta,SMA,Swasta,reg-diy,DI Yogyakarta,Kab. DI Yogyakarta Barat,-7.76029,110.30431,460,25,C,77.3
+20100321,SMK Telkom Manado,SMK,Swasta,reg-sulut,Sulawesi Utara,Kota Manado,1.47371,124.75441,913,41,A,56.7
+20100298,  SMA LABSCHOOL BANDA ACEH  ,SMA,Swasta,reg-aceh,Aceh,Kab. Aceh Barat,5.55181,95.39087,1355,63,A,58.9
+20100356,  SMK PENERBANGAN BANDUNG  ,SMK,Swasta,reg-jabar,Jawa Barat,Kab. Jawa Barat Barat,-6.86447,107.5969,537,22,C,70.7
+20100300,SMA Negeri 8 Medan,SMA,Negeri,reg-sumut,Sumatera Utara,Kota Medan,3.52569,98.74212,912,37,,
+20100351,SMP Negeri 4 Pekanbaru,SMP,Negeri,reg-riau,Riau,Kota Pekanbaru,0.62294,101.34783,514,23,B,73.3
+20100314,SMP Negeri 12 Bandar Lampung,SMP,Negeri,reg-lampung,Lampung,Kota Bandar Lampung,-5.49242,105.12534,702,32,A,71.5
+20100363,SD Negeri 02 Pagi Palembang,SD,Negeri,reg-sumsel,Sumatera Selatan,Kab. Sumatera Selatan Barat,-2.8656,104.78285,167,12,B,55.5
+20100388,SMP Negeri 1 Bandung,SMP,Negeri,reg-jabar,Jawa Barat,Kota Bandung,-6.96378,107.67199,753,56,B,65.8
+20100382,SMA Negeri 2 Banjarmasin,SMA,Negeri,reg-kalsel,Kalimantan Selatan,Kab. Kalimantan Selatan Barat,-3.44694,114.58829,1215,50,C,92.8
+20100369,SMK Negeri 6 Medan,SMK,Negeri,reg-sumut,Sumatera Utara,Kota Medan,3.47161,98.67174,661,50,A,79.9
+20100308,  SMA NEGERI 5 AMBON  ,SMA,Negeri,reg-maluku,Maluku,Kota Ambon,-3.61968,128.13198,1304,108,A,81.3
+20100365,  SMP NEGERI 1 JAYAPURA  ,SMP,Negeri,reg-papua,Papua,Kab. Papua Barat,-2.56161,140.734,348,14,A,88.4
+20100392,SMK Negeri 6 Pekanbaru,SMK,Negeri,reg-riau,Riau,Kab. Riau Barat,0.62616,101.44553,777,39,A,59.6
+20100322,SMK Telkom Mataram,SMK,Swasta,reg-ntb,Nusa Tenggara Barat,Kota Mataram,-8.63192,116.19384,984,65,B,63.3

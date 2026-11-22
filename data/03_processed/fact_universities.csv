@@ -1,0 +1,28 @@
+univ_id,univ_name,province_id,status,accreditation,student_total,lecturer_total,student_lecturer_ratio,study_program_count,international_publications
+PT-1001,Universitas Indonesia,reg-dki-jakarta,PTN-BH,Unggul,27751,1026,27.05,107,283
+PT-1002,Institut Teknologi Bandung,reg-jabar,PTN-BH,Unggul,33032,1514,21.82,74,1700
+PT-1003,Universitas Gadjah Mada,reg-diy,PTN-BH,Unggul,28815,1231,23.41,117,221
+PT-1004,Institut Teknologi Sepuluh Nopember,reg-jatim,PTN-BH,Unggul,45873,1749,26.23,140,2226
+PT-1005,Universitas Airlangga,reg-jatim,PTN-BH,Unggul,45340,2019,22.46,56,1334
+PT-1006,Universitas Diponegoro,reg-jateng,PTN-BH,Unggul,24616,1160,21.22,66,513
+PT-1007,Universitas Padjadjaran,reg-jabar,PTN-BH,Unggul,22970,828,27.74,46,388
+PT-1008,Universitas Brawijaya,reg-jatim,PTN-BH,Unggul,25813,1044,24.73,99,1857
+PT-1009,Universitas Hasanuddin,reg-sulsel,PTN-BH,Unggul,18810,937,20.07,156,415
+PT-1010,Universitas Sumatera Utara,reg-sumut,PTN-BH,Unggul,22076,1210,18.24,129,275
+PT-1011,Universitas Andalas,reg-sumbar,PTN-BLU,A,17735,946,18.75,90,1151
+PT-1012,Universitas Syiah Kuala,reg-aceh,PTN-BLU,Unggul,16616,699,23.77,103,1179
+PT-1013,Universitas Riau,reg-riau,PTN-BLU,A,38714,1769,21.88,148,1893
+PT-1014,Universitas Sriwijaya,reg-sumsel,PTN-BLU,A,32735,1801,18.18,75,2310
+PT-1015,Universitas Udayana,reg-bali,PTN-BLU,Unggul,12386,507,24.43,61,306
+PT-1016,Universitas Mataram,reg-ntb,PTN-BLU,B,16757,776,21.59,173,554
+PT-1017,Universitas Nusa Cendana,reg-ntt,PTN-Satker,B,30994,1198,25.87,122,474
+PT-1018,Universitas Tanjungpura,reg-kalbar,PTN-BLU,A,30449,1186,25.67,157,1682
+PT-1019,Universitas Mulawarman,reg-kaltim,PTN-BLU,A,37894,1445,26.22,52,2061
+PT-1020,Universitas Lambung Mangkurat,reg-kalsel,PTN-BLU,A,22244,953,23.34,79,1721
+PT-1021,Universitas Sam Ratulangi,reg-sulut,PTN-BLU,A,47764,2279,20.96,81,1340
+PT-1022,Universitas Pattimura,reg-maluku,PTN-Satker,B,36453,1322,27.57,47,2387
+PT-1023,Universitas Cenderawasih,reg-papua,PTN-Satker,B,21265,1105,19.24,46,1734
+PT-1024,Universitas Bina Nusantara,reg-dki-jakarta,PTS,Unggul,47202,2010,23.48,66,1368
+PT-1025,Telkom University,reg-jabar,PTS,Unggul,25766,1011,25.49,133,987
+PT-1026,Universitas Islam Indonesia,reg-diy,PTS,Unggul,39043,1443,27.06,81,779
+PT-1027,Universitas Muhammadiyah Malang,reg-jatim,PTS,Unggul,24058,1190,20.22,109,915

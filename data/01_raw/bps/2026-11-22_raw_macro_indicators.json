@@ -1,0 +1,332 @@
+[
+  {
+    "kode_provinsi": "reg-aceh",
+    "nama_provinsi": "Aceh",
+    "pulau": "Sumatera",
+    "indeks_pembangunan_manusia": 79.25,
+    "angka_partisipasi_murni": {
+      "sd": 97.35,
+      "smp": 95.58,
+      "sma": 74.15
+    },
+    "rata_rata_lama_sekolah_tahun": 10.03,
+    "persentase_penduduk_miskin": 11.56,
+    "anggaran_fungsi_pendidikan_milyar": 6597.59,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-sumut",
+    "nama_provinsi": "Sumatera Utara",
+    "pulau": "Sumatera",
+    "indeks_pembangunan_manusia": 68.57,
+    "angka_partisipasi_murni": {
+      "sd": 99.06,
+      "smp": 92.7,
+      "sma": 73.66
+    },
+    "rata_rata_lama_sekolah_tahun": 10.02,
+    "persentase_penduduk_miskin": 17.44,
+    "anggaran_fungsi_pendidikan_milyar": 5574.06,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-sumbar",
+    "nama_provinsi": "Sumatera Barat",
+    "pulau": "Sumatera",
+    "indeks_pembangunan_manusia": 83.06,
+    "angka_partisipasi_murni": {
+      "sd": 98.94,
+      "smp": 89.48,
+      "sma": 81.3
+    },
+    "rata_rata_lama_sekolah_tahun": 7.95,
+    "persentase_penduduk_miskin": 13.71,
+    "anggaran_fungsi_pendidikan_milyar": 4594.5,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-riau",
+    "nama_provinsi": "Riau",
+    "pulau": "Sumatera",
+    "indeks_pembangunan_manusia": 73.65,
+    "angka_partisipasi_murni": {
+      "sd": 99.47,
+      "smp": 91.56,
+      "sma": 77.18
+    },
+    "rata_rata_lama_sekolah_tahun": 10.48,
+    "persentase_penduduk_miskin": 7.98,
+    "anggaran_fungsi_pendidikan_milyar": 3428.07,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-sumsel",
+    "nama_provinsi": "Sumatera Selatan",
+    "pulau": "Sumatera",
+    "indeks_pembangunan_manusia": 73.99,
+    "angka_partisipasi_murni": {
+      "sd": 97.82,
+      "smp": 94.84,
+      "sma": 67.76
+    },
+    "rata_rata_lama_sekolah_tahun": 10.09,
+    "persentase_penduduk_miskin": 16.91,
+    "anggaran_fungsi_pendidikan_milyar": 4068.85,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-lampung",
+    "nama_provinsi": "Lampung",
+    "pulau": "Sumatera",
+    "indeks_pembangunan_manusia": 81.99,
+    "angka_partisipasi_murni": {
+      "sd": 98.53,
+      "smp": 90.67,
+      "sma": 79.74
+    },
+    "rata_rata_lama_sekolah_tahun": 9.88,
+    "persentase_penduduk_miskin": 7.54,
+    "anggaran_fungsi_pendidikan_milyar": 2374.39,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-dki-jakarta",
+    "nama_provinsi": "DKI Jakarta",
+    "pulau": "Jawa",
+    "indeks_pembangunan_manusia": 79.93,
+    "angka_partisipasi_murni": {
+      "sd": 98.92,
+      "smp": 95.83,
+      "sma": 67.65
+    },
+    "rata_rata_lama_sekolah_tahun": 10.55,
+    "persentase_penduduk_miskin": 18.15,
+    "anggaran_fungsi_pendidikan_milyar": 2195.75,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-jabar",
+    "nama_provinsi": "Jawa Barat",
+    "pulau": "Jawa",
+    "indeks_pembangunan_manusia": 77.18,
+    "angka_partisipasi_murni": {
+      "sd": 98.78,
+      "smp": 94.04,
+      "sma": 80.22
+    },
+    "rata_rata_lama_sekolah_tahun": 9.92,
+    "persentase_penduduk_miskin": 12.66,
+    "anggaran_fungsi_pendidikan_milyar": 6478.97,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-jateng",
+    "nama_provinsi": "Jawa Tengah",
+    "pulau": "Jawa",
+    "indeks_pembangunan_manusia": 79.86,
+    "angka_partisipasi_murni": {
+      "sd": 98.89,
+      "smp": 95.6,
+      "sma": 75.68
+    },
+    "rata_rata_lama_sekolah_tahun": 11.27,
+    "persentase_penduduk_miskin": 10.41,
+    "anggaran_fungsi_pendidikan_milyar": 1271.51,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-diy",
+    "nama_provinsi": "DI Yogyakarta",
+    "pulau": "Jawa",
+    "indeks_pembangunan_manusia": 70.2,
+    "angka_partisipasi_murni": {
+      "sd": 98.07,
+      "smp": 88.45,
+      "sma": 66.13
+    },
+    "rata_rata_lama_sekolah_tahun": 8.65,
+    "persentase_penduduk_miskin": 15.5,
+    "anggaran_fungsi_pendidikan_milyar": 6707.78,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-jatim",
+    "nama_provinsi": "Jawa Timur",
+    "pulau": "Jawa",
+    "indeks_pembangunan_manusia": 79.43,
+    "angka_partisipasi_murni": {
+      "sd": 97.41,
+      "smp": 88.53,
+      "sma": 80.69
+    },
+    "rata_rata_lama_sekolah_tahun": 8.38,
+    "persentase_penduduk_miskin": 12.08,
+    "anggaran_fungsi_pendidikan_milyar": 3208.62,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-banten",
+    "nama_provinsi": "Banten",
+    "pulau": "Jawa",
+    "indeks_pembangunan_manusia": 75.74,
+    "angka_partisipasi_murni": {
+      "sd": 98.73,
+      "smp": 93.74,
+      "sma": 76.24
+    },
+    "rata_rata_lama_sekolah_tahun": 8.46,
+    "persentase_penduduk_miskin": 13.56,
+    "anggaran_fungsi_pendidikan_milyar": 3377.77,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-bali",
+    "nama_provinsi": "Bali",
+    "pulau": "Bali & Nusa Tenggara",
+    "indeks_pembangunan_manusia": 76.67,
+    "angka_partisipasi_murni": {
+      "sd": 99.23,
+      "smp": 93.92,
+      "sma": 78.86
+    },
+    "rata_rata_lama_sekolah_tahun": 7.7,
+    "persentase_penduduk_miskin": 9.84,
+    "anggaran_fungsi_pendidikan_milyar": 3532.77,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-ntb",
+    "nama_provinsi": "Nusa Tenggara Barat",
+    "pulau": "Bali & Nusa Tenggara",
+    "indeks_pembangunan_manusia": 81.11,
+    "angka_partisipasi_murni": {
+      "sd": 98.92,
+      "smp": 96.21,
+      "sma": 66.08
+    },
+    "rata_rata_lama_sekolah_tahun": 10.7,
+    "persentase_penduduk_miskin": 7.34,
+    "anggaran_fungsi_pendidikan_milyar": 6065.56,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-ntt",
+    "nama_provinsi": "Nusa Tenggara Timur",
+    "pulau": "Bali & Nusa Tenggara",
+    "indeks_pembangunan_manusia": 82.27,
+    "angka_partisipasi_murni": {
+      "sd": 98.24,
+      "smp": 89.92,
+      "sma": 77.68
+    },
+    "rata_rata_lama_sekolah_tahun": 10.55,
+    "persentase_penduduk_miskin": 9.65,
+    "anggaran_fungsi_pendidikan_milyar": 4494.96,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-kalbar",
+    "nama_provinsi": "Kalimantan Barat",
+    "pulau": "Kalimantan",
+    "indeks_pembangunan_manusia": 80.32,
+    "angka_partisipasi_murni": {
+      "sd": 97.55,
+      "smp": 94.16,
+      "sma": 68.87
+    },
+    "rata_rata_lama_sekolah_tahun": 9.43,
+    "persentase_penduduk_miskin": 18.27,
+    "anggaran_fungsi_pendidikan_milyar": 1617.03,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-kaltim",
+    "nama_provinsi": "Kalimantan Timur",
+    "pulau": "Kalimantan",
+    "indeks_pembangunan_manusia": 83.9,
+    "angka_partisipasi_murni": {
+      "sd": 99.06,
+      "smp": 89.01,
+      "sma": 65.81
+    },
+    "rata_rata_lama_sekolah_tahun": 8.7,
+    "persentase_penduduk_miskin": 8.2,
+    "anggaran_fungsi_pendidikan_milyar": 2101.2,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-kalsel",
+    "nama_provinsi": "Kalimantan Selatan",
+    "pulau": "Kalimantan",
+    "indeks_pembangunan_manusia": 82.04,
+    "angka_partisipasi_murni": {
+      "sd": 97.02,
+      "smp": 91.96,
+      "sma": 83.75
+    },
+    "rata_rata_lama_sekolah_tahun": 7.67,
+    "persentase_penduduk_miskin": 17.5,
+    "anggaran_fungsi_pendidikan_milyar": 4542.53,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-sulsel",
+    "nama_provinsi": "Sulawesi Selatan",
+    "pulau": "Sulawesi",
+    "indeks_pembangunan_manusia": 80.88,
+    "angka_partisipasi_murni": {
+      "sd": 98.75,
+      "smp": 95.17,
+      "sma": 71.02
+    },
+    "rata_rata_lama_sekolah_tahun": 10.9,
+    "persentase_penduduk_miskin": 12.2,
+    "anggaran_fungsi_pendidikan_milyar": 1608.13,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-sulut",
+    "nama_provinsi": "Sulawesi Utara",
+    "pulau": "Sulawesi",
+    "indeks_pembangunan_manusia": 79.82,
+    "angka_partisipasi_murni": {
+      "sd": 98.47,
+      "smp": 96.13,
+      "sma": 75.41
+    },
+    "rata_rata_lama_sekolah_tahun": 10.88,
+    "persentase_penduduk_miskin": 6.73,
+    "anggaran_fungsi_pendidikan_milyar": 4241.25,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-maluku",
+    "nama_provinsi": "Maluku",
+    "pulau": "Maluku & Papua",
+    "indeks_pembangunan_manusia": 74.95,
+    "angka_partisipasi_murni": {
+      "sd": 97.98,
+      "smp": 95.51,
+      "sma": 78.27
+    },
+    "rata_rata_lama_sekolah_tahun": 8.92,
+    "persentase_penduduk_miskin": 8.61,
+    "anggaran_fungsi_pendidikan_milyar": 6521.73,
+    "tahun_referensi": 2026
+  },
+  {
+    "kode_provinsi": "reg-papua",
+    "nama_provinsi": "Papua",
+    "pulau": "Maluku & Papua",
+    "indeks_pembangunan_manusia": 78.39,
+    "angka_partisipasi_murni": {
+      "sd": 98.33,
+      "smp": 92.77,
+      "sma": 80.04
+    },
+    "rata_rata_lama_sekolah_tahun": 10.29,
+    "persentase_penduduk_miskin": 6.11,
+    "anggaran_fungsi_pendidikan_milyar": 3137.64,
+    "tahun_referensi": 2026
+  }
+]
