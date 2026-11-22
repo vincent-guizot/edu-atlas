@@ -1,0 +1,208 @@
+[
+  {
+    "id": "PB-2026-001",
+    "slug": "disparitas-guru-wilayah-3t",
+    "title": "Mitigasi Kesenjangan Distribusi & Kualifikasi Pendidik di Wilayah 3T Indonesia",
+    "category": "Pemerataan Tenaga Pendidik",
+    "targetAgencies": [
+      "Ditjen GTK Kemendikbudristek",
+      "KemenPAN-RB",
+      "Bappenas"
+    ],
+    "status": "Rekomendasi Siap Diserahkan",
+    "date": "22 November 2026",
+    "author": "Kelompok Kerja Analitik Kebijakan EduAtlas",
+    "executiveSummary": "Sebanyak 71,9% kabupaten di Maluku dan Papua berstatus 3T dengan defisit guru berkeahlian sains dan vokasi. Penataan formasi PPPK berbasis afirmasi lokasi mutlak diperlukan guna mencegah kekosongan ruang kelas.",
+    "keyEvidence": [
+      {
+        "label": "Rata-rata Rasio Murid:Guru 3T",
+        "value": "25,4 : 1 (vs 17,6 : 1 di Jawa)"
+      },
+      {
+        "label": "Guru Bersertifikat Pendidik di 3T",
+        "value": "54,2% (Target Nasional 90%)"
+      },
+      {
+        "label": "Kekosongan Guru Tetap per Sekolah 3T",
+        "value": "Rata-rata 2,8 Guru per Satuan Pendidikan"
+      }
+    ],
+    "rootCauses": [
+      "Formasi seleksi ASN/PPPK terpusat di wilayah perkotaan akibat minimnya insentif tunjangan kemahalan daerah terpencil.",
+      "Tingkat mutasi guru kembali ke ibukota provinsi setelah masa dinas 2 tahun masih di atas 40%.",
+      "Fasilitas perumahan guru dinas di perbatasan pulau belum teralokasi optimal dalam DAK Fisik."
+    ],
+    "shortTermActions": [
+      "Pemberian Tunjangan Khusus Guru (TKG) 1,5x gaji pokok yang cair tepat waktu bulanan secara terotomasi via Dapodik.",
+      "Moratorium kepindahan mutasi guru ASN di satuan pendidikan 3T minimal 8 tahun masa pengabdian."
+    ],
+    "mediumTermActions": [
+      "Program beasiswa ikatan dinas sarjana kependidikan putra daerah (PPG Prajabatan Terikat Daerah 3T).",
+      "Rehabilitasi terpadu 12.000 rumah dinas guru di pulau terluar dan daerah pegunungan."
+    ]
+  },
+  {
+    "id": "PB-2026-002",
+    "slug": "efisiensi-dana-bos-kinerja",
+    "title": "Akselerasi Efektivitas Penyaluran Dana BOS Kinerja untuk Transformasi Pembelajaran Digital",
+    "category": "Tata Kelola Anggaran",
+    "targetAgencies": [
+      "Kementerian Pendidikan Dasar dan Menengah",
+      "Kementerian Keuangan",
+      "Dinas Pendidikan Provinsi"
+    ],
+    "status": "Rekomendasi Siap Diserahkan",
+    "date": "20 November 2026",
+    "author": "Unit Riset Fiskal EduAtlas",
+    "executiveSummary": "Meskipun serapan BOS nasional mencapai 96,8%, sekolah dengan akreditasi C mengalami keterlambatan eksekusi anggaran akibat beban administrasi pelaporan ARKAS yang belum terintegrasi.",
+    "keyEvidence": [
+      {
+        "label": "Serapan BOS Reguler Nasional",
+        "value": "96,8%"
+      },
+      {
+        "label": "Alokasi Belanja Modal TIK Sekolah",
+        "value": "Hanya 14,2% dari total dana BOS"
+      },
+      {
+        "label": "Sekolah Akreditasi C Penerima Kinerja",
+        "value": "39 Sekolah dari 300 Sampel Terdata"
+      }
+    ],
+    "rootCauses": [
+      "Rendahnya kapasitas bendahara sekolah dalam perencanaan berbasis data (Rapor Pendidikan).",
+      "Kekakuan aturan batas maksimal honorarium guru non-ASN pada sekolah berstatus swasta pedesaan."
+    ],
+    "shortTermActions": [
+      "Penyederhanaan pelaporan ARKAS dengan validasi otomatis e-Katalog LKPP.",
+      "Bimbingan teknis intensif PBD (Perencanaan Berbasis Data) untuk 500 sekolah prioritas."
+    ],
+    "mediumTermActions": [
+      "Digitalisasi audit dana operasional sekolah secara real-time bersama BPKP.",
+      "Peningkatan unit cost BOS per siswa di kabupaten berindeks kemahalan konstruksi tinggi."
+    ]
+  },
+  {
+    "id": "PB-2026-003",
+    "slug": "pensiun-massal-guru-2026-2030",
+    "title": "Strategi Penanganan Lonjakan Pensiun 360.000 Guru Periode 2026–2030 Melalui PPG Prajabatan",
+    "category": "Manajemen SDM Pendidikan",
+    "targetAgencies": [
+      "Kemendikbudristek",
+      "KemenPAN-RB",
+      "Asosiasi Pemerintah Kabupaten Seluruh Indonesia (APKASI)"
+    ],
+    "status": "Draf Siap Dikirim",
+    "date": "18 November 2026",
+    "author": "Laboratorium Proyeksi Masa Depan EduAtlas",
+    "executiveSummary": "Sebanyak 72.500 guru berstatus PNS memasuki batas usia pensiun setiap tahunnya hingga 2030. Jika kuota rekrutmen tidak disesuaikan, defisit guru nasional diproyeksikan melonjak hingga 18,4% pada 2029.",
+    "keyEvidence": [
+      {
+        "label": "Pensiun Tahunan Rata-Rata",
+        "value": "72.500 Orang / Tahun"
+      },
+      {
+        "label": "Guru Usia di Atas 55 Tahun",
+        "value": "24,8% dari total pendidik aktif"
+      },
+      {
+        "label": "Proyeksi Defisit Pendidik 2028",
+        "value": "112.000 Pendidik jika kuota tetap"
+      }
+    ],
+    "rootCauses": [
+      "Efek moratorium pengangkatan PNS masa lampau yang terkonsentrasi pada cohort usia pensiun 2025-2030.",
+      "Kapasitas LPTK mencetak lulusan PPG Prajabatan bidang studi produktif masih di bawah kebutuhan riil."
+    ],
+    "shortTermActions": [
+      "Peningkatan kuota penerimaan PPG Prajabatan bersubsidi pemerintah hingga 80.000 mahasiswa per tahun.",
+      "Skema perpanjangan kontrak purna tugas guru teladan dengan kompensasi keahlian khusus."
+    ],
+    "mediumTermActions": [
+      "Kemitraan strategis LPTK dengan perguruan tinggi vokasi untuk percepatan sertifikasi guru produktif SMK.",
+      "Penyusunan dashboard talenta pendidik berbasis AI untuk penempatan formasi presisi."
+    ]
+  },
+  {
+    "id": "PB-2026-004",
+    "slug": "revitalisasi-sarpras-vokasi",
+    "title": "Harmonisasi Revitalisasi Fasilitas SMK & Politeknik dengan Kebutuhan Koridor Industri Daerah",
+    "category": "Vokasi & Kemitraan Industri",
+    "targetAgencies": [
+      "Ditjen Vokasi",
+      "Kementerian Perindustrian",
+      "KADIN Indonesia"
+    ],
+    "status": "Rekomendasi Siap Diserahkan",
+    "date": "15 November 2026",
+    "author": "Pokja Kemitraan Dunia Usaha EduAtlas",
+    "executiveSummary": "Hanya 34,2% SMK di luar Jawa yang memiliki sarana bengkel praktik berstandar sertifikasi industri internasional. Revitalisasi sarpras berbasis konsorsium industri lokal adalah kunci penyerapan lulusan.",
+    "keyEvidence": [
+      {
+        "label": "Skor Kelayakan Sarpras SMK Luar Jawa",
+        "value": "64,8 dari 100"
+      },
+      {
+        "label": "Ketersediaan Guru Produktif Bersertifikat",
+        "value": "41,2%"
+      },
+      {
+        "label": "Daya Serap Lulusan Vokasi Relevan",
+        "value": "68,4%"
+      }
+    ],
+    "rootCauses": [
+      "Tingginya depresiasi mesin perkakas sekolah kejuruan tanpa anggaran pemeliharaan berkala.",
+      "Minimnya insentif Super Tax Deduction yang dimanfaatkan industri manufaktur daerah."
+    ],
+    "shortTermActions": [
+      "Pengalokasian DAK Fisik tematik SMK berbasis komitmen Teaching Factory (TeFa) dengan mitra industri.",
+      "Sosialisasi masif kemudahan klaim insentif pajak 200% bagi industri pembina SMK."
+    ],
+    "mediumTermActions": [
+      "Pembangunan Shared Facilities Center (Balai Latihan Bersama) di tiap kawasan industri strategis.",
+      "Sertifikasi kompetensi berkala bagi instruktur kejuruan langsung di lini manufaktur."
+    ]
+  },
+  {
+    "id": "PB-2026-005",
+    "slug": "efisiensi-anggaran-ipm-daerah",
+    "title": "Optimalisasi Pengeluaran Belanja Pendidikan APBD Terhadap Percepatan Peningkatan IPM Pendidikan",
+    "category": "Efisiensi Fiskal & IPM",
+    "targetAgencies": [
+      "Kementerian Dalam Negeri",
+      "Bappenas",
+      "Kementerian Keuangan"
+    ],
+    "status": "Draf Siap Dikirim",
+    "date": "10 November 2026",
+    "author": "Divisi Kebijakan Publik EduAtlas",
+    "executiveSummary": "Beberapa daerah mencatatkan spending per student di atas Rp 7,5 juta namun skor IPM Pendidikan tetap di bawah 68. Pergeseran proporsi belanja dari birokrasi ke beasiswa dan ruang belajar sangat mendesak.",
+    "keyEvidence": [
+      {
+        "label": "Rata-rata Belanja Per Siswa",
+        "value": "Rp 5.420.000 / Tahun"
+      },
+      {
+        "label": "Korelasi Anggaran vs IPM",
+        "value": "Koefisien R = 0,64"
+      },
+      {
+        "label": "Daerah Kategori Kuadran Butuh Optimalisasi",
+        "value": "48 Kabupaten/Kota"
+      }
+    ],
+    "rootCauses": [
+      "Proporsi belanja barang/jasa dan perjalanan dinas aparatur dinas pendidikan yang melampaui 35% APBD fungsi pendidikan.",
+      "Belum adanya indikator kinerja capaian pembelajaran yang diikatkan dengan transfer dana insentif fiskal."
+    ],
+    "shortTermActions": [
+      "Penerapan batas pagu maksimal belanja operasional aparatur dinas pendidikan maksimal 15% dari total APBD pendidikan.",
+      "Pengalokasian dana insentif daerah (DID) berbasis kenaikan literasi dan numerasi Rapor Pendidikan."
+    ],
+    "mediumTermActions": [
+      "Audit kepatuhan mandatory spending 20% yang murni mengalir ke satuan pendidikan peserta didik.",
+      "Pengembangan sistem akuntansi pendidikan berbasis satuan biaya standar regional (SBSR)."
+    ]
+  }
+]
