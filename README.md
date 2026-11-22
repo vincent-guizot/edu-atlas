@@ -4,9 +4,10 @@
 
 # EduAtlas — Education Intelligence & Data Visualization Platform
 
-**Version:** 1.0.0  
+**Version:** 1.1.0  
 **Tagline:** Explore Education Through Data.  
-**Domain:** Indonesia Education Statistics & Analytics
+**Domain:** Indonesia Education Statistics & Analytics  
+**Swagger API Spec:** `http://localhost:4000/api/docs` & `docs/openapi.json`
 
 EduAtlas adalah platform visualisasi data dan kecerdasan analitik pendidikan di Indonesia yang menyajikan snapshot data statistik sekolah, siswa, guru, universitas, mahasiswa, dan performa akademik antar-wilayah secara interaktif.
 
@@ -41,8 +42,22 @@ EduAtlas/
 │       │   └── main.tsx
 │       └── package.json
 ├── brand/                     # Brand Identity & Aset Desain EduAtlas (Logo, Palet, Banner)
+├── data/                      # Unified Data Platform (DE, DA, DS)
+│   ├── 01_raw/                # Data mentah orisinal snapshot (Kemdikbud, BPS, PDDikti)
+│   ├── 02_interim/            # Data hasil pembersihan awal & standarisasi teks
+│   ├── 03_processed/          # Star-Schema Data Warehouse (dim_regions, dim_schools, fact_*)
+│   ├── 04_features/           # Feature store ML, normalisasi, dan klaster K-Means (K=3)
+│   ├── 05_analytics/          # Analytics mart agregat KPI, pemeringkatan, dan disparitas
+│   ├── metadata/              # Kamus data, data lineage, dan kontrak validasi
+│   └── pipelines/             # Skrip otomatisasi ETL & sinkronisasi aplikasi
 ├── docs/                      # Dokumentasi Teknis & Spesifikasi
 │   ├── README.md              # Portal Indeks Dokumentasi
+│   ├── data/                  # Portal dokumentasi tim data (DE, DA, DS)
+│   │   ├── README.md          # Ikhtisar arsitektur data & pembagian peran
+│   │   ├── data-pipeline.md   # Spesifikasi teknis alur pipeline ETL
+│   │   ├── data-dictionary.md # Kamus data & definisi entitas kolom
+│   │   └── data-lineage.md    # Silsilah transformasi data mentah ke analitik
+│   ├── openapi.json           # Spesifikasi OpenAPI 3.0 REST API (v1.1.0)
 │   ├── product-requirements.md# Product Requirements Document (PRD)
 │   ├── architecture.md        # Arsitektur Sistem & Monorepo
 │   ├── design-system.md       # EduAtlas Design System v1.0
@@ -125,3 +140,29 @@ cd apps/frontend
 yarn dev
 ```
 * Frontend berjalan di: `http://localhost:5173`
+
+---
+
+## 5. Arsitektur Data Platform & Pipeline (Folder `data/`)
+
+EduAtlas mengadopsi struktur repositori data berlapis (*Medallion Architecture*) yang dikelola bersama oleh **Data Engineer**, **Data Analyst**, dan **Data Science**:
+
+### A. Alur Kerja Data
+1. **Ingestion (`01_raw/`):** Mengambil data mentah BPS, Kemendikbud (Dapodik), dan PDDikti.
+2. **Transformasi & Dimensi (`02_interim/` & `03_processed/`):** Pembersihan encoding, imputasi, dan pemodelan Star Schema (`dim_regions`, `dim_schools`, `fact_school_academics`, `fact_universities`).
+3. **Machine Learning (`04_features/`):** Feature store terskala, pembagian train/test (80:20), dan clustering disparitas K-Means ($K=3$).
+4. **Analytics Mart (`05_analytics/`):** Agregasi KPI nasional, pemeringkatan performa regional, dan disparitas Jawa vs Luar Jawa.
+
+### B. Perintah Pipeline Data
+```bash
+# 1. Menjalankan seluruh pipeline ETL dan analitik
+python data/pipelines/run_all_pipelines.py
+
+# 2. Menyinkronkan dataset ke aplikasi (backend data snapshots, database seeder, dan frontend constants)
+python data/pipelines/sync_to_application.py
+
+# 3. Memperbarui dokumen spesifikasi Swagger / OpenAPI 3.0
+python data/pipelines/generate_openapi_spec.py
+```
+
+Seluruh panduan teknis data tersedia di portal dokumentasi: [docs/data/README.md](docs/data/README.md).
