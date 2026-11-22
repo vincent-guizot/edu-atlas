@@ -1,0 +1,50 @@
+{
+  "SMA": {
+    "total_schools": 136,
+    "total_students": 115429,
+    "total_teachers": 6491,
+    "student_teacher_ratio": 17.78,
+    "average_facility_score": 76.51,
+    "accreditation_breakdown": {
+      "B": 69,
+      "A": 52,
+      "C": 15
+    }
+  },
+  "SMK": {
+    "total_schools": 59,
+    "total_students": 46894,
+    "total_teachers": 2697,
+    "student_teacher_ratio": 17.39,
+    "average_facility_score": 74.08,
+    "accreditation_breakdown": {
+      "A": 26,
+      "B": 23,
+      "C": 10
+    }
+  },
+  "SD": {
+    "total_schools": 56,
+    "total_students": 26933,
+    "total_teachers": 1485,
+    "student_teacher_ratio": 18.14,
+    "average_facility_score": 76.37,
+    "accreditation_breakdown": {
+      "B": 22,
+      "A": 26,
+      "C": 8
+    }
+  },
+  "SMP": {
+    "total_schools": 49,
+    "total_students": 23019,
+    "total_teachers": 1178,
+    "student_teacher_ratio": 19.54,
+    "average_facility_score": 74.93,
+    "accreditation_breakdown": {
+      "A": 24,
+      "B": 19,
+      "C": 6
+    }
+  }
+}

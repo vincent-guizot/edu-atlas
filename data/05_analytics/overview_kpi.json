@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-11-22",
+  "national_summary": {
+    "total_provinces": 22,
+    "total_schools_sample": 300,
+    "total_students_enrolled": 212275,
+    "total_teachers_active": 11851,
+    "student_teacher_ratio": 17.91,
+    "average_facility_score": 75.74,
+    "accreditation_breakdown": {
+      "B": 133,
+      "A": 128,
+      "C": 39
+    }
+  },
+  "higher_education_summary": {
+    "total_universities": 27,
+    "total_university_students": 793171,
+    "total_lecturers": 34358,
+    "student_lecturer_ratio": 23.09
+  }
+}

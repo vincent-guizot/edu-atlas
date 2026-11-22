@@ -1,0 +1,45 @@
+{
+  "dataset_name": "EduAtlas ML School Performance & Disparity Feature Store",
+  "total_records": 300,
+  "train_records": 240,
+  "test_records": 60,
+  "split_ratio": "80:20",
+  "random_seed": 1337,
+  "features": [
+    {
+      "name": "level_code",
+      "type": "int",
+      "description": "Encoded school level (1=SD, 2=SMP, 3=SMA, 4=SMK)"
+    },
+    {
+      "name": "is_negeri",
+      "type": "binary",
+      "description": "1 if school is public (Negeri), 0 if private"
+    },
+    {
+      "name": "student_teacher_ratio",
+      "type": "float",
+      "description": "Raw student count divided by teacher count"
+    },
+    {
+      "name": "facility_norm",
+      "type": "float",
+      "description": "MinMax normalized facility score (0.0 to 1.0)"
+    },
+    {
+      "name": "accreditation_weight",
+      "type": "float",
+      "description": "3.0 for A, 2.0 for B, 1.0 for C"
+    },
+    {
+      "name": "regional_ipm",
+      "type": "float",
+      "description": "Human Development Index of the province"
+    }
+  ],
+  "clusters_summary": {
+    "Tier 1: Unggul & Fasilitas Memadai": 99,
+    "Tier 2: Berkembang (Standar Nasional)": 114,
+    "Tier 3: Butuh Dukungan / Intervensi": 87
+  }
+}

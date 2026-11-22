@@ -1,0 +1,301 @@
+school_id,school_name,province_name,island,education_level,level_code,is_negeri,student_total,teacher_total,student_teacher_ratio,facility_score,accreditation_weight,regional_ipm,regional_poverty,facility_norm,student_teacher_ratio_norm,cluster_id,cluster_label
+sch-0073,Smp Negeri 4 Jayapura,Papua,Maluku & Papua,SMP,2,1,619,25,24.76,58.0,3.0,78.39,6.11,0.0668,0.8545,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0210,Sd It Al-Hikmah Makassar,Sulawesi Selatan,Sulawesi,SD,1,0,451,17,26.53,79.9,3.0,80.88,12.2,0.5714,0.9737,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0094,Sma Negeri 3 Padang,Sumatera Barat,Sumatera,SMA,3,1,943,40,23.57,80.5,2.0,83.06,13.71,0.5853,0.7744,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0051,Smp Negeri 1 Jayapura,Papua,Maluku & Papua,SMP,2,1,306,16,19.12,66.2,3.0,78.39,6.11,0.2558,0.4747,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0282,Smp Negeri 2 Bandung,Jawa Barat,Jawa,SMP,2,1,635,31,20.48,90.8,3.0,77.18,12.66,0.8226,0.5663,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0152,Sma Negeri 2 Palembang,Sumatera Selatan,Sumatera,SMA,3,1,889,35,25.4,87.5,2.0,73.99,16.91,0.7465,0.8976,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0017,Smp Negeri 1 Medan,Sumatera Utara,Sumatera,SMP,2,1,316,21,15.05,73.4,3.0,68.57,17.44,0.4217,0.2007,2,Tier 2: Berkembang (Standar Nasional)
+sch-0131,Sd Negeri 02 Pagi Yogyakarta,DI Yogyakarta,Jawa,SD,1,1,195,10,19.5,74.4,1.0,70.2,15.5,0.4447,0.5003,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0093,Smp Negeri 12 Kupang,Nusa Tenggara Timur,Bali & Nusa Tenggara,SMP,2,1,545,24,22.71,68.6,3.0,82.27,9.65,0.3111,0.7165,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0252,Sma Labschool Ambon,Maluku,Maluku & Papua,SMA,3,0,1094,89,12.29,85.2,3.0,74.95,8.61,0.6935,0.0148,2,Tier 2: Berkembang (Standar Nasional)
+sch-0148,Smk Negeri 6 Palembang,Sumatera Selatan,Sumatera,SMK,4,1,405,27,15.0,73.2,3.0,73.99,16.91,0.4171,0.1973,2,Tier 2: Berkembang (Standar Nasional)
+sch-0138,Sma Kristen Petra Ambon,Maluku,Maluku & Papua,SMA,3,0,1199,49,24.47,82.9,2.0,74.95,8.61,0.6406,0.835,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0213,Smp Negeri 1 Kupang,Nusa Tenggara Timur,Bali & Nusa Tenggara,SMP,2,1,215,10,21.5,83.9,2.0,82.27,9.65,0.6636,0.635,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0241,Sd Negeri 02 Pagi Mataram,Nusa Tenggara Barat,Bali & Nusa Tenggara,SD,1,1,296,17,17.41,67.0,1.0,81.11,7.34,0.2742,0.3596,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0231,Sma Negeri 3 Medan,Sumatera Utara,Sumatera,SMA,3,1,816,49,16.65,55.3,2.0,68.57,17.44,0.0046,0.3084,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0024,Sma Taruna Nusantara Yogyakarta,DI Yogyakarta,Jawa,SMA,3,0,1315,81,16.23,95.8,2.0,70.2,15.5,0.9378,0.2801,2,Tier 2: Berkembang (Standar Nasional)
+sch-0145,Sma Negeri 2 Denpasar,Bali,Bali & Nusa Tenggara,SMA,3,1,862,37,23.3,61.5,2.0,76.67,9.84,0.1475,0.7562,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0299,Smk Negeri 6 Pekanbaru,Riau,Sumatera,SMK,4,1,777,39,19.92,59.6,3.0,73.65,7.98,0.1037,0.5286,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0183,Smp Negeri 1 Mataram,Nusa Tenggara Barat,Bali & Nusa Tenggara,SMP,2,1,217,10,21.7,65.0,1.0,81.11,7.34,0.2281,0.6485,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0002,Sma Negeri 1 Samarinda,Kalimantan Timur,Kalimantan,SMA,3,1,1296,72,18.0,67.1,3.0,83.9,8.2,0.2765,0.3993,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0177,Sma Kristen Petra Bandung,Jawa Barat,Jawa,SMA,3,0,871,55,15.84,97.0,2.0,77.18,12.66,0.9654,0.2539,2,Tier 2: Berkembang (Standar Nasional)
+sch-0080,Smp Negeri 1 Padang,Sumatera Barat,Sumatera,SMP,2,1,255,11,23.18,70.9,1.0,83.06,13.71,0.3641,0.7481,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0062,Sma Kolese Kanisius Kupang,Nusa Tenggara Timur,Bali & Nusa Tenggara,SMA,3,0,840,41,20.49,65.0,3.0,82.27,9.65,0.2281,0.567,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0173,Smk Telkom Jakarta,DKI Jakarta,Jawa,SMK,4,0,260,10,26.0,88.1,3.0,79.93,18.15,0.7604,0.938,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0273,Sma Kolese Kanisius Ambon,Maluku,Maluku & Papua,SMA,3,0,1166,90,12.96,75.0,2.0,74.95,8.61,0.4585,0.0599,2,Tier 2: Berkembang (Standar Nasional)
+sch-0266,Smk Negeri 6 Jayapura,Papua,Maluku & Papua,SMK,4,1,1087,47,23.13,86.7,3.0,78.39,6.11,0.7281,0.7448,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0251,Smk Negeri 1 Makassar,Sulawesi Selatan,Sulawesi,SMK,4,1,632,30,21.07,76.6,3.0,80.88,12.2,0.4954,0.6061,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0116,Smp Negeri 12 Samarinda,Kalimantan Timur,Kalimantan,SMP,2,1,739,53,13.94,82.9,3.0,83.9,8.2,0.6406,0.1259,2,Tier 2: Berkembang (Standar Nasional)
+sch-0045,Smp Negeri 12 Denpasar,Bali,Bali & Nusa Tenggara,SMP,2,1,139,10,13.9,96.4,3.0,76.67,9.84,0.9516,0.1232,2,Tier 2: Berkembang (Standar Nasional)
+sch-0078,Smk Telkom Jayapura,Papua,Maluku & Papua,SMK,4,0,280,11,25.45,91.2,2.0,78.39,6.11,0.8318,0.901,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0237,Sd Negeri 01 Kupang,Nusa Tenggara Timur,Bali & Nusa Tenggara,SD,1,1,281,12,23.42,85.7,3.0,82.27,9.65,0.7051,0.7643,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0033,Smp Negeri 2 Jayapura,Papua,Maluku & Papua,SMP,2,1,458,22,20.82,60.4,2.0,78.39,6.11,0.1221,0.5892,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0268,Smk Negeri 2 Bandar Lampung,Lampung,Sumatera,SMK,4,1,1114,87,12.8,63.7,3.0,81.99,7.54,0.1982,0.0492,2,Tier 2: Berkembang (Standar Nasional)
+sch-0260,Sma Kristen Petra Jayapura,Papua,Maluku & Papua,SMA,3,0,341,19,17.95,56.5,1.0,78.39,6.11,0.0323,0.396,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0053,Sma Labschool Bandung,Jawa Barat,Jawa,SMA,3,0,1267,75,16.89,75.0,2.0,77.18,12.66,0.4585,0.3246,2,Tier 2: Berkembang (Standar Nasional)
+sch-0077,Smk Telkom Mataram,Nusa Tenggara Barat,Bali & Nusa Tenggara,SMK,4,0,967,40,24.18,71.6,3.0,81.11,7.34,0.3802,0.8155,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0030,Smk Negeri 6 Serang,Banten,Jawa,SMK,4,1,996,60,16.6,97.1,1.0,75.74,13.56,0.9677,0.3051,2,Tier 2: Berkembang (Standar Nasional)
+sch-0122,Sma Negeri 1 Samarinda,Kalimantan Timur,Kalimantan,SMA,3,1,972,37,26.27,55.7,3.0,83.9,8.2,0.0138,0.9562,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0129,Smp Negeri 4 Serang,Banten,Jawa,SMP,2,1,277,12,23.08,71.2,1.0,75.74,13.56,0.371,0.7414,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0027,Sd It Al-Hikmah Serang,Banten,Jawa,SD,1,0,435,25,17.4,97.3,1.0,75.74,13.56,0.9724,0.3589,2,Tier 2: Berkembang (Standar Nasional)
+sch-0239,Sma Negeri 5 Pekanbaru,Riau,Sumatera,SMA,3,1,635,45,14.11,71.2,2.0,73.65,7.98,0.371,0.1374,2,Tier 2: Berkembang (Standar Nasional)
+sch-0130,Smk Negeri 6 Ambon,Maluku,Maluku & Papua,SMK,4,1,561,29,19.34,79.4,3.0,74.95,8.61,0.5599,0.4896,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0108,Sma Kristen Petra Medan,Sumatera Utara,Sumatera,SMA,3,0,1154,60,19.23,75.0,2.0,68.57,17.44,0.4585,0.4822,2,Tier 2: Berkembang (Standar Nasional)
+sch-0208,Sd It Al-Hikmah Medan,Sumatera Utara,Sumatera,SD,1,0,789,35,22.54,98.5,3.0,68.57,17.44,1.0,0.7051,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0115,Sd It Al-Hikmah Kupang,Nusa Tenggara Timur,Bali & Nusa Tenggara,SD,1,0,600,24,25.0,84.5,3.0,82.27,9.65,0.6774,0.8707,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0149,Sma Negeri 8 Pontianak,Kalimantan Barat,Kalimantan,SMA,3,1,1159,59,19.64,62.5,3.0,80.32,18.27,0.1705,0.5098,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0224,Smp Negeri 12 Ambon,Maluku,Maluku & Papua,SMP,2,1,775,39,19.87,67.1,2.0,74.95,8.61,0.2765,0.5253,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0042,Sd Negeri 02 Pagi Makassar,Sulawesi Selatan,Sulawesi,SD,1,1,519,21,24.71,75.0,2.0,80.88,12.2,0.4585,0.8512,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0106,Sma Kolese Kanisius Ambon,Maluku,Maluku & Papua,SMA,3,0,827,58,14.26,74.2,3.0,74.95,8.61,0.4401,0.1475,2,Tier 2: Berkembang (Standar Nasional)
+sch-0191,Smk Penerbangan Semarang,Jawa Tengah,Jawa,SMK,4,0,695,27,25.74,76.6,2.0,79.86,10.41,0.4954,0.9205,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0293,Sd Negeri 02 Pagi Palembang,Sumatera Selatan,Sumatera,SD,1,1,167,12,13.92,55.5,2.0,73.99,16.91,0.0092,0.1246,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0114,Sma Kolese Kanisius Manado,Sulawesi Utara,Sulawesi,SMA,3,0,519,23,22.57,70.8,3.0,79.82,6.73,0.3618,0.7071,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0291,Smp Negeri 4 Pekanbaru,Riau,Sumatera,SMP,2,1,514,23,22.35,73.3,2.0,73.65,7.98,0.4194,0.6923,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0226,Sd Negeri 01 Mataram,Nusa Tenggara Barat,Bali & Nusa Tenggara,SD,1,1,793,35,22.66,85.8,3.0,81.11,7.34,0.7074,0.7131,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0233,Sma Negeri 1 Ambon,Maluku,Maluku & Papua,SMA,3,1,950,39,24.36,59.5,2.0,74.95,8.61,0.1014,0.8276,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0234,Sma Negeri 3 Palembang,Sumatera Selatan,Sumatera,SMA,3,1,1244,69,18.03,74.9,1.0,73.99,16.91,0.4562,0.4013,2,Tier 2: Berkembang (Standar Nasional)
+sch-0176,Smp Negeri 1 Jakarta,DKI Jakarta,Jawa,SMP,2,1,346,15,23.07,79.1,3.0,79.93,18.15,0.553,0.7407,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0159,Smk Negeri 6 Semarang,Jawa Tengah,Jawa,SMK,4,1,855,52,16.44,55.5,2.0,79.86,10.41,0.0092,0.2943,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0070,Sd Negeri 01 Banjarmasin,Kalimantan Selatan,Kalimantan,SD,1,1,364,18,20.22,88.7,3.0,82.04,17.5,0.7742,0.5488,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0296,Smk Negeri 6 Medan,Sumatera Utara,Sumatera,SMK,4,1,661,50,13.22,79.9,3.0,68.57,17.44,0.5714,0.0774,2,Tier 2: Berkembang (Standar Nasional)
+sch-0120,Smk Penerbangan Yogyakarta,DI Yogyakarta,Jawa,SMK,4,0,1116,86,12.98,76.7,2.0,70.2,15.5,0.4977,0.0613,2,Tier 2: Berkembang (Standar Nasional)
+sch-0225,Smp Negeri 4 Banjarmasin,Kalimantan Selatan,Kalimantan,SMP,2,1,785,36,21.81,85.4,3.0,82.04,17.5,0.6982,0.6559,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0067,Sd It Al-Hikmah Bandar Lampung,Lampung,Sumatera,SD,1,0,350,13,26.92,75.1,1.0,81.99,7.54,0.4608,1.0,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0097,Smk Negeri 1 Semarang,Jawa Tengah,Jawa,SMK,4,1,875,51,17.16,61.2,3.0,79.86,10.41,0.1406,0.3428,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0132,Sd It Al-Hikmah Serang,Banten,Jawa,SD,1,0,281,12,23.42,82.7,1.0,75.74,13.56,0.6359,0.7643,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0255,Sd Negeri 02 Pagi Manado,Sulawesi Utara,Sulawesi,SD,1,1,789,55,14.35,61.8,1.0,79.82,6.73,0.1544,0.1535,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0109,Sma Taruna Nusantara Padang,Sumatera Barat,Sumatera,SMA,3,0,1076,41,26.24,81.5,2.0,83.06,13.71,0.6083,0.9542,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0175,Smp Negeri 4 Surabaya,Jawa Timur,Jawa,SMP,2,1,435,27,16.11,76.6,2.0,79.43,12.08,0.4954,0.2721,2,Tier 2: Berkembang (Standar Nasional)
+sch-0004,Sd It Al-Hikmah Denpasar,Bali,Bali & Nusa Tenggara,SD,1,0,490,24,20.42,57.0,2.0,76.67,9.84,0.0438,0.5623,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0295,Sma Negeri 2 Banjarmasin,Kalimantan Selatan,Kalimantan,SMA,3,1,1215,50,24.3,92.8,1.0,82.04,17.5,0.8687,0.8236,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0245,Sma Kristen Petra Medan,Sumatera Utara,Sumatera,SMA,3,0,906,36,25.17,75.0,2.0,68.57,17.44,0.4585,0.8822,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0052,Sma Negeri 3 Samarinda,Kalimantan Timur,Kalimantan,SMA,3,1,1317,58,22.71,83.1,2.0,83.9,8.2,0.6452,0.7165,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0151,Sd Negeri 02 Pagi Pontianak,Kalimantan Barat,Kalimantan,SD,1,1,400,24,16.67,78.6,2.0,80.32,18.27,0.5415,0.3098,2,Tier 2: Berkembang (Standar Nasional)
+sch-0248,Sma Negeri 1 Surabaya,Jawa Timur,Jawa,SMA,3,1,470,20,23.5,92.4,2.0,79.43,12.08,0.8594,0.7697,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0095,Sma Negeri 2 Jayapura,Papua,Maluku & Papua,SMA,3,1,900,66,13.64,61.7,2.0,78.39,6.11,0.1521,0.1057,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0029,Sma Labschool Surabaya,Jawa Timur,Jawa,SMA,3,0,726,51,14.24,71.6,2.0,79.43,12.08,0.3802,0.1461,2,Tier 2: Berkembang (Standar Nasional)
+sch-0031,Sma Negeri 1 Banjarmasin,Kalimantan Selatan,Kalimantan,SMA,3,1,545,27,20.19,75.0,2.0,82.04,17.5,0.4585,0.5468,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0216,Smk Telkom Yogyakarta,DI Yogyakarta,Jawa,SMK,4,0,348,20,17.4,62.2,1.0,70.2,15.5,0.1636,0.3589,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0025,Sma Kolese Kanisius Semarang,Jawa Tengah,Jawa,SMA,3,0,720,37,19.46,94.5,3.0,79.86,10.41,0.9078,0.4976,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0271,Sd Negeri 02 Pagi Jayapura,Papua,Maluku & Papua,SD,1,1,735,31,23.71,81.5,3.0,78.39,6.11,0.6083,0.7838,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0196,Smp Negeri 12 Banjarmasin,Kalimantan Selatan,Kalimantan,SMP,2,1,488,22,22.18,80.8,2.0,82.04,17.5,0.5922,0.6808,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0253,Smk Negeri 1 Kupang,Nusa Tenggara Timur,Bali & Nusa Tenggara,SMK,4,1,955,56,17.05,91.1,3.0,82.27,9.65,0.8295,0.3354,2,Tier 2: Berkembang (Standar Nasional)
+sch-0217,Sma Negeri 5 Ambon,Maluku,Maluku & Papua,SMA,3,1,451,22,20.5,74.4,2.0,74.95,8.61,0.4447,0.5677,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0144,Sma Kolese Kanisius Manado,Sulawesi Utara,Sulawesi,SMA,3,0,986,57,17.3,75.0,2.0,79.82,6.73,0.4585,0.3522,2,Tier 2: Berkembang (Standar Nasional)
+sch-0084,Sma Negeri 2 Pekanbaru,Riau,Sumatera,SMA,3,1,1188,87,13.66,78.4,3.0,73.65,7.98,0.5369,0.1071,2,Tier 2: Berkembang (Standar Nasional)
+sch-0155,Sma Negeri 3 Ambon,Maluku,Maluku & Papua,SMA,3,1,256,10,25.6,93.4,3.0,74.95,8.61,0.8825,0.9111,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0060,Sma Labschool Kupang,Nusa Tenggara Timur,Bali & Nusa Tenggara,SMA,3,0,1387,65,21.34,73.5,1.0,82.27,9.65,0.424,0.6242,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0019,Smp Negeri 4 Medan,Sumatera Utara,Sumatera,SMP,2,1,585,36,16.25,86.8,2.0,68.57,17.44,0.7304,0.2815,2,Tier 2: Berkembang (Standar Nasional)
+sch-0220,Sma Negeri 8 Padang,Sumatera Barat,Sumatera,SMA,3,1,966,57,16.95,89.4,3.0,83.06,13.71,0.7903,0.3286,2,Tier 2: Berkembang (Standar Nasional)
+sch-0003,Smk Negeri 2 Semarang,Jawa Tengah,Jawa,SMK,4,1,369,21,17.57,70.0,3.0,79.86,10.41,0.3433,0.3704,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0038,Smk Negeri 1 Mataram,Nusa Tenggara Barat,Bali & Nusa Tenggara,SMK,4,1,1131,89,12.71,91.9,3.0,81.11,7.34,0.8479,0.0431,2,Tier 2: Berkembang (Standar Nasional)
+sch-0064,Smp Negeri 12 Pontianak,Kalimantan Barat,Kalimantan,SMP,2,1,284,17,16.71,67.5,2.0,80.32,18.27,0.2857,0.3125,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0072,Sma Negeri 8 Kupang,Nusa Tenggara Timur,Bali & Nusa Tenggara,SMA,3,1,496,38,13.05,66.5,2.0,82.27,9.65,0.2627,0.066,2,Tier 2: Berkembang (Standar Nasional)
+sch-0096,Sma Kristen Petra Pekanbaru,Riau,Sumatera,SMA,3,0,1328,51,26.04,81.7,2.0,73.65,7.98,0.6129,0.9407,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0006,Sd Negeri 01 Bandung,Jawa Barat,Jawa,SD,1,1,775,35,22.14,69.1,3.0,77.18,12.66,0.3226,0.6781,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0195,Sma Labschool Padang,Sumatera Barat,Sumatera,SMA,3,0,675,43,15.7,73.4,3.0,83.06,13.71,0.4217,0.2444,2,Tier 2: Berkembang (Standar Nasional)
+sch-0228,Sma Negeri 3 Makassar,Sulawesi Selatan,Sulawesi,SMA,3,1,293,15,19.53,71.0,2.0,80.88,12.2,0.3664,0.5024,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0076,Smk Telkom Semarang,Jawa Tengah,Jawa,SMK,4,0,1132,45,25.16,61.9,2.0,79.86,10.41,0.1567,0.8815,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0137,Sma Kristen Petra Ambon,Maluku,Maluku & Papua,SMA,3,0,871,36,24.19,90.9,2.0,74.95,8.61,0.8249,0.8162,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0172,Sd It Al-Hikmah Kupang,Nusa Tenggara Timur,Bali & Nusa Tenggara,SD,1,0,662,47,14.09,63.8,3.0,82.27,9.65,0.2005,0.136,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0020,Sma Kristen Petra Jakarta,DKI Jakarta,Jawa,SMA,3,0,822,64,12.84,76.9,2.0,79.93,18.15,0.5023,0.0519,2,Tier 2: Berkembang (Standar Nasional)
+sch-0087,Smk Negeri 2 Padang,Sumatera Barat,Sumatera,SMK,4,1,223,17,13.12,98.0,3.0,83.06,13.71,0.9885,0.0707,2,Tier 2: Berkembang (Standar Nasional)
+sch-0133,Sd Negeri 02 Pagi Palembang,Sumatera Selatan,Sumatera,SD,1,1,497,26,19.12,75.0,2.0,73.99,16.91,0.4585,0.4747,2,Tier 2: Berkembang (Standar Nasional)
+sch-0200,Smp Negeri 1 Pekanbaru,Riau,Sumatera,SMP,2,1,288,11,26.18,77.4,2.0,73.65,7.98,0.5138,0.9502,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0123,Sma Negeri 8 Makassar,Sulawesi Selatan,Sulawesi,SMA,3,1,538,22,24.45,97.7,2.0,80.88,12.2,0.9816,0.8337,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0128,Sma Labschool Medan,Sumatera Utara,Sumatera,SMA,3,0,507,20,25.35,81.4,3.0,68.57,17.44,0.606,0.8943,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0043,Smk Negeri 6 Bandung,Jawa Barat,Jawa,SMK,4,1,976,58,16.83,72.6,2.0,77.18,12.66,0.4032,0.3205,2,Tier 2: Berkembang (Standar Nasional)
+sch-0069,Sd Percobaan Mataram,Nusa Tenggara Barat,Bali & Nusa Tenggara,SD,1,0,425,17,25.0,83.7,2.0,81.11,7.34,0.659,0.8707,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0046,Smk Negeri 2 Banda Aceh,Aceh,Sumatera,SMK,4,1,668,48,13.92,79.5,2.0,79.25,11.56,0.5622,0.1246,2,Tier 2: Berkembang (Standar Nasional)
+sch-0267,Sd Percobaan Mataram,Nusa Tenggara Barat,Bali & Nusa Tenggara,SD,1,0,647,28,23.11,85.9,3.0,81.11,7.34,0.7097,0.7434,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0215,Sma Negeri 1 Ambon,Maluku,Maluku & Papua,SMA,3,1,1083,58,18.67,75.0,2.0,74.95,8.61,0.4585,0.4444,2,Tier 2: Berkembang (Standar Nasional)
+sch-0102,Sma Negeri 1 Medan,Sumatera Utara,Sumatera,SMA,3,1,821,40,20.52,85.9,2.0,68.57,17.44,0.7097,0.569,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0063,Sma Kristen Petra Jayapura,Papua,Maluku & Papua,SMA,3,0,1143,59,19.37,67.1,3.0,78.39,6.11,0.2765,0.4916,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0227,Smp Negeri 2 Semarang,Jawa Tengah,Jawa,SMP,2,1,395,17,23.24,94.1,3.0,79.86,10.41,0.8986,0.7522,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0198,Sma Kristen Petra Banjarmasin,Kalimantan Selatan,Kalimantan,SMA,3,0,1128,49,23.02,76.8,2.0,82.04,17.5,0.5,0.7374,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0032,Sd Percobaan Mataram,Nusa Tenggara Barat,Bali & Nusa Tenggara,SD,1,0,314,20,15.7,55.1,2.0,81.11,7.34,0.0,0.2444,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0164,Sma Negeri 1 Jayapura,Papua,Maluku & Papua,SMA,3,1,626,31,20.19,70.0,3.0,78.39,6.11,0.3433,0.5468,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0188,Smp Negeri 4 Semarang,Jawa Tengah,Jawa,SMP,2,1,518,31,16.71,55.2,3.0,79.86,10.41,0.0023,0.3125,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0178,Sd It Al-Hikmah Bandar Lampung,Lampung,Sumatera,SD,1,0,675,26,25.96,75.0,2.0,81.99,7.54,0.4585,0.9354,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0082,Sma Negeri 3 Banjarmasin,Kalimantan Selatan,Kalimantan,SMA,3,1,1278,93,13.74,87.6,3.0,82.04,17.5,0.7488,0.1125,2,Tier 2: Berkembang (Standar Nasional)
+sch-0026,Sma Taruna Nusantara Surabaya,Jawa Timur,Jawa,SMA,3,0,1084,54,20.07,55.4,3.0,79.43,12.08,0.0069,0.5387,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0049,Sd Negeri 02 Pagi Banda Aceh,Aceh,Sumatera,SD,1,1,770,31,24.84,61.7,2.0,79.25,11.56,0.1521,0.8599,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0075,Sma Kristen Petra Samarinda,Kalimantan Timur,Kalimantan,SMA,3,0,538,41,13.12,82.0,1.0,83.9,8.2,0.6198,0.0707,2,Tier 2: Berkembang (Standar Nasional)
+sch-0167,Sd It Al-Hikmah Banjarmasin,Kalimantan Selatan,Kalimantan,SD,1,0,591,35,16.89,95.8,3.0,82.04,17.5,0.9378,0.3246,2,Tier 2: Berkembang (Standar Nasional)
+sch-0275,Smp Negeri 12 Yogyakarta,DI Yogyakarta,Jawa,SMP,2,1,717,32,22.41,63.3,2.0,70.2,15.5,0.1889,0.6963,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0180,Sd Negeri 02 Pagi Pontianak,Kalimantan Barat,Kalimantan,SD,1,1,541,44,12.3,67.0,2.0,80.32,18.27,0.2742,0.0155,2,Tier 2: Berkembang (Standar Nasional)
+sch-0005,Smk Telkom Pekanbaru,Riau,Sumatera,SMK,4,0,513,29,17.69,66.6,3.0,73.65,7.98,0.265,0.3785,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0036,Sma Kolese Kanisius Jayapura,Papua,Maluku & Papua,SMA,3,0,661,30,22.03,63.7,3.0,78.39,6.11,0.1982,0.6707,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0100,Sd Negeri 02 Pagi Jayapura,Papua,Maluku & Papua,SD,1,1,345,19,18.16,55.3,2.0,78.39,6.11,0.0046,0.4101,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0126,Sd Percobaan Pontianak,Kalimantan Barat,Kalimantan,SD,1,0,554,42,13.19,90.8,2.0,80.32,18.27,0.8226,0.0754,2,Tier 2: Berkembang (Standar Nasional)
+sch-0153,Sma Negeri 5 Semarang,Jawa Tengah,Jawa,SMA,3,1,676,53,12.75,64.8,1.0,79.86,10.41,0.2235,0.0458,2,Tier 2: Berkembang (Standar Nasional)
+sch-0238,Smp Negeri 4 Bandung,Jawa Barat,Jawa,SMP,2,1,386,16,24.12,96.4,3.0,77.18,12.66,0.9516,0.8114,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0277,Smp Negeri 1 Bandar Lampung,Lampung,Sumatera,SMP,2,1,348,15,23.2,89.3,3.0,81.99,7.54,0.788,0.7495,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0001,Sma Negeri 1 Ambon,Maluku,Maluku & Papua,SMA,3,1,465,20,23.25,93.8,2.0,74.95,8.61,0.8917,0.7529,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0118,Sd Percobaan Medan,Sumatera Utara,Sumatera,SD,1,0,203,11,18.45,95.5,3.0,68.57,17.44,0.9309,0.4296,2,Tier 2: Berkembang (Standar Nasional)
+sch-0022,Smk Telkom Samarinda,Kalimantan Timur,Kalimantan,SMK,4,0,668,42,15.9,83.1,3.0,83.9,8.2,0.6452,0.2579,2,Tier 2: Berkembang (Standar Nasional)
+sch-0099,Sma Labschool Manado,Sulawesi Utara,Sulawesi,SMA,3,0,1048,55,19.05,66.9,3.0,79.82,6.73,0.2719,0.47,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0280,Sd Negeri 01 Medan,Sumatera Utara,Sumatera,SD,1,1,292,14,20.86,89.2,3.0,68.57,17.44,0.7857,0.5919,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0071,Sma Taruna Nusantara Denpasar,Bali,Bali & Nusa Tenggara,SMA,3,0,255,18,14.17,75.0,2.0,76.67,9.84,0.4585,0.1414,2,Tier 2: Berkembang (Standar Nasional)
+sch-0269,Smk Negeri 6 Jayapura,Papua,Maluku & Papua,SMK,4,1,543,21,25.86,79.0,2.0,78.39,6.11,0.5507,0.9286,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0221,Sma Negeri 1 Manado,Sulawesi Utara,Sulawesi,SMA,3,1,797,53,15.04,63.2,2.0,79.82,6.73,0.1866,0.2,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0194,Sma Negeri 5 Denpasar,Bali,Bali & Nusa Tenggara,SMA,3,1,1297,89,14.57,56.2,2.0,76.67,9.84,0.0253,0.1684,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0254,Sma Negeri 2 Kupang,Nusa Tenggara Timur,Bali & Nusa Tenggara,SMA,3,1,394,30,13.13,71.3,3.0,82.27,9.65,0.3733,0.0714,2,Tier 2: Berkembang (Standar Nasional)
+sch-0244,Sma Negeri 2 Banda Aceh,Aceh,Sumatera,SMA,3,1,912,40,22.8,75.0,2.0,79.25,11.56,0.4585,0.7226,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0058,Sd Negeri 01 Denpasar,Bali,Bali & Nusa Tenggara,SD,1,1,559,34,16.44,81.5,2.0,76.67,9.84,0.6083,0.2943,2,Tier 2: Berkembang (Standar Nasional)
+sch-0092,Sma Kolese Kanisius Surabaya,Jawa Timur,Jawa,SMA,3,0,1061,79,13.43,92.1,2.0,79.43,12.08,0.8525,0.0916,2,Tier 2: Berkembang (Standar Nasional)
+sch-0104,Sma Taruna Nusantara Padang,Sumatera Barat,Sumatera,SMA,3,0,895,52,17.21,75.0,2.0,83.06,13.71,0.4585,0.3461,2,Tier 2: Berkembang (Standar Nasional)
+sch-0206,Sma Taruna Nusantara Banjarmasin,Kalimantan Selatan,Kalimantan,SMA,3,0,1031,46,22.41,62.3,3.0,82.04,17.5,0.1659,0.6963,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0140,Sd Percobaan Palembang,Sumatera Selatan,Sumatera,SD,1,0,597,43,13.88,61.1,3.0,73.99,16.91,0.1382,0.1219,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0246,Sma Negeri 1 Serang,Banten,Jawa,SMA,3,1,1342,67,20.03,63.2,2.0,75.74,13.56,0.1866,0.536,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0112,Sma Negeri 8 Ambon,Maluku,Maluku & Papua,SMA,3,1,1258,94,13.38,77.1,2.0,74.95,8.61,0.5069,0.0882,2,Tier 2: Berkembang (Standar Nasional)
+sch-0287,Smk Telkom Manado,Sulawesi Utara,Sulawesi,SMK,4,0,913,41,22.27,56.7,3.0,79.82,6.73,0.0369,0.6869,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0202,Sma Negeri 5 Padang,Sumatera Barat,Sumatera,SMA,3,1,929,56,16.59,66.4,2.0,83.06,13.71,0.2604,0.3044,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0008,Sma Kristen Petra Banjarmasin,Kalimantan Selatan,Kalimantan,SMA,3,0,921,61,15.1,75.0,2.0,82.04,17.5,0.4585,0.204,2,Tier 2: Berkembang (Standar Nasional)
+sch-0256,Sma Labschool Banjarmasin,Kalimantan Selatan,Kalimantan,SMA,3,0,281,16,17.56,76.4,2.0,82.04,17.5,0.4908,0.3697,2,Tier 2: Berkembang (Standar Nasional)
+sch-0083,Sd Negeri 02 Pagi Jayapura,Papua,Maluku & Papua,SD,1,1,694,41,16.93,83.2,2.0,78.39,6.11,0.6475,0.3273,2,Tier 2: Berkembang (Standar Nasional)
+sch-0121,Sma Negeri 1 Yogyakarta,DI Yogyakarta,Jawa,SMA,3,1,1033,70,14.76,77.8,2.0,70.2,15.5,0.523,0.1811,2,Tier 2: Berkembang (Standar Nasional)
+sch-0214,Sd Negeri 02 Pagi Mataram,Nusa Tenggara Barat,Bali & Nusa Tenggara,SD,1,1,465,23,20.22,92.1,3.0,81.11,7.34,0.8525,0.5488,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0107,Sd Negeri 01 Yogyakarta,DI Yogyakarta,Jawa,SD,1,1,413,31,13.32,92.2,1.0,70.2,15.5,0.8548,0.0842,2,Tier 2: Berkembang (Standar Nasional)
+sch-0162,Sd Percobaan Samarinda,Kalimantan Timur,Kalimantan,SD,1,0,697,51,13.67,94.3,2.0,83.9,8.2,0.9032,0.1077,2,Tier 2: Berkembang (Standar Nasional)
+sch-0286,Sma Labschool Yogyakarta,DI Yogyakarta,Jawa,SMA,3,0,460,25,18.4,77.3,1.0,70.2,15.5,0.5115,0.4263,2,Tier 2: Berkembang (Standar Nasional)
+sch-0283,Sma Labschool Surabaya,Jawa Timur,Jawa,SMA,3,0,1183,69,17.14,96.2,3.0,79.43,12.08,0.947,0.3414,2,Tier 2: Berkembang (Standar Nasional)
+sch-0257,Sd Negeri 02 Pagi Ambon,Maluku,Maluku & Papua,SD,1,1,294,14,21.0,75.0,2.0,74.95,8.61,0.4585,0.6013,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0086,Smp Negeri 2 Kupang,Nusa Tenggara Timur,Bali & Nusa Tenggara,SMP,2,1,677,27,25.07,57.6,2.0,82.27,9.65,0.0576,0.8754,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0057,Sma Negeri 2 Ambon,Maluku,Maluku & Papua,SMA,3,1,802,60,13.37,79.3,3.0,74.95,8.61,0.5576,0.0875,2,Tier 2: Berkembang (Standar Nasional)
+sch-0041,Sma Negeri 3 Palembang,Sumatera Selatan,Sumatera,SMA,3,1,1134,63,18.0,73.3,3.0,73.99,16.91,0.4194,0.3993,2,Tier 2: Berkembang (Standar Nasional)
+sch-0294,Smp Negeri 1 Bandung,Jawa Barat,Jawa,SMP,2,1,753,56,13.45,65.8,2.0,77.18,12.66,0.2465,0.0929,2,Tier 2: Berkembang (Standar Nasional)
+sch-0279,Smk Negeri 2 Palembang,Sumatera Selatan,Sumatera,SMK,4,1,1117,79,14.14,62.8,1.0,73.99,16.91,0.1774,0.1394,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0297,Sma Negeri 5 Ambon,Maluku,Maluku & Papua,SMA,3,1,1304,108,12.07,81.3,3.0,74.95,8.61,0.6037,0.0,2,Tier 2: Berkembang (Standar Nasional)
+sch-0242,Sd Negeri 02 Pagi Ambon,Maluku,Maluku & Papua,SD,1,1,182,13,14.0,73.2,3.0,74.95,8.61,0.4171,0.13,2,Tier 2: Berkembang (Standar Nasional)
+sch-0261,Sd Negeri 01 Palembang,Sumatera Selatan,Sumatera,SD,1,1,336,14,24.0,73.4,3.0,73.99,16.91,0.4217,0.8034,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0124,Smk Penerbangan Kupang,Nusa Tenggara Timur,Bali & Nusa Tenggara,SMK,4,0,265,16,16.56,72.3,3.0,82.27,9.65,0.3963,0.3024,2,Tier 2: Berkembang (Standar Nasional)
+sch-0272,Sd Negeri 01 Denpasar,Bali,Bali & Nusa Tenggara,SD,1,1,653,27,24.19,59.5,3.0,76.67,9.84,0.1014,0.8162,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0204,Smk Penerbangan Pekanbaru,Riau,Sumatera,SMK,4,0,469,24,19.54,61.0,3.0,73.65,7.98,0.1359,0.503,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0243,Smp Negeri 4 Banjarmasin,Kalimantan Selatan,Kalimantan,SMP,2,1,677,29,23.34,79.6,3.0,82.04,17.5,0.5645,0.7589,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0212,Sma Taruna Nusantara Palembang,Sumatera Selatan,Sumatera,SMA,3,0,1105,84,13.15,88.4,2.0,73.99,16.91,0.7673,0.0727,2,Tier 2: Berkembang (Standar Nasional)
+sch-0154,Sma Negeri 1 Jayapura,Papua,Maluku & Papua,SMA,3,1,503,28,17.96,93.2,1.0,78.39,6.11,0.8779,0.3966,2,Tier 2: Berkembang (Standar Nasional)
+sch-0165,Smk Penerbangan Pontianak,Kalimantan Barat,Kalimantan,SMK,4,0,1040,60,17.33,74.5,1.0,80.32,18.27,0.447,0.3542,2,Tier 2: Berkembang (Standar Nasional)
+sch-0174,Sma Negeri 1 Surabaya,Jawa Timur,Jawa,SMA,3,1,420,18,23.33,94.8,2.0,79.43,12.08,0.9147,0.7582,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0169,Sd Percobaan Medan,Sumatera Utara,Sumatera,SD,1,0,709,43,16.49,84.3,2.0,68.57,17.44,0.6728,0.2976,2,Tier 2: Berkembang (Standar Nasional)
+sch-0219,Sma Negeri 3 Jayapura,Papua,Maluku & Papua,SMA,3,1,516,28,18.43,82.3,2.0,78.39,6.11,0.6267,0.4283,2,Tier 2: Berkembang (Standar Nasional)
+sch-0263,Sd Percobaan Manado,Sulawesi Utara,Sulawesi,SD,1,0,273,19,14.37,88.0,2.0,79.82,6.73,0.7581,0.1549,2,Tier 2: Berkembang (Standar Nasional)
+sch-0211,Sma Negeri 2 Palembang,Sumatera Selatan,Sumatera,SMA,3,1,439,20,21.95,61.4,3.0,73.99,16.91,0.1452,0.6653,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0098,Smk Negeri 2 Padang,Sumatera Barat,Sumatera,SMK,4,1,502,29,17.31,88.8,2.0,83.06,13.71,0.7765,0.3529,2,Tier 2: Berkembang (Standar Nasional)
+sch-0089,Sma Negeri 1 Banda Aceh,Aceh,Sumatera,SMA,3,1,1385,83,16.69,57.3,3.0,79.25,11.56,0.0507,0.3111,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0119,Sma Negeri 8 Yogyakarta,DI Yogyakarta,Jawa,SMA,3,1,190,10,19.0,64.4,3.0,70.2,15.5,0.2143,0.4667,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0163,Sma Labschool Kupang,Nusa Tenggara Timur,Bali & Nusa Tenggara,SMA,3,0,366,14,26.14,57.4,3.0,82.27,9.65,0.053,0.9475,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0015,Smk Negeri 6 Ambon,Maluku,Maluku & Papua,SMK,4,1,856,65,13.17,84.1,3.0,74.95,8.61,0.6682,0.0741,2,Tier 2: Berkembang (Standar Nasional)
+sch-0040,Sd Percobaan Ambon,Maluku,Maluku & Papua,SD,1,0,570,43,13.26,66.8,3.0,74.95,8.61,0.2696,0.0801,2,Tier 2: Berkembang (Standar Nasional)
+sch-0190,Sd It Al-Hikmah Denpasar,Bali,Bali & Nusa Tenggara,SD,1,0,705,36,19.58,62.4,2.0,76.67,9.84,0.1682,0.5057,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0074,Sma Taruna Nusantara Mataram,Nusa Tenggara Barat,Bali & Nusa Tenggara,SMA,3,0,520,23,22.61,57.0,1.0,81.11,7.34,0.0438,0.7098,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0111,Sma Negeri 3 Palembang,Sumatera Selatan,Sumatera,SMA,3,1,896,54,16.59,83.8,2.0,73.99,16.91,0.6613,0.3044,2,Tier 2: Berkembang (Standar Nasional)
+sch-0011,Smk Penerbangan Pekanbaru,Riau,Sumatera,SMK,4,0,587,41,14.32,78.5,2.0,73.65,7.98,0.5392,0.1515,2,Tier 2: Berkembang (Standar Nasional)
+sch-0184,Smk Telkom Padang,Sumatera Barat,Sumatera,SMK,4,0,247,17,14.53,55.7,1.0,83.06,13.71,0.0138,0.1657,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0156,Smk Penerbangan Pontianak,Kalimantan Barat,Kalimantan,SMK,4,0,1343,65,20.66,69.6,1.0,80.32,18.27,0.3341,0.5785,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0090,Sma Kristen Petra Serang,Banten,Jawa,SMA,3,0,268,12,22.33,83.7,1.0,75.74,13.56,0.659,0.6909,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0110,Sma Negeri 2 Jayapura,Papua,Maluku & Papua,SMA,3,1,314,18,17.44,71.8,2.0,78.39,6.11,0.3848,0.3616,2,Tier 2: Berkembang (Standar Nasional)
+sch-0039,Sd Negeri 01 Manado,Sulawesi Utara,Sulawesi,SD,1,1,636,35,18.17,74.4,1.0,79.82,6.73,0.4447,0.4108,2,Tier 2: Berkembang (Standar Nasional)
+sch-0142,Sma Kristen Petra Bandung,Jawa Barat,Jawa,SMA,3,0,1193,58,20.57,84.3,2.0,77.18,12.66,0.6728,0.5724,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0014,Sma Labschool Yogyakarta,DI Yogyakarta,Jawa,SMA,3,0,1239,67,18.49,57.8,3.0,70.2,15.5,0.0622,0.4323,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0065,Smp Negeri 1 Surabaya,Jawa Timur,Jawa,SMP,2,1,646,27,23.93,92.8,3.0,79.43,12.08,0.8687,0.7987,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0223,Sd It Al-Hikmah Mataram,Nusa Tenggara Barat,Bali & Nusa Tenggara,SD,1,0,194,15,12.93,66.4,3.0,81.11,7.34,0.2604,0.0579,2,Tier 2: Berkembang (Standar Nasional)
+sch-0113,Smk Negeri 6 Pontianak,Kalimantan Barat,Kalimantan,SMK,4,1,785,32,24.53,88.5,3.0,80.32,18.27,0.7696,0.8391,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0050,Sd Negeri 01 Banjarmasin,Kalimantan Selatan,Kalimantan,SD,1,1,394,23,17.13,95.7,3.0,82.04,17.5,0.9355,0.3407,2,Tier 2: Berkembang (Standar Nasional)
+sch-0021,Sma Kolese Kanisius Bandar Lampung,Lampung,Sumatera,SMA,3,0,1006,73,13.78,65.7,1.0,81.99,7.54,0.2442,0.1152,2,Tier 2: Berkembang (Standar Nasional)
+sch-0081,Smp Negeri 1 Pontianak,Kalimantan Barat,Kalimantan,SMP,2,1,197,14,14.07,75.0,2.0,80.32,18.27,0.4585,0.1347,2,Tier 2: Berkembang (Standar Nasional)
+sch-0044,Sma Kristen Petra Banda Aceh,Aceh,Sumatera,SMA,3,0,1057,76,13.91,57.2,2.0,79.25,11.56,0.0484,0.1239,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0016,Sd Negeri 02 Pagi Pontianak,Kalimantan Barat,Kalimantan,SD,1,1,219,10,21.9,72.9,3.0,80.32,18.27,0.4101,0.662,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0288,Sma Labschool Banda Aceh,Aceh,Sumatera,SMA,3,0,1355,63,21.51,58.9,3.0,79.25,11.56,0.0876,0.6357,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0182,Sma Labschool Bandung,Jawa Barat,Jawa,SMA,3,0,244,18,13.56,79.0,3.0,77.18,12.66,0.5507,0.1003,2,Tier 2: Berkembang (Standar Nasional)
+sch-0018,Sma Negeri 2 Banjarmasin,Kalimantan Selatan,Kalimantan,SMA,3,1,210,10,21.0,91.9,1.0,82.04,17.5,0.8479,0.6013,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0068,Smp Negeri 12 Samarinda,Kalimantan Timur,Kalimantan,SMP,2,1,369,20,18.45,63.3,3.0,83.9,8.2,0.1889,0.4296,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0066,Sd Negeri 01 Pontianak,Kalimantan Barat,Kalimantan,SD,1,1,682,49,13.92,93.3,3.0,80.32,18.27,0.8802,0.1246,2,Tier 2: Berkembang (Standar Nasional)
+sch-0247,Sma Negeri 3 Pontianak,Kalimantan Barat,Kalimantan,SMA,3,1,220,11,20.0,94.9,3.0,80.32,18.27,0.9171,0.534,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0262,Smp Negeri 1 Manado,Sulawesi Utara,Sulawesi,SMP,2,1,188,14,13.43,79.0,2.0,79.82,6.73,0.5507,0.0916,2,Tier 2: Berkembang (Standar Nasional)
+sch-0289,Smk Penerbangan Bandung,Jawa Barat,Jawa,SMK,4,0,537,22,24.41,70.7,1.0,77.18,12.66,0.3594,0.831,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0249,Smk Penerbangan Pekanbaru,Riau,Sumatera,SMK,4,0,1074,46,23.35,75.0,2.0,73.65,7.98,0.4585,0.7596,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0230,Smk Negeri 6 Ambon,Maluku,Maluku & Papua,SMK,4,1,835,52,16.06,71.2,3.0,74.95,8.61,0.371,0.2687,2,Tier 2: Berkembang (Standar Nasional)
+sch-0091,Sma Labschool Denpasar,Bali,Bali & Nusa Tenggara,SMA,3,0,1088,83,13.11,81.5,3.0,76.67,9.84,0.6083,0.07,2,Tier 2: Berkembang (Standar Nasional)
+sch-0292,Smp Negeri 12 Bandar Lampung,Lampung,Sumatera,SMP,2,1,702,32,21.94,71.5,3.0,81.99,7.54,0.3779,0.6646,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0168,Smk Negeri 2 Banda Aceh,Aceh,Sumatera,SMK,4,1,1094,53,20.64,57.1,2.0,79.25,11.56,0.0461,0.5771,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0193,Smp Negeri 1 Jakarta,DKI Jakarta,Jawa,SMP,2,1,446,27,16.52,76.4,2.0,79.93,18.15,0.4908,0.2997,2,Tier 2: Berkembang (Standar Nasional)
+sch-0139,Sma Negeri 2 Kupang,Nusa Tenggara Timur,Bali & Nusa Tenggara,SMA,3,1,1131,76,14.88,68.6,2.0,82.27,9.65,0.3111,0.1892,2,Tier 2: Berkembang (Standar Nasional)
+sch-0125,Sma Negeri 2 Yogyakarta,DI Yogyakarta,Jawa,SMA,3,1,434,18,24.11,72.4,3.0,70.2,15.5,0.3986,0.8108,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0134,Smp Negeri 12 Pontianak,Kalimantan Barat,Kalimantan,SMP,2,1,195,14,13.93,58.2,3.0,80.32,18.27,0.0714,0.1253,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0284,Sma Negeri 1 Palembang,Sumatera Selatan,Sumatera,SMA,3,1,930,42,22.14,71.3,2.0,73.99,16.91,0.3733,0.6781,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0258,Sma Negeri 3 Jayapura,Papua,Maluku & Papua,SMA,3,1,939,38,24.71,74.4,3.0,78.39,6.11,0.4447,0.8512,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0117,Sma Negeri 3 Pekanbaru,Riau,Sumatera,SMA,3,1,1231,87,14.15,96.2,3.0,73.65,7.98,0.947,0.1401,2,Tier 2: Berkembang (Standar Nasional)
+sch-0150,Smk Telkom Jayapura,Papua,Maluku & Papua,SMK,4,0,684,43,15.91,96.0,3.0,78.39,6.11,0.9424,0.2586,2,Tier 2: Berkembang (Standar Nasional)
+sch-0189,Sd Negeri 01 Bandar Lampung,Lampung,Sumatera,SD,1,1,225,18,12.5,59.0,3.0,81.99,7.54,0.0899,0.029,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0281,Smp Negeri 4 Mataram,Nusa Tenggara Barat,Bali & Nusa Tenggara,SMP,2,1,502,19,26.42,87.9,1.0,81.11,7.34,0.7558,0.9663,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0278,Sma Taruna Nusantara Pontianak,Kalimantan Barat,Kalimantan,SMA,3,0,325,17,19.12,60.2,3.0,80.32,18.27,0.1175,0.4747,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0192,Sma Kolese Kanisius Denpasar,Bali,Bali & Nusa Tenggara,SMA,3,0,1081,64,16.89,92.4,2.0,76.67,9.84,0.8594,0.3246,2,Tier 2: Berkembang (Standar Nasional)
+sch-0013,Sma Negeri 8 Banjarmasin,Kalimantan Selatan,Kalimantan,SMA,3,1,518,32,16.19,73.4,1.0,82.04,17.5,0.4217,0.2774,2,Tier 2: Berkembang (Standar Nasional)
+sch-0170,Smk Penerbangan Bandung,Jawa Barat,Jawa,SMK,4,0,1391,57,24.4,82.2,1.0,77.18,12.66,0.6244,0.8303,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0250,Smk Negeri 6 Manado,Sulawesi Utara,Sulawesi,SMK,4,1,954,58,16.45,60.5,2.0,79.82,6.73,0.1244,0.2949,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0048,Sma Negeri 5 Ambon,Maluku,Maluku & Papua,SMA,3,1,427,18,23.72,56.8,2.0,74.95,8.61,0.0392,0.7845,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0240,Sma Negeri 3 Padang,Sumatera Barat,Sumatera,SMA,3,1,443,33,13.42,90.2,2.0,83.06,13.71,0.8088,0.0909,2,Tier 2: Berkembang (Standar Nasional)
+sch-0135,Sma Kristen Petra Banjarmasin,Kalimantan Selatan,Kalimantan,SMA,3,0,1066,55,19.38,91.2,1.0,82.04,17.5,0.8318,0.4923,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0274,Smk Negeri 2 Ambon,Maluku,Maluku & Papua,SMK,4,1,296,12,24.67,81.1,2.0,74.95,8.61,0.5991,0.8485,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0047,Smk Negeri 1 Manado,Sulawesi Utara,Sulawesi,SMK,4,1,232,10,23.2,94.5,2.0,79.82,6.73,0.9078,0.7495,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0157,Sd Negeri 01 Palembang,Sumatera Selatan,Sumatera,SD,1,1,458,32,14.31,66.2,2.0,73.99,16.91,0.2558,0.1508,2,Tier 2: Berkembang (Standar Nasional)
+sch-0055,Smk Negeri 6 Jakarta,DKI Jakarta,Jawa,SMK,4,1,1273,92,13.84,57.4,3.0,79.93,18.15,0.053,0.1192,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0229,Sma Negeri 1 Bandung,Jawa Barat,Jawa,SMA,3,1,680,53,12.83,95.0,3.0,77.18,12.66,0.9194,0.0512,2,Tier 2: Berkembang (Standar Nasional)
+sch-0290,Sma Negeri 8 Medan,Sumatera Utara,Sumatera,SMA,3,1,912,37,24.65,75.0,2.0,68.57,17.44,0.4585,0.8471,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0079,Smk Negeri 2 Bandung,Jawa Barat,Jawa,SMK,4,1,460,22,20.91,83.1,1.0,77.18,12.66,0.6452,0.5953,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0166,Sma Taruna Nusantara Banjarmasin,Kalimantan Selatan,Kalimantan,SMA,3,0,1280,73,17.53,97.6,3.0,82.04,17.5,0.9793,0.3677,2,Tier 2: Berkembang (Standar Nasional)
+sch-0186,Sma Negeri 5 Serang,Banten,Jawa,SMA,3,1,877,42,20.88,80.9,2.0,75.74,13.56,0.5945,0.5933,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0143,Smp Negeri 4 Semarang,Jawa Tengah,Jawa,SMP,2,1,703,35,20.09,67.6,3.0,79.86,10.41,0.288,0.5401,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0199,Sma Negeri 8 Padang,Sumatera Barat,Sumatera,SMA,3,1,603,31,19.45,59.2,3.0,83.06,13.71,0.0945,0.497,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0012,Smp Negeri 2 Banda Aceh,Aceh,Sumatera,SMP,2,1,434,28,15.5,79.7,3.0,79.25,11.56,0.5668,0.231,2,Tier 2: Berkembang (Standar Nasional)
+sch-0141,Sma Kristen Petra Bandar Lampung,Lampung,Sumatera,SMA,3,0,506,26,19.46,76.7,2.0,81.99,7.54,0.4977,0.4976,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0059,Smk Negeri 1 Jayapura,Papua,Maluku & Papua,SMK,4,1,500,41,12.2,80.8,2.0,78.39,6.11,0.5922,0.0088,2,Tier 2: Berkembang (Standar Nasional)
+sch-0203,Sma Kristen Petra Manado,Sulawesi Utara,Sulawesi,SMA,3,0,1117,54,20.69,85.7,2.0,79.82,6.73,0.7051,0.5805,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0147,Sma Taruna Nusantara Makassar,Sulawesi Selatan,Sulawesi,SMA,3,0,1364,67,20.36,80.4,2.0,80.88,12.2,0.5829,0.5582,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0222,Smp Negeri 4 Bandung,Jawa Barat,Jawa,SMP,2,1,728,56,13.0,55.5,1.0,77.18,12.66,0.0092,0.0626,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0298,Smp Negeri 1 Jayapura,Papua,Maluku & Papua,SMP,2,1,348,14,24.86,88.4,3.0,78.39,6.11,0.7673,0.8613,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0007,Sma Negeri 3 Denpasar,Bali,Bali & Nusa Tenggara,SMA,3,1,824,55,14.98,93.5,2.0,76.67,9.84,0.8848,0.196,2,Tier 2: Berkembang (Standar Nasional)
+sch-0276,Sd Percobaan Jayapura,Papua,Maluku & Papua,SD,1,0,793,32,24.78,59.2,3.0,78.39,6.11,0.0945,0.8559,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0232,Sma Kristen Petra Kupang,Nusa Tenggara Timur,Bali & Nusa Tenggara,SMA,3,0,580,26,22.31,89.6,2.0,82.27,9.65,0.7949,0.6896,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0264,Smp Negeri 2 Yogyakarta,DI Yogyakarta,Jawa,SMP,2,1,790,42,18.81,56.6,2.0,70.2,15.5,0.0346,0.4539,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0146,Smk Penerbangan Denpasar,Bali,Bali & Nusa Tenggara,SMK,4,0,1223,62,19.73,68.0,2.0,76.67,9.84,0.2972,0.5158,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0054,Smk Negeri 2 Bandung,Jawa Barat,Jawa,SMK,4,1,559,38,14.71,67.0,2.0,77.18,12.66,0.2742,0.1778,2,Tier 2: Berkembang (Standar Nasional)
+sch-0265,Smp Negeri 1 Medan,Sumatera Utara,Sumatera,SMP,2,1,606,24,25.25,55.9,1.0,68.57,17.44,0.0184,0.8875,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0101,Sma Negeri 1 Surabaya,Jawa Timur,Jawa,SMA,3,1,444,25,17.76,76.8,2.0,79.43,12.08,0.5,0.3832,2,Tier 2: Berkembang (Standar Nasional)
+sch-0009,Sma Labschool Ambon,Maluku,Maluku & Papua,SMA,3,0,961,47,20.45,65.9,2.0,74.95,8.61,0.2488,0.5643,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0028,Smp Negeri 12 Serang,Banten,Jawa,SMP,2,1,362,15,24.13,75.0,2.0,75.74,13.56,0.4585,0.8121,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0209,Smk Negeri 2 Pekanbaru,Riau,Sumatera,SMK,4,1,898,37,24.27,73.6,2.0,73.65,7.98,0.4263,0.8215,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0037,Smp Negeri 12 Padang,Sumatera Barat,Sumatera,SMP,2,1,513,27,19.0,83.5,3.0,83.06,13.71,0.6544,0.4667,2,Tier 2: Berkembang (Standar Nasional)
+sch-0023,Sma Negeri 5 Manado,Sulawesi Utara,Sulawesi,SMA,3,1,723,52,13.9,58.0,3.0,79.82,6.73,0.0668,0.1232,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0270,Sma Negeri 1 Padang,Sumatera Barat,Sumatera,SMA,3,1,1351,58,23.29,64.6,3.0,83.06,13.71,0.2189,0.7556,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0035,Sma Kolese Kanisius Mataram,Nusa Tenggara Barat,Bali & Nusa Tenggara,SMA,3,0,1085,50,21.7,89.5,2.0,81.11,7.34,0.7926,0.6485,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0103,Smp Negeri 2 Manado,Sulawesi Utara,Sulawesi,SMP,2,1,369,20,18.45,58.4,3.0,79.82,6.73,0.076,0.4296,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0136,Sd Percobaan Bandung,Jawa Barat,Jawa,SD,1,0,376,25,15.04,75.0,2.0,77.18,12.66,0.4585,0.2,2,Tier 2: Berkembang (Standar Nasional)
+sch-0235,Sma Kristen Petra Denpasar,Bali,Bali & Nusa Tenggara,SMA,3,0,447,29,15.41,68.7,3.0,76.67,9.84,0.3134,0.2249,2,Tier 2: Berkembang (Standar Nasional)
+sch-0161,Smp Negeri 2 Kupang,Nusa Tenggara Timur,Bali & Nusa Tenggara,SMP,2,1,602,26,23.15,90.9,2.0,82.27,9.65,0.8249,0.7461,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0088,Smk Negeri 6 Makassar,Sulawesi Selatan,Sulawesi,SMK,4,1,1400,116,12.07,61.3,1.0,80.88,12.2,0.1429,0.0,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0127,Sma Kolese Kanisius Yogyakarta,DI Yogyakarta,Jawa,SMA,3,0,1089,64,17.02,92.8,3.0,70.2,15.5,0.8687,0.3333,2,Tier 2: Berkembang (Standar Nasional)
+sch-0236,Sma Negeri 3 Semarang,Jawa Tengah,Jawa,SMA,3,1,1377,101,13.63,74.6,3.0,79.86,10.41,0.4493,0.1051,2,Tier 2: Berkembang (Standar Nasional)
+sch-0061,Smk Negeri 1 Padang,Sumatera Barat,Sumatera,SMK,4,1,1345,54,24.91,75.4,3.0,83.06,13.71,0.4677,0.8646,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0181,Sma Negeri 5 Bandar Lampung,Lampung,Sumatera,SMA,3,1,1258,80,15.72,89.6,3.0,81.99,7.54,0.7949,0.2458,2,Tier 2: Berkembang (Standar Nasional)
+sch-0010,Sma Taruna Nusantara Banjarmasin,Kalimantan Selatan,Kalimantan,SMA,3,0,503,27,18.63,75.0,2.0,82.04,17.5,0.4585,0.4418,2,Tier 2: Berkembang (Standar Nasional)
+sch-0160,Smp Negeri 4 Yogyakarta,DI Yogyakarta,Jawa,SMP,2,1,438,20,21.9,95.9,2.0,70.2,15.5,0.9401,0.662,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0285,Sma Negeri 5 Medan,Sumatera Utara,Sumatera,SMA,3,1,417,23,18.13,78.8,3.0,68.57,17.44,0.5461,0.4081,2,Tier 2: Berkembang (Standar Nasional)
+sch-0207,Smk Penerbangan Bandung,Jawa Barat,Jawa,SMK,4,0,1194,60,19.9,60.0,3.0,77.18,12.66,0.1129,0.5273,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0179,Smp Negeri 12 Medan,Sumatera Utara,Sumatera,SMP,2,1,189,10,18.9,77.0,3.0,68.57,17.44,0.5046,0.4599,2,Tier 2: Berkembang (Standar Nasional)
+sch-0259,Sma Labschool Medan,Sumatera Utara,Sumatera,SMA,3,0,1288,72,17.89,64.9,2.0,68.57,17.44,0.2258,0.3919,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0034,Sma Negeri 8 Yogyakarta,DI Yogyakarta,Jawa,SMA,3,1,956,44,21.73,81.8,1.0,70.2,15.5,0.6152,0.6505,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0205,Sd It Al-Hikmah Ambon,Maluku,Maluku & Papua,SD,1,0,311,18,17.28,57.3,2.0,74.95,8.61,0.0507,0.3508,1,Tier 3: Butuh Dukungan / Intervensi
+sch-0218,Sma Negeri 3 Palembang,Sumatera Selatan,Sumatera,SMA,3,1,389,28,13.89,68.0,3.0,73.99,16.91,0.2972,0.1226,2,Tier 2: Berkembang (Standar Nasional)
+sch-0056,Sma Kristen Petra Pekanbaru,Riau,Sumatera,SMA,3,0,877,60,14.62,95.9,3.0,73.65,7.98,0.9401,0.1717,2,Tier 2: Berkembang (Standar Nasional)
+sch-0187,Smk Negeri 6 Kupang,Nusa Tenggara Timur,Bali & Nusa Tenggara,SMK,4,1,1064,72,14.78,71.5,2.0,82.27,9.65,0.3779,0.1825,2,Tier 2: Berkembang (Standar Nasional)
+sch-0105,Sma Negeri 8 Bandar Lampung,Lampung,Sumatera,SMA,3,1,542,21,25.81,75.2,2.0,81.99,7.54,0.4631,0.9253,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0201,Smk Negeri 1 Denpasar,Bali,Bali & Nusa Tenggara,SMK,4,1,990,79,12.53,63.6,2.0,76.67,9.84,0.1959,0.031,2,Tier 2: Berkembang (Standar Nasional)
+sch-0158,Sma Kolese Kanisius Jakarta,DKI Jakarta,Jawa,SMA,3,0,1055,54,19.54,84.1,3.0,79.93,18.15,0.6682,0.503,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0185,Smk Negeri 1 Padang,Sumatera Barat,Sumatera,SMK,4,1,976,45,21.69,71.7,2.0,83.06,13.71,0.3825,0.6478,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0197,Sma Kolese Kanisius Bandar Lampung,Lampung,Sumatera,SMA,3,0,998,39,25.59,89.6,3.0,81.99,7.54,0.7949,0.9104,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0171,Sd Percobaan Jayapura,Papua,Maluku & Papua,SD,1,0,272,16,17.0,78.4,3.0,78.39,6.11,0.5369,0.332,2,Tier 2: Berkembang (Standar Nasional)
+sch-0085,Sma Kristen Petra Banjarmasin,Kalimantan Selatan,Kalimantan,SMA,3,0,1029,48,21.44,81.8,2.0,82.04,17.5,0.6152,0.631,0,Tier 1: Unggul & Fasilitas Memadai
+sch-0300,Smk Telkom Mataram,Nusa Tenggara Barat,Bali & Nusa Tenggara,SMK,4,0,984,65,15.14,63.3,2.0,81.11,7.34,0.1889,0.2067,1,Tier 3: Butuh Dukungan / Intervensi
